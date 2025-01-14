@@ -7246,6 +7246,8 @@
 #include "modular_doppler\religion\code\mind.dm"
 #include "modular_doppler\religion\code\religious_sects.dm"
 #include "modular_doppler\research\designs\limbgrower_designs.dm"
+#include "modular_doppler\skillchips\doppler_skillchips.dm"
+#include "modular_doppler\skillchips\doppler_skills.dm"
 #include "modular_doppler\sprite_swaps\code\bigclosets.dm"
 #include "modular_doppler\starter_resources\ore_vent.dm"
 #include "modular_doppler\stone\code\ore_veins.dm"
