@@ -22,7 +22,8 @@
 
 /obj/item/clothing/shoes/rollerblades
 	name = "XTREME inline skates"
-	desc = ""
+	desc = "Boots of polyurethane and plastic with strategic steel inserts for strength, affixed with casters and optimized \
+	for speed at the expense of ease of riding. This pair didn't come with a skidplate."
 	icon_state = "rollerblades"
 	worn_x_dimension = 48
 	worn_y_dimension = 48
@@ -92,7 +93,7 @@
 
 /obj/vehicle/ridden/scooter/skateboard/generate_actions()
 	initialize_controller_action_type(/datum/action/vehicle/ridden/scooter/skateboard/ollie, VEHICLE_CONTROL_DRIVE)
-	return ..()
+	return
 
 /datum/component/riding/vehicle/scooter/skateboard/rollerblades
 	vehicle_move_delay = 1
