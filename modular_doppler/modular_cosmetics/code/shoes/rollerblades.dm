@@ -34,8 +34,9 @@
 	var/obj/vehicle/ridden/scooter/skateboard/rollerblades/wheels = /obj/vehicle/ridden/scooter/skateboard/rollerblades
 	supported_bodyshapes = null
 	bodyshape_icon_files = null
+	equip_delay_self = 20
 
-//rollerblades had undesirable code surviving overrides, so we make a new type of shoe and reproduce code dirty style
+//wheelys had undesirable code surviving overrides, so we make a new type of shoe and reproduce code dirty style
 
 /obj/item/clothing/shoes/rollerblades/Initialize(mapload)
 	. = ..()
