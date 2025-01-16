@@ -7,7 +7,7 @@
 //UNDERSTAND
 //UNDERSTAND
 
-//THE CONCEPT OF
+//THE CONCEPT OF (THE CONCEPT OF)
 /*
 ::::          ::::::      ::::      ::::    :::::::::
 ::::        ::::  ::::    ::::      ::::    :::::::::
@@ -42,6 +42,7 @@
 /obj/item/clothing/shoes/rollerblades/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/update_icon_updates_onmob)
+	AddComponent(/datum/component/item_equipped_movement_rustle, SFX_SKATER, 4, 100)
 	wheels = new wheels(/obj/vehicle/ridden/scooter/skateboard/rollerblades)
 	wheels.link_shoes(src)
 
@@ -61,6 +62,8 @@
 	QDEL_NULL(wheels)
 	. = ..()
 
+//the invisible vehicle we ride on to simulate skating
+
 /obj/vehicle/ridden/scooter/skateboard/rollerblades
 	name = "XTREME inline wheels"
 	desc = ""
@@ -72,9 +75,9 @@
 
 /obj/vehicle/ridden/scooter/skateboard/rollerblades/Initialize(mapload)
 	. = ..()
-	AddElement(/datum/element/noisy_movement, volume = 50)
 
-//overrides some stuff inherited from skateboards
+
+//overrides some stuff inherited from skateboards & reproduces stuff we need from wheelys
 
 /obj/vehicle/ridden/scooter/skateboard/rollerblades/make_ridable()
 	AddElement(/datum/element/ridable, component_type)
@@ -96,4 +99,4 @@
 	return
 
 /datum/component/riding/vehicle/scooter/skateboard/rollerblades
-	vehicle_move_delay = 1
+	vehicle_move_delay = 1 //equivalent to the pro skateboard; these function very similarly aside from being stuck to your feet
