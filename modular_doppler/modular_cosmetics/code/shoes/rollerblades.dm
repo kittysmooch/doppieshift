@@ -25,11 +25,11 @@
 	desc = "Boots of polyurethane and plastic with strategic steel inserts for strength, affixed with casters and optimized \
 	for speed at the expense of ease of riding. This pair didn't come with a skidplate."
 	icon_state = "rollerblades"
-	worn_x_dimension = 48
-	worn_y_dimension = 48
+	worn_x_dimension = 64
+	worn_y_dimension = 64
 	greyscale_config = /datum/greyscale_config/rollerblades
 	greyscale_config_worn = /datum/greyscale_config/rollerblades/worn
-	greyscale_colors = "#66ff66#ff6699#99ff66#66ccff#333300"
+	greyscale_colors = "#66ff66#ff6699#66ccff#333300"
 	flags_1 = IS_PLAYER_COLORABLE_1
 	clothing_flags = LARGE_WORN_ICON
 	var/obj/vehicle/ridden/scooter/skateboard/rollerblades/wheels = /obj/vehicle/ridden/scooter/skateboard/rollerblades
@@ -72,10 +72,6 @@
 	density = FALSE
 	var/obj/item/clothing/shoes/rollerblades/shoes = null
 	var/component_type = /datum/component/riding/vehicle/scooter/skateboard/rollerblades
-
-/obj/vehicle/ridden/scooter/skateboard/rollerblades/Initialize(mapload)
-	. = ..()
-
 
 //overrides some stuff inherited from skateboards & reproduces stuff we need from wheelys
 

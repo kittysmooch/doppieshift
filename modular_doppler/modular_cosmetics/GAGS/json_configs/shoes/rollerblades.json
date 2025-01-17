@@ -14,21 +14,15 @@
 		},
 		{
 			"type": "icon_state",
-			"icon_state": "rollerblade_toecaps",
+			"icon_state": "rollerblade_wheels",
 			"blend_mode": "overlay",
 			"color_ids": [ 3 ]
 		},
 		{
 			"type": "icon_state",
-			"icon_state": "rollerblade_wheels",
-			"blend_mode": "overlay",
-			"color_ids": [ 4 ]
-		},
-		{
-			"type": "icon_state",
 			"icon_state": "rollerblade_axle",
 			"blend_mode": "overlay",
-			"color_ids": [ 5 ]
+			"color_ids": [ 4 ]
 		}
 	]
 }

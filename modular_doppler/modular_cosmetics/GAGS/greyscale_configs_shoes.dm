@@ -63,4 +63,4 @@
 
 /datum/greyscale_config/rollerblades/worn
 	name = "Rollerblades (worn)"
-	icon_file = 'modular_doppler/modular_cosmetics/icons/oversize icons/48x_footwear.dmi'
+	icon_file = 'modular_doppler/modular_cosmetics/icons/oversize icons/64x_footwear.dmi'
