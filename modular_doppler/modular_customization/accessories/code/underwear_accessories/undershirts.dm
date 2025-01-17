@@ -90,6 +90,10 @@
 	name = "Shirt - Turtleneck Leotard Sleeveless"
 	icon_state = "leotard_turtleneck_sleeveless"
 
+/datum/sprite_accessory/undershirt/leotard/athletic
+	name = "Shirt - Athletic Leotard"
+	icon_state = "leotard_athletic"
+
 //Presets
 /datum/sprite_accessory/undershirt/bulletclub //4 life
 	name = "Shirt - Black Skull"
