@@ -90,7 +90,7 @@
 /obj/vehicle/ridden/scooter/skateboard/rollerblades/proc/link_shoes(newshoes)
 	shoes = newshoes
 
-/obj/vehicle/ridden/scooter/skateboard/generate_actions()
+/obj/vehicle/ridden/scooter/skateboard/rollerblades/generate_actions()
 	initialize_controller_action_type(/datum/action/vehicle/ridden/scooter/skateboard/ollie, VEHICLE_CONTROL_DRIVE)
 	return
 
