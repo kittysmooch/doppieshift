@@ -128,6 +128,7 @@
 /datum/sprite_accessory/undershirt/cropped_tee
 	name = "Cropped T-shirt"
 	icon_state = "cropped_t_shirt"
+	use_static = FALSE
 
 //Not really qualifying as shirts but having nowhere better to go, these get shoved to the bottom of the list
 /datum/sprite_accessory/undershirt/corset
