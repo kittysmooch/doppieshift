@@ -35,6 +35,7 @@
 	var/obj/vehicle/ridden/scooter/skateboard/rollerblades/wheels = /obj/vehicle/ridden/scooter/skateboard/rollerblades
 	supported_bodyshapes = null
 	bodyshape_icon_files = null
+	actions_types = list(/datum/action/item_action/buckle_rollerblades)
 	equip_delay_self = 20
 
 //wheelys had undesirable code surviving overrides, so we make a new type of shoe and reproduce code dirty style
@@ -61,6 +62,17 @@
 /obj/item/clothing/shoes/rollerblades/Destroy()
 	QDEL_NULL(wheels)
 	. = ..()
+
+/obj/item/clothing/shoes/rollerblades/ui_action_click(mob/user, action)
+	if(!isliving(user))
+		return
+	if(!istype(user.get_item_by_slot(ITEM_SLOT_FEET), /obj/item/clothing/shoes/rollerblades))
+		balloon_alert(user, "must be worn!")
+		return
+	user.balloon_alert("buckling rollerblades...")
+	if(do_after(user, 2 SECONDS, src))
+		wheels.forceMove(get_turf(user))
+		wheels.buckle_mob(user)
 
 //the invisible vehicle we ride on to simulate skating
 
@@ -96,3 +108,9 @@
 
 /datum/component/riding/vehicle/scooter/skateboard/rollerblades
 	vehicle_move_delay = 1 //equivalent to the pro skateboard; these function very similarly aside from being stuck to your feet
+
+/datum/action/item_action/buckle_rollerblades
+	name = "Buckle your Blades"
+	desc = "Adjust the buckles on your rollerblades"
+	button_icon = 'icons/mob/actions/actions_items.dmi'
+	button_icon_state = "wheelys"
