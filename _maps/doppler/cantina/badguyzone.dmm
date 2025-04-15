@@ -257,10 +257,7 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav)
 "gV" = (
-/obj/machinery/power/smes/magical{
-	name = "ultra-capacity power storage unit"
-	},
-/obj/machinery/power/terminal,
+/obj/machinery/power/smes/magical/cybersun,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav)
 "gX" = (
