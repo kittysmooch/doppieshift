@@ -15,6 +15,7 @@
 // BEGIN_INCLUDE
 #include "__odlint.dm"
 #include "_maps\_basemap.dm"
+#include "_maps\doppler\cantina\badguyzone.dmm"
 #include "code\__byond_version_compat.dm"
 #include "code\_compile_options.dm"
 #include "code\_experiments.dm"
@@ -6917,6 +6918,7 @@
 #include "modular_doppler\modsuit_pda_app\tap_to_control.dm"
 #include "modular_doppler\modular_antagonists\_dynamic_rulesets.dm"
 #include "modular_doppler\modular_antagonists\cantina\cantina_roles.dm"
+#include "modular_doppler\modular_antagonists\cantina\cantina_ruin.dm"
 #include "modular_doppler\modular_antagonists\cantina\spawners.dm"
 #include "modular_doppler\modular_antagonists\changeling\changeling.dm"
 #include "modular_doppler\modular_antagonists\datums\antag_recipes.dm"

@@ -53,6 +53,7 @@
 	id_tag = "evilass4"
 	},
 /obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav)
 "cb" = (
@@ -113,6 +114,7 @@
 /obj/machinery/door/airlock{
 	id_tag = "evilass1"
 	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav)
 "dS" = (
@@ -174,12 +176,16 @@
 /obj/machinery/door/airlock{
 	id_tag = "evilass5"
 	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav)
 "fD" = (
 /obj/structure/extinguisher_cabinet/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/dim/directional/south,
+/obj/machinery/computer/personal_shuttle_order{
+	dir = 4
+	},
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav)
 "fQ" = (
@@ -301,31 +307,25 @@
 	},
 /obj/structure/rack,
 /obj/item/newspaper{
-	desc = s;
 	pixel_y = -3;
 	pixel_x = 5
 	},
 /obj/item/newspaper{
-	desc = s;
 	pixel_y = 3;
 	pixel_x = 7
 	},
 /obj/item/newspaper{
-	desc = s;
 	pixel_y = -4;
 	pixel_x = -2
 	},
 /obj/item/newspaper{
-	desc = s;
 	pixel_y = 2;
 	pixel_x = -5
 	},
 /obj/item/newspaper{
-	desc = s;
 	pixel_y = -1
 	},
 /obj/item/newspaper{
-	desc = s;
 	pixel_y = 1;
 	pixel_x = 5
 	},
@@ -541,6 +541,7 @@
 /obj/machinery/door/airlock{
 	id_tag = "evilass2"
 	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav)
 "mR" = (
@@ -577,10 +578,15 @@
 /area/ruin/space/has_grav)
 "ns" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/mapping_helpers/airlock/locked,
-/obj/machinery/door/airlock/vault{
+/obj/machinery/door/airlock/centcom{
+	id_tag = "syndie_battlecruiser_bridge_bolt";
+	name = "Backroom"
+	},
+/obj/machinery/door/poddoor/shutters/indestructible{
 	id = "evil_bartender"
 	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav)
 "nw" = (
@@ -721,6 +727,8 @@
 "qy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/external/glass,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav)
 "rR" = (
@@ -761,6 +769,7 @@
 /obj/machinery/door/airlock{
 	id_tag = "evilass3"
 	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav)
 "tp" = (
@@ -788,6 +797,7 @@
 "tF" = (
 /obj/machinery/door/airlock/material/glass,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav)
 "ua" = (
@@ -830,12 +840,16 @@
 "ux" = (
 /obj/machinery/door/airlock/external/glass,
 /obj/structure/fans/tiny,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav)
 "uS" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav)
 "vA" = (
@@ -1078,9 +1092,7 @@
 "Bd" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/rack/wooden,
-/obj/item/climbing_hook/syndicate{
-	desc = s
-	},
+/obj/item/climbing_hook/syndicate,
 /obj/item/knife/combat/survival{
 	pixel_x = 3;
 	pixel_y = -2
@@ -1312,6 +1324,8 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/highsecurity,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/wood/large,
 /area/ruin/space/has_grav)
 "GT" = (
@@ -1495,35 +1509,28 @@
 	},
 /obj/structure/rack,
 /obj/item/newspaper{
-	desc = s;
 	pixel_y = -3;
 	pixel_x = 5
 	},
 /obj/item/newspaper{
-	desc = s;
 	pixel_y = -1
 	},
 /obj/item/newspaper{
-	desc = s;
 	pixel_y = -4;
 	pixel_x = -2
 	},
 /obj/item/newspaper{
-	desc = s;
 	pixel_y = -1
 	},
 /obj/item/newspaper{
-	desc = s;
 	pixel_y = 1;
 	pixel_x = 5
 	},
 /obj/item/newspaper{
-	desc = s;
 	pixel_y = 3;
 	pixel_x = 7
 	},
 /obj/item/newspaper{
-	desc = s;
 	pixel_y = 2;
 	pixel_x = -5
 	},
@@ -1777,6 +1784,8 @@
 "Tn" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav)
 "Tv" = (
@@ -1793,6 +1802,8 @@
 /area/ruin/space/has_grav)
 "UM" = (
 /obj/machinery/door/airlock,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/iron/freezer,
 /area/ruin/space/has_grav)
 "Vl" = (
@@ -1871,9 +1882,9 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav)
 "XO" = (
-/obj/machinery/door/airlock/maintenance_hatch{
-	id = s
-	},
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav)
 "Yd" = (
@@ -1912,6 +1923,8 @@
 "Yx" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/airlock/vault,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav)
 "YB" = (
