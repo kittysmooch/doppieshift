@@ -36,13 +36,11 @@
 /obj/structure/table/reinforced,
 /obj/item/storage/box/syndie_kit/space{
 	pixel_y = 10;
-	pixel_x = -4;
-	layer = 3.001
+	pixel_x = -4
 	},
 /obj/item/storage/box/syndie_kit/space{
 	pixel_y = 8;
-	pixel_x = 5;
-	layer = 3.001
+	pixel_x = 5
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/contraband/masked_men/directional/east,
@@ -812,6 +810,11 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
+"tA" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/teal,
+/turf/template_noop,
+/area/space)
 "tF" = (
 /obj/machinery/door/airlock/material/glass,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1977,7 +1980,6 @@
 /area/ruin/space/has_grav/powered)
 "Yv" = (
 /obj/structure/chair/plastic,
-/obj/machinery/light/dim/directional/north,
 /obj/structure/sign/poster/contraband/borg_fancy_2/directional/north,
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/plating,
@@ -2081,7 +2083,7 @@ Ln
 ng
 jr
 Ie
-zD
+tA
 jr
 jr
 jr
@@ -2141,7 +2143,7 @@ nx
 Ln
 jr
 jr
-Rm
+ce
 jr
 jr
 jr
@@ -2386,7 +2388,7 @@ jZ
 Ln
 jr
 ev
-Rm
+ce
 jr
 jr
 "}
@@ -2446,7 +2448,7 @@ Pi
 Ln
 OJ
 OJ
-Rm
+ce
 jr
 jr
 "}
@@ -2566,7 +2568,7 @@ Jw
 Ln
 OJ
 OO
-Rm
+ce
 jr
 jr
 "}
@@ -2626,7 +2628,7 @@ mu
 Ln
 jr
 OJ
-Rm
+ce
 jr
 jr
 "}
