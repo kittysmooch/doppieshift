@@ -1724,6 +1724,11 @@
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/powered)
+"RE" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/computer/cryopod/directional/east,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/powered)
 "RG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
@@ -1937,9 +1942,9 @@
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/powered)
 "YQ" = (
-/obj/effect/mob_spawn/ghost_role/human/cantina,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
+/obj/machinery/cryopod/quiet,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered)
 "YU" = (
@@ -2475,7 +2480,7 @@ jr
 (17,1,1) = {"
 ng
 YQ
-DY
+RE
 ng
 Yv
 VQ
