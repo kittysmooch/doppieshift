@@ -146,6 +146,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/sign/poster/contraband/babel_device/directional/north,
 /obj/structure/sign/poster/contraband/kss13/directional/west,
+/obj/item/crowbar/power/syndicate{
+	pixel_y = -4
+	},
+/obj/item/crowbar/power/syndicate,
+/obj/item/screwdriver/power{
+	pixel_y = 4
+	},
+/obj/item/screwdriver/power,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered)
 "ev" = (
@@ -286,6 +294,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/sign/poster/contraband/cybersun_six_hundred/directional/north,
+/obj/item/gun/energy/laser/carbine/cybersun{
+	pixel_y = 2
+	},
+/obj/item/gun/energy/laser/carbine/cybersun{
+	pixel_y = -2
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered)
 "hN" = (
@@ -1031,11 +1045,14 @@
 	pixel_y = 8;
 	pixel_x = -1
 	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/poster/contraband/syndicate_recruitment/directional/north,
+/obj/item/gun/energy/laser/musket/prime{
+	pixel_y = 3
+	},
 /obj/item/gun/energy/recharge/kinetic_accelerator{
 	pixel_y = -3
 	},
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/poster/contraband/syndicate_recruitment/directional/north,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered)
 "yX" = (
@@ -1230,6 +1247,24 @@
 /obj/structure/rack/wooden,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/sign/poster/contraband/gorlex_recruitment/directional/north,
+/obj/item/storage/box/syndie_kit/cowboy{
+	pixel_x = -4
+	},
+/obj/item/storage/box/syndie_kit/cutouts,
+/obj/item/storage/box/syndie_kit/combat_baking{
+	pixel_x = 4
+	},
+/obj/item/storage/box/syndie_kit/sleepytime{
+	pixel_y = 12;
+	pixel_x = -4
+	},
+/obj/item/storage/box/syndie_kit/throwing_weapons{
+	pixel_y = 12
+	},
+/obj/item/storage/box/syndie_kit/rebarxbowsyndie{
+	pixel_x = 4;
+	pixel_y = 12
+	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered)
 "EM" = (
