@@ -5,19 +5,19 @@
 	},
 /obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ai" = (
 /turf/closed/wall,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "aj" = (
 /obj/structure/reagent_dispensers/fueltank,
 /obj/structure/sign/poster/contraband/the_big_gas_giant_truth/directional/west,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "al" = (
 /obj/machinery/gibber,
 /turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "aD" = (
 /obj/structure/chair/sofa/corner/maroon{
 	dir = 1
@@ -26,12 +26,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "aE" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "aT" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/syndie_kit/space{
@@ -47,7 +47,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/contraband/masked_men/directional/east,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "bb" = (
 /obj/machinery/door/airlock{
 	id_tag = "evilass4"
@@ -55,7 +55,7 @@
 /obj/effect/mapping_helpers/airlock/locked,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "cb" = (
 /obj/structure/chair/plastic{
 	dir = 1
@@ -63,7 +63,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ce" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/marker_beacon/fuchsia,
@@ -72,7 +72,7 @@
 "cn" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ct" = (
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/condiment/peppermill{
@@ -82,31 +82,31 @@
 	pixel_x = -3
 	},
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "cP" = (
 /obj/structure/window/spawner/directional/east,
 /obj/machinery/light/dim/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/cigarette/syndicate,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "cU" = (
 /obj/structure/reagent_dispensers/watertank,
 /obj/machinery/airalarm/directional/west,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "de" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
 	},
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "dp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "dx" = (
 /obj/structure/flora/rock/style_2,
 /turf/open/misc/asteroid/airless,
@@ -117,7 +117,7 @@
 	},
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "dS" = (
 /obj/structure/rack/wooden,
 /obj/item/clothing/glasses/sunglasses/big{
@@ -133,18 +133,18 @@
 /obj/structure/sign/poster/contraband/bountyhunters/directional/south,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ei" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ej" = (
 /obj/structure/table,
 /obj/machinery/microwave{
 	pixel_y = 10
 	},
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "es" = (
 /obj/structure/rack/wooden,
 /obj/item/syndicrate_key{
@@ -154,7 +154,7 @@
 /obj/structure/sign/poster/contraband/babel_device/directional/north,
 /obj/structure/sign/poster/contraband/kss13/directional/west,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ev" = (
 /obj/structure/lattice,
 /obj/structure/billboard/starway,
@@ -168,19 +168,19 @@
 	},
 /obj/item/multitool,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "eT" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "fx" = (
 /obj/machinery/door/airlock{
 	id_tag = "evilass5"
 	},
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "fD" = (
 /obj/structure/extinguisher_cabinet/directional/south,
 /obj/effect/decal/cleanable/dirt,
@@ -188,12 +188,13 @@
 /obj/machinery/computer/personal_shuttle_order{
 	dir = 4
 	},
+/obj/structure/window/reinforced/spawner/directional/west,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "fQ" = (
 /obj/structure/closet/secure_closet/freezer/meat/all_access,
 /turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "fS" = (
 /obj/structure/chair/sofa/middle/maroon{
 	dir = 1
@@ -201,7 +202,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "fZ" = (
 /obj/structure/sign/poster/contraband/donk_co/directional/north,
 /obj/structure/table,
@@ -225,7 +226,7 @@
 	pixel_x = 8
 	},
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "gi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -235,31 +236,28 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "gw" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "gB" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "gN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "gV" = (
-/obj/machinery/power/smes/magical/cybersun,
+/obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "gX" = (
 /obj/structure/chair/plastic{
 	dir = 4
@@ -267,13 +265,13 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "hb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/directional/south,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "hp" = (
 /obj/structure/chair/sofa/left/maroon{
 	dir = 1
@@ -282,11 +280,11 @@
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "hu" = (
 /obj/structure/tank_holder/extinguisher,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "hH" = (
 /obj/structure/closet/crate/secure/syndicate/gorlex,
 /obj/item/gun/energy/temperature{
@@ -299,7 +297,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/sign/poster/contraband/cybersun_six_hundred/directional/north,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "hN" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -334,7 +332,7 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "hO" = (
 /obj/item/storage/toolbox/guncase/smartgun{
 	pixel_y = -4
@@ -349,13 +347,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/sign/poster/contraband/gorlex_recruitment/directional/north,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "hV" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "id" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -367,7 +365,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/vending/cola/red,
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ig" = (
 /obj/machinery/chem_master/condimaster{
 	name = "CondiMaster Neo"
@@ -375,7 +373,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "is" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -383,11 +381,11 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/contraband/syndicate_pistol/directional/north,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "jb" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "jr" = (
 /turf/template_noop,
 /area/space)
@@ -395,24 +393,24 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "jZ" = (
 /obj/machinery/teleport/hub,
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
 	},
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "kd" = (
 /obj/machinery/deepfryer,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/dim/directional/north,
 /obj/structure/sign/departments/engineering/directional/north,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "kw" = (
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "kN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/teleport/station,
@@ -420,14 +418,14 @@
 	dir = 1
 	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "la" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/directional/south,
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "lm" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -449,7 +447,7 @@
 	pixel_y = -7
 	},
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "lw" = (
 /obj/structure/billboard/Phone_booth,
 /turf/template_noop,
@@ -459,10 +457,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "mf" = (
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "mp" = (
 /obj/machinery/light/dim/directional/west,
 /obj/structure/table/reinforced,
@@ -498,13 +496,13 @@
 	pixel_x = -8
 	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "mu" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "my" = (
 /obj/structure/chair/sofa/corner/maroon{
 	dir = 1
@@ -514,7 +512,7 @@
 	dir = 10
 	},
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "mG" = (
 /obj/structure/table/wood,
 /obj/item/ammo_box/magazine/m12g{
@@ -548,14 +546,14 @@
 	pixel_y = 6
 	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "mL" = (
 /obj/machinery/door/airlock{
 	id_tag = "evilass2"
 	},
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "mR" = (
 /obj/structure/table,
 /obj/item/reagent_containers/condiment/peppermill{
@@ -565,7 +563,7 @@
 	pixel_x = -3
 	},
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "nf" = (
 /obj/structure/table,
 /obj/machinery/coffeemaker{
@@ -584,10 +582,10 @@
 	},
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ng" = (
 /turf/closed/wall/r_wall,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ns" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/airlock/centcom{
@@ -601,20 +599,20 @@
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "nw" = (
 /obj/effect/mob_spawn/ghost_role/human/cantina,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "nx" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "nT" = (
 /obj/machinery/griddle,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "oo" = (
 /obj/structure/table/wood/poker,
 /obj/item/clothing/glasses/nightmare_vision{
@@ -624,7 +622,7 @@
 /obj/item/gun/ballistic/revolver/russian/soul,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ou" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder{
@@ -636,7 +634,7 @@
 	pixel_x = -7
 	},
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "oC" = (
 /obj/machinery/door/window/left/directional/north,
 /obj/machinery/door/window/left/directional/south,
@@ -644,7 +642,7 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_edge,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "oX" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/glasses/meson{
@@ -663,13 +661,13 @@
 /obj/structure/sign/poster/contraband/grey_tide/directional/west,
 /obj/structure/sign/poster/contraband/space_cube/directional/north,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "oY" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/toy/figure/bartender,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ph" = (
 /obj/structure/table,
 /obj/item/storage/bag/tray,
@@ -677,7 +675,7 @@
 /obj/item/knife/kitchen,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "pi" = (
 /obj/structure/chair/sofa/right/maroon{
 	dir = 1
@@ -686,7 +684,7 @@
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "pp" = (
 /obj/structure/toilet{
 	dir = 8
@@ -698,12 +696,12 @@
 	id = "evilass2"
 	},
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ps" = (
 /obj/item/chair/plastic,
 /obj/structure/maintenance_loot_structure/wall_jacket/random/directional/east,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "qm" = (
 /obj/structure/table/reinforced,
 /obj/item/card/id/advanced/chameleon{
@@ -723,13 +721,13 @@
 	},
 /obj/structure/sign/poster/contraband/free_drone/directional/east,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "qo" = (
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "qq" = (
 /obj/structure/chair/sofa/right/maroon,
 /obj/effect/decal/cleanable/dirt,
@@ -739,18 +737,18 @@
 	},
 /obj/structure/sign/departments/telecomms/alt/directional/west,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "qu" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "qy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/external/glass,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "rR" = (
 /obj/structure/chair/sofa/corner/maroon{
 	dir = 8
@@ -758,23 +756,19 @@
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
-"sv" = (
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "sz" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/machinery/jukebox/no_access,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "sA" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 8
 	},
 /obj/machinery/space_heater,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "sP" = (
 /obj/structure/sign/poster/contraband/moffuchis_pizza/directional/north{
 	name = "Ray's Pizza";
@@ -782,27 +776,27 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "sS" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ti" = (
 /obj/machinery/door/airlock{
 	id_tag = "evilass3"
 	},
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "tp" = (
 /obj/machinery/door/window/left/directional/east{
 	name = "Kitchen"
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "tq" = (
 /obj/structure/chair/sofa/right/maroon,
 /obj/effect/decal/cleanable/dirt,
@@ -812,19 +806,19 @@
 	dir = 1
 	},
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "tw" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "tF" = (
 /obj/machinery/door/airlock/material/glass,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ua" = (
 /obj/structure/table,
 /obj/item/reagent_containers/cup/bucket,
@@ -832,13 +826,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ub" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "uh" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/sign/departments/restroom/directional/east,
@@ -846,7 +840,7 @@
 /obj/machinery/light/small/directional/east,
 /obj/machinery/computer/arcade/orion_trail,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ui" = (
 /obj/structure/table/wood/poker,
 /obj/item/storage/toolbox/mechanical{
@@ -858,19 +852,19 @@
 	pixel_x = -2
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "uk" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ux" = (
 /obj/machinery/door/airlock/external/glass,
 /obj/structure/fans/tiny,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "uS" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -879,7 +873,7 @@
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "vA" = (
 /obj/structure/flora/rock/pile,
 /turf/open/misc/asteroid/airless,
@@ -888,7 +882,7 @@
 /obj/machinery/holopad,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "vG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/sofa/left/maroon{
@@ -896,7 +890,7 @@
 	},
 /obj/structure/window/reinforced/spawner/directional/west,
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "vV" = (
 /obj/structure/rack/wooden,
 /obj/item/suppressor{
@@ -913,18 +907,18 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/sign/poster/contraband/atmosia_independence/directional/west,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "wG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/light/dim/directional/south,
 /obj/structure/sign/poster/contraband/donut_corp/directional/north,
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "wL" = (
 /obj/structure/chair/office/tactical,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "xu" = (
 /obj/machinery/light/dim/directional/east,
 /obj/structure/table/reinforced,
@@ -949,12 +943,12 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/contraband/kss13/directional/east,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "xG" = (
 /obj/structure/table/wood/poker,
 /obj/item/toy/cards/deck/syndicate,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "xM" = (
 /obj/structure/toilet{
 	dir = 8
@@ -970,7 +964,7 @@
 /obj/item/reagent_containers/syringe/contraband/saturnx,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ye" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wood{
@@ -980,11 +974,11 @@
 	dir = 4
 	},
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "yf" = (
 /obj/machinery/vending/boozeomat/syndicate,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "yq" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair/sofa/left/maroon{
@@ -995,7 +989,7 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "yz" = (
 /obj/structure/closet/cabinet,
 /obj/item/clothing/shoes/laceup,
@@ -1006,7 +1000,7 @@
 /obj/item/storage/backpack/satchel/leather,
 /obj/item/gun/ballistic/shotgun/bulldog/unrestricted,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "yE" = (
 /obj/structure/rack/wooden,
 /obj/item/stack/sheet/mineral/plasma{
@@ -1035,7 +1029,7 @@
 /obj/structure/sign/poster/contraband/imperial_propaganda/directional/south,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "yH" = (
 /obj/docking_port/stationary{
 	name = "Curfew and Sundown";
@@ -1055,28 +1049,28 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/contraband/syndicate_recruitment/directional/north,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "yX" = (
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "yZ" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/firecloset,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "zd" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "zf" = (
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "zg" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "zw" = (
 /obj/structure/mop_bucket/janitorialcart,
 /obj/item/storage/bag/trash,
@@ -1084,14 +1078,14 @@
 /obj/effect/turf_decal/bot,
 /obj/structure/sign/poster/official/cleanliness/directional/east,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "zx" = (
 /obj/structure/sink/directional/east,
 /obj/structure/mirror/directional/west,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "zD" = (
 /obj/structure/lattice,
 /obj/structure/lattice/catwalk,
@@ -1103,11 +1097,11 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "AF" = (
 /obj/structure/sink/kitchen/directional/west,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ba" = (
 /obj/machinery/airalarm/directional/south,
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
@@ -1119,7 +1113,7 @@
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Bd" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/rack/wooden,
@@ -1135,35 +1129,35 @@
 /obj/structure/sign/poster/contraband/starkist/directional/south,
 /obj/structure/sign/poster/contraband/rebels_unite/directional/west,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Bw" = (
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Bz" = (
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "BO" = (
 /obj/structure/sign/poster/contraband/revolver/directional/east,
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "BQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "BU" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ca" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/computer/arcade/amputation,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Cb" = (
 /obj/structure/toilet{
 	dir = 8
@@ -1175,13 +1169,13 @@
 	id = "evilass1"
 	},
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ci" = (
 /obj/effect/mob_spawn/ghost_role/human/cantina,
 /obj/machinery/light/dim/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "CB" = (
 /obj/structure/rack/wooden,
 /obj/item/weldingtool/hugetank{
@@ -1205,19 +1199,19 @@
 /obj/structure/sign/poster/contraband/busty_backdoor_xeno_babes_6/directional/south,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "De" = (
 /obj/structure/chair/plastic,
 /obj/structure/sign/poster/contraband/borg_fancy_1/directional/north,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ds" = (
 /obj/structure/chair/sofa/middle/maroon{
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "DR" = (
 /obj/structure/billboard/donk_n_go,
 /turf/template_noop,
@@ -1225,11 +1219,11 @@
 "DT" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "DY" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ei" = (
 /obj/structure/chair/stool/bar/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1238,12 +1232,12 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "El" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Eu" = (
 /obj/structure/rack/wooden,
 /obj/item/ammo_box/magazine/recharge{
@@ -1296,13 +1290,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/sign/poster/contraband/gorlex_recruitment/directional/north,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "EM" = (
 /obj/structure/sink/directional/east,
 /obj/structure/mirror/directional/west,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Fb" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
@@ -1313,14 +1307,14 @@
 	pixel_y = 6
 	},
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Fz" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /obj/machinery/rnd/production/techfab,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "FE" = (
 /obj/item/chair/plastic,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1328,13 +1322,13 @@
 /obj/structure/extinguisher_cabinet/directional/south,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "FH" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Gf" = (
 /obj/item/gun/energy/disabler/smg{
 	pixel_y = 8
@@ -1354,7 +1348,7 @@
 /obj/structure/sign/poster/contraband/gorlex_recruitment/directional/north,
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Gl" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -1362,12 +1356,12 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Gp" = (
 /obj/effect/mob_spawn/ghost_role/human/cantina,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "GL" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/highsecurity,
@@ -1376,7 +1370,7 @@
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/structure/cable,
 /turf/open/floor/wood/large,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "GT" = (
 /obj/structure/flora/rock/style_3,
 /turf/open/misc/asteroid/airless,
@@ -1385,7 +1379,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Hd" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
@@ -1394,20 +1388,20 @@
 	dir = 4
 	},
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Hg" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/curtain/bounty/start_closed,
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Hr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "HE" = (
 /obj/structure/chair/plastic{
 	dir = 8
@@ -1415,18 +1409,18 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "HM" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/machinery/computer/arcade/battle,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "HU" = (
 /obj/machinery/light/dim/directional/east,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/contraband/lusty_xenomorph/directional/east,
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ib" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wood{
@@ -1435,7 +1429,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ie" = (
 /obj/structure/billboard/twenty_four_seven,
 /turf/template_noop,
@@ -1443,7 +1437,7 @@
 "Ip" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "It" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
@@ -1452,7 +1446,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "IL" = (
 /obj/structure/table,
 /obj/item/reagent_containers/cup/glass/mug{
@@ -1460,27 +1454,27 @@
 	pixel_y = -2
 	},
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Jp" = (
 /obj/structure/chair/stool/bar/directional/north,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Jt" = (
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Jw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "JP" = (
 /obj/machinery/computer/camera_advanced{
 	dir = 1
 	},
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "JQ" = (
 /obj/structure/flora/rock,
 /turf/open/misc/asteroid/airless,
@@ -1492,7 +1486,7 @@
 	dir = 1
 	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Kh" = (
 /obj/structure/chair/sofa/left/maroon,
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -1501,11 +1495,11 @@
 	},
 /obj/structure/sign/departments/security/directional/north,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "KE" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "KZ" = (
 /obj/structure/toilet{
 	dir = 8
@@ -1518,7 +1512,7 @@
 	id = "evilass3"
 	},
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Li" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/button/door/directional/north{
@@ -1528,11 +1522,11 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ln" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Lr" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
@@ -1543,22 +1537,22 @@
 	pixel_x = -3
 	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "LF" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Mr" = (
 /obj/structure/chair/stool/bar/directional/north,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ms" = (
 /obj/structure/table/reinforced,
 /obj/structure/desk_bell{
 	pixel_y = 10
 	},
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "MA" = (
 /turf/open/misc/asteroid/airless,
 /area/space)
@@ -1596,39 +1590,33 @@
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating/airless,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "MP" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/sign/poster/contraband/gorlex_recruitment/directional/south,
 /obj/machinery/light/dim/directional/south,
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
-"Nc" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Nl" = (
 /obj/machinery/vending/cola,
 /obj/structure/window/spawner/directional/east,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Nn" = (
 /obj/machinery/modular_computer/preset/civilian{
 	dir = 1
 	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "NA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/chair{
 	dir = 1
 	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "NP" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/mask/gas/syndicate{
@@ -1643,14 +1631,14 @@
 	pixel_x = 5
 	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Of" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/epic_loot/random_maint_loot_structure,
 /obj/machinery/light/small/directional/east,
 /obj/structure/sign/poster/contraband/c20r/directional/east,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Os" = (
 /obj/machinery/light/dim/directional/west,
 /obj/structure/chair/sofa/left/maroon{
@@ -1659,7 +1647,7 @@
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ov" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1669,7 +1657,7 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "OJ" = (
 /obj/structure/lattice,
 /turf/template_noop,
@@ -1688,7 +1676,7 @@
 	},
 /obj/structure/sign/poster/contraband/hacking_guide/directional/west,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Pe" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
@@ -1702,7 +1690,7 @@
 	pixel_x = 3
 	},
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Pi" = (
 /obj/machinery/computer/teleporter{
 	dir = 1
@@ -1711,7 +1699,7 @@
 	dir = 5
 	},
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Px" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/siding/wood{
@@ -1719,30 +1707,30 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "PA" = (
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "PB" = (
 /obj/structure/reagent_dispensers/beerkeg,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ql" = (
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "QO" = (
 /obj/effect/turf_decal/plaque,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "QW" = (
 /obj/machinery/vending/dinnerware,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "QZ" = (
 /obj/structure/sink/directional/east,
 /obj/structure/mirror/directional/west,
@@ -1750,7 +1738,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Rm" = (
 /obj/structure/lattice,
 /obj/structure/lattice/catwalk,
@@ -1763,7 +1751,7 @@
 /obj/machinery/light/dim/directional/south,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Rw" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/under/syndicate{
@@ -1785,14 +1773,14 @@
 	pixel_y = 2
 	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ry" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "RB" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -1800,18 +1788,18 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "RG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Sf" = (
 /obj/structure/dresser,
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Si" = (
 /obj/structure/toilet{
 	dir = 8
@@ -1823,7 +1811,7 @@
 	id = "evilass5"
 	},
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Sv" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/effect/turf_decal/siding/wood{
@@ -1831,7 +1819,7 @@
 	},
 /obj/structure/closet/emcloset,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Sy" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/siding/wood{
@@ -1842,13 +1830,13 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "SM" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Tn" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1856,7 +1844,7 @@
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Tv" = (
 /obj/structure/chair/sofa/right/maroon{
 	dir = 1
@@ -1864,34 +1852,34 @@
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ty" = (
 /obj/effect/mob_spawn/ghost_role/human/cantina/bartender,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "UM" = (
 /obj/machinery/door/airlock,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/structure/cable,
 /turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Vl" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	pixel_y = 1
 	},
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Vv" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "VG" = (
 /obj/structure/chair/stool/bar/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "VI" = (
 /obj/structure/chair/stool/bar/directional/north,
 /obj/effect/decal/cleanable/dirt,
@@ -1899,17 +1887,17 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/royalblack,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "VQ" = (
 /obj/structure/table/wood/poker,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/soap/syndie,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Wq" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ws" = (
 /obj/structure/rack/wooden,
 /obj/item/clothing/shoes/combat{
@@ -1930,17 +1918,17 @@
 /obj/item/minigunpack,
 /obj/structure/sign/poster/contraband/tea_over_tizira/directional/south,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Wv" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Wy" = (
 /obj/structure/table,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "WX" = (
 /obj/structure/rack/wooden,
 /obj/item/storage/toolbox/syndicate{
@@ -1952,24 +1940,25 @@
 	},
 /obj/structure/sign/poster/contraband/interdyne_gene_clinics/directional/west,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Xa" = (
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "XO" = (
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Yd" = (
 /obj/structure/tank_dispenser,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small/directional/west,
 /obj/structure/maintenance_loot_structure/wall_jacket/random/directional/north,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Ys" = (
 /obj/structure/table,
 /obj/item/lighter{
@@ -1985,17 +1974,17 @@
 	pixel_y = 3
 	},
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Yv" = (
 /obj/structure/chair/plastic,
 /obj/machinery/light/dim/directional/north,
 /obj/structure/sign/poster/contraband/borg_fancy_2/directional/north,
 /obj/machinery/light/dim/directional/north,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Yw" = (
 /turf/open/floor/iron/freezer,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Yx" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/airlock/vault,
@@ -2003,21 +1992,21 @@
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "YB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/oven,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "YI" = (
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/white,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "YQ" = (
 /obj/effect/mob_spawn/ghost_role/human/cantina,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "YU" = (
 /turf/closed/mineral/random,
 /area/space)
@@ -2029,7 +2018,7 @@
 	pixel_y = 6
 	},
 /turf/open/floor/iron/kitchen/small,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "Zj" = (
 /obj/machinery/barsign/all_access/directional/north,
 /obj/structure/lattice,
@@ -2040,7 +2029,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ZC" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -2049,27 +2038,27 @@
 /obj/structure/cable,
 /obj/effect/mapping_helpers/apc/syndicate_access,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ZG" = (
 /obj/structure/chair/stool/bar/directional/east,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ZK" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 "ZY" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/noticeboard/directional/north{
 	dir = 2
 	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav)
+/area/ruin/space/has_grav/powered)
 
 (1,1,1) = {"
 jr
@@ -2679,7 +2668,7 @@ YU
 YU
 ng
 ZC
-Nc
+LF
 cU
 aj
 ai
@@ -2711,7 +2700,7 @@ ng
 gV
 gw
 Gl
-sv
+gV
 ai
 kd
 KE
