@@ -178,7 +178,7 @@
 /obj/structure/extinguisher_cabinet/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/dim/directional/south,
-/obj/machinery/computer/personal_shuttle_order{
+/obj/machinery/computer/personal_shuttle_order/cantina{
 	dir = 4
 	},
 /obj/structure/window/reinforced/spawner/directional/west,
