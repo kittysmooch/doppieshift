@@ -810,11 +810,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
-"tA" = (
-/obj/structure/lattice/catwalk,
-/obj/structure/marker_beacon/teal,
-/turf/template_noop,
-/area/space)
 "tF" = (
 /obj/machinery/door/airlock/material/glass,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1090,7 +1085,6 @@
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/powered)
 "zD" = (
-/obj/structure/lattice,
 /obj/structure/lattice/catwalk,
 /obj/structure/marker_beacon/teal,
 /turf/template_noop,
@@ -1742,12 +1736,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/powered)
-"Rm" = (
-/obj/structure/lattice,
-/obj/structure/lattice/catwalk,
-/obj/structure/marker_beacon/fuchsia,
-/turf/template_noop,
-/area/space)
 "Ro" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -2083,7 +2071,7 @@ Ln
 ng
 jr
 Ie
-tA
+zD
 jr
 jr
 jr
@@ -2263,7 +2251,7 @@ RG
 Ln
 jr
 jr
-Rm
+ce
 jr
 jr
 jr
