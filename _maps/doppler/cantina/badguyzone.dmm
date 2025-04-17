@@ -138,16 +138,11 @@
 /area/ruin/space/has_grav/powered)
 "ej" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	pixel_y = 10
-	},
+/obj/machinery/microwave,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "es" = (
 /obj/structure/rack/wooden,
-/obj/item/syndicrate_key{
-	pixel_x = -1
-	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/sign/poster/contraband/babel_device/directional/north,
 /obj/structure/sign/poster/contraband/kss13/directional/west,
@@ -287,9 +282,6 @@
 /obj/structure/closet/crate/secure/syndicate/gorlex,
 /obj/item/gun/energy/temperature{
 	pixel_y = 6
-	},
-/obj/item/gun/energy/tesla_cannon{
-	pixel_y = -3
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -587,19 +579,18 @@
 "ns" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/door/airlock/centcom{
-	id_tag = "syndie_battlecruiser_bridge_bolt";
-	name = "Backroom"
-	},
-/obj/machinery/door/poddoor/shutters/indestructible{
-	id = "evil_bartender"
+	name = "Backroom";
+	id_tag = "evil_bartender"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/locked,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/powered)
 "nw" = (
 /obj/effect/mob_spawn/ghost_role/human/cantina,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered)
 "nx" = (
@@ -624,8 +615,7 @@
 "ou" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder{
-	pixel_x = 4;
-	pixel_y = 13
+	pixel_x = 4
 	},
 /obj/item/storage/box/cups{
 	pixel_y = 6;
@@ -667,11 +657,11 @@
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "ph" = (
-/obj/structure/table,
 /obj/item/storage/bag/tray,
 /obj/item/kitchen/rollingpin,
 /obj/item/knife/kitchen,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "pi" = (
@@ -1171,6 +1161,7 @@
 /obj/effect/mob_spawn/ghost_role/human/cantina,
 /obj/machinery/light/dim/directional/north,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered)
 "CB" = (
@@ -1237,53 +1228,6 @@
 /area/ruin/space/has_grav/powered)
 "Eu" = (
 /obj/structure/rack/wooden,
-/obj/item/ammo_box/magazine/recharge{
-	pixel_x = -9;
-	pixel_y = -4
-	},
-/obj/item/ammo_box/magazine/recharge{
-	pixel_x = -7;
-	pixel_y = -4
-	},
-/obj/item/ammo_box/magazine/recharge{
-	pixel_x = -5;
-	pixel_y = -4
-	},
-/obj/item/ammo_box/magazine/recharge{
-	pixel_x = -3;
-	pixel_y = -4
-	},
-/obj/item/ammo_box/magazine/recharge{
-	pixel_x = -1;
-	pixel_y = -4
-	},
-/obj/item/ammo_box/magazine/recharge{
-	pixel_x = 1;
-	pixel_y = -4
-	},
-/obj/item/ammo_box/magazine/recharge{
-	pixel_x = 3;
-	pixel_y = -4
-	},
-/obj/item/ammo_box/magazine/recharge{
-	pixel_x = 5;
-	pixel_y = -4
-	},
-/obj/item/ammo_box/magazine/recharge{
-	pixel_x = 7;
-	pixel_y = -4
-	},
-/obj/item/ammo_box/magazine/recharge{
-	pixel_x = 9;
-	pixel_y = -4
-	},
-/obj/item/gun/ballistic/automatic/laser{
-	pixel_y = 8
-	},
-/obj/item/gun/ballistic/automatic/laser{
-	pixel_y = 4
-	},
-/obj/item/gun/ballistic/automatic/laser,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/sign/poster/contraband/gorlex_recruitment/directional/north,
 /turf/open/floor/plating,
@@ -1300,8 +1244,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/window/spawner/directional/south,
 /obj/machinery/chem_dispenser/drinks/beer/fullupgrade{
-	dir = 1;
-	pixel_y = 6
+	dir = 1
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
@@ -1357,6 +1300,7 @@
 "Gp" = (
 /obj/effect/mob_spawn/ghost_role/human/cantina,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered)
 "GL" = (
@@ -1995,6 +1939,7 @@
 "YQ" = (
 /obj/effect/mob_spawn/ghost_role/human/cantina,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered)
 "YU" = (
@@ -2004,8 +1949,7 @@
 /obj/structure/table/reinforced,
 /obj/structure/window/spawner/directional/south,
 /obj/machinery/chem_dispenser/drinks/fullupgrade{
-	dir = 1;
-	pixel_y = 6
+	dir = 1
 	},
 /turf/open/floor/iron/kitchen/small,
 /area/ruin/space/has_grav/powered)
@@ -2024,9 +1968,7 @@
 /obj/structure/table,
 /obj/machinery/cell_charger,
 /obj/item/stock_parts/power_store/cell/high,
-/obj/machinery/power/apc/auto_name/directional/west,
 /obj/structure/cable,
-/obj/effect/mapping_helpers/apc/syndicate_access,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered)
 "ZG" = (
