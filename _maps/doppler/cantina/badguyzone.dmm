@@ -1829,7 +1829,7 @@
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/powered)
 "Ty" = (
-/obj/effect/mob_spawn/ghost_role/human/cantina/bartender,
+/obj/effect/mob_spawn/ghost_role/human/cantina_bartender,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/powered)
 "UM" = (
