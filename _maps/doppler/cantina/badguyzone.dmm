@@ -54,6 +54,11 @@
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/iron/white,
 /area/ruin/space/has_grav/powered)
+"bi" = (
+/obj/structure/cable,
+/obj/item/stock_parts/power_store/battery/infinite,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/powered)
 "cb" = (
 /obj/structure/chair/plastic{
 	dir = 1
@@ -2802,7 +2807,7 @@ MA
 YU
 YU
 ng
-gV
+bi
 gw
 Gl
 gV
