@@ -16,6 +16,10 @@
 /obj/effect/mob_spawn/ghost_role/human/cantina/special(mob/living/new_spawn)
 	. = ..()
 	new_spawn.mind.add_antag_datum(/datum/antagonist/traitor/cantina_regular)
+	var/datum/bank_account/bank_account = new(new_spawn.real_name, src)
+	bank_account.payday(STARTING_PAYCHECKS, TRUE)
+	bank_account.replaceable = FALSE
+	new_spawn.add_mob_memory(/datum/memory/key/account, remembered_id = bank_account.account_id)
 
 /obj/effect/mob_spawn/ghost_role/human/cantina_bartender
 	name = "The Undisclosed Location bartender sleeper"

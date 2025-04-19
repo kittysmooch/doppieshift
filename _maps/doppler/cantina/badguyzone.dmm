@@ -76,25 +76,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/powered)
-"co" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/iron/dark/smooth_corner,
-/area/ruin/space/has_grav/powered)
-"ct" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/iron/dark/smooth_half{
-	dir = 1
-	},
-/area/ruin/space/has_grav/powered)
 "cP" = (
 /obj/structure/window/spawner/directional/east,
 /obj/machinery/light/dim/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/vending/cigarette/syndicate,
-/turf/open/floor/iron/dark/smooth_corner,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "cU" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -107,13 +94,6 @@
 	dir = 9
 	},
 /turf/open/floor/wood/tile,
-/area/ruin/space/has_grav/powered)
-"dp" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/turf_decal/siding/wood/end{
-	dir = 4
-	},
-/turf/open/floor/iron/white,
 /area/ruin/space/has_grav/powered)
 "dx" = (
 /obj/structure/flora/rock/style_2,
@@ -146,9 +126,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced,
 /obj/item/toy/figure/bartender,
-/turf/open/floor/iron/dark/smooth_corner{
-	dir = 1
-	},
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "ei" = (
 /obj/effect/turf_decal/siding/wood{
@@ -159,7 +137,7 @@
 "ej" = (
 /obj/structure/table,
 /obj/machinery/microwave,
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "es" = (
 /obj/structure/rack/wooden,
@@ -252,7 +230,7 @@
 /obj/item/reagent_containers/cup/glass/mug{
 	pixel_x = 8
 	},
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "gi" = (
 /obj/effect/decal/cleanable/dirt,
@@ -310,7 +288,7 @@
 /area/ruin/space/has_grav/powered)
 "hu" = (
 /obj/structure/sink/kitchen/directional/south,
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "hH" = (
 /obj/structure/closet/crate/secure/syndicate/gorlex,
@@ -414,37 +392,22 @@
 /area/ruin/space/has_grav/powered)
 "jb" = (
 /obj/structure/closet/crate/bin,
-/turf/open/floor/iron/dark/smooth_corner{
-	dir = 8
-	},
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "jr" = (
 /turf/template_noop,
 /area/space)
-"ju" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 8
-	},
-/turf/closed/wall/r_wall,
-/area/ruin/space/has_grav/powered)
 "jQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/ruin/space/has_grav/powered)
-"jZ" = (
-/obj/machinery/teleport/hub,
-/obj/effect/turf_decal/siding/wood{
-	dir = 9
-	},
-/turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/powered)
 "kd" = (
 /obj/machinery/deepfryer,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/dim/directional/north,
 /obj/structure/sign/departments/engineering/directional/north,
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "kq" = (
 /obj/effect/decal/cleanable/dirt,
@@ -461,17 +424,9 @@
 	pixel_y = -3;
 	pixel_x = -9
 	},
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "kw" = (
-/turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/powered)
-"kN" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/teleport/station,
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
 /turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/powered)
 "la" = (
@@ -636,7 +591,7 @@
 	pixel_x = -5
 	},
 /obj/machinery/light/dim/directional/north,
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "ng" = (
 /turf/closed/wall/r_wall,
@@ -665,7 +620,7 @@
 /area/ruin/space/has_grav/powered)
 "nT" = (
 /obj/machinery/griddle,
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "oo" = (
 /obj/structure/table/wood/poker,
@@ -690,12 +645,6 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark/smooth_edge,
 /area/ruin/space/has_grav/powered)
-"oD" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/iron/dark/smooth_half,
-/area/ruin/space/has_grav/powered)
 "oX" = (
 /obj/structure/table/reinforced,
 /obj/item/clothing/glasses/meson{
@@ -718,14 +667,7 @@
 "oY" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/smooth_corner,
-/area/ruin/space/has_grav/powered)
-"ph" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/iron/dark/smooth_corner{
-	dir = 1
-	},
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "pi" = (
 /obj/structure/chair/sofa/right/maroon{
@@ -777,7 +719,7 @@
 /obj/structure/table/reinforced,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "qq" = (
 /obj/structure/chair/sofa/right/maroon,
@@ -800,11 +742,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/powered)
-"rd" = (
-/turf/open/floor/iron/dark/smooth_corner{
-	dir = 8
-	},
-/area/ruin/space/has_grav/powered)
 "rR" = (
 /obj/structure/chair/sofa/corner/maroon{
 	dir = 8
@@ -813,9 +750,6 @@
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/carpet/royalblack,
 /area/ruin/space/has_grav/powered)
-"rX" = (
-/turf/open/floor/iron/dark/smooth_corner,
-/area/space)
 "sz" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/machinery/jukebox/no_access,
@@ -854,9 +788,7 @@
 	name = "Kitchen"
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/smooth_half{
-	dir = 1
-	},
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "tq" = (
 /obj/structure/chair/sofa/right/maroon,
@@ -879,7 +811,7 @@
 	pixel_y = 6;
 	pixel_x = -7
 	},
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "tF" = (
 /obj/machinery/door/airlock/material/glass,
@@ -1103,8 +1035,12 @@
 /area/ruin/space/has_grav/powered)
 "yH" = (
 /obj/docking_port/stationary{
+	dir = 2;
+	dwidth = 11;
+	height = 24;
 	name = "Curfew and Sundown";
-	shuttle_id = "cantina"
+	shuttle_id = "cantina";
+	width = 35
 	},
 /turf/template_noop,
 /area/space)
@@ -1177,11 +1113,6 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/powered)
-"AF" = (
-/turf/open/floor/iron/dark/smooth_half{
-	dir = 1
-	},
 /area/ruin/space/has_grav/powered)
 "Ba" = (
 /obj/machinery/airalarm/directional/south,
@@ -1504,14 +1435,12 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/machinery/airalarm/directional/south,
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/powered)
-"IL" = (
-/turf/open/floor/iron/dark/smooth_corner,
 /area/ruin/space/has_grav/powered)
 "Jp" = (
 /obj/structure/table/reinforced,
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "Jt" = (
 /turf/open/floor/carpet/royalblack,
@@ -1559,11 +1488,6 @@
 "KE" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/dark,
-/area/ruin/space/has_grav/powered)
-"KT" = (
-/turf/open/floor/iron/dark/smooth_corner{
-	dir = 1
-	},
 /area/ruin/space/has_grav/powered)
 "KZ" = (
 /obj/structure/toilet{
@@ -1613,16 +1537,7 @@
 /obj/item/storage/bag/tray,
 /obj/item/kitchen/rollingpin,
 /obj/item/knife/kitchen,
-/turf/open/floor/iron/dark/smooth_corner{
-	dir = 1
-	},
-/area/ruin/space/has_grav/powered)
-"Ms" = (
-/obj/structure/sink/directional/east,
-/obj/structure/mirror/directional/west,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/iron/dark/smooth_corner,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "Mw" = (
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -1684,20 +1599,13 @@
 /obj/machinery/vending/cola,
 /obj/structure/window/spawner/directional/east,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/smooth_half{
-	dir = 1
-	},
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "Nn" = (
 /obj/machinery/modular_computer/preset/civilian{
 	dir = 1
 	},
 /turf/open/floor/wood/parquet,
-/area/ruin/space/has_grav/powered)
-"NA" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/iron/dark/smooth_corner,
 /area/ruin/space/has_grav/powered)
 "NP" = (
 /obj/structure/table/reinforced,
@@ -1728,7 +1636,7 @@
 	},
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/effect/turf_decal/siding/wood,
-/turf/open/floor/iron/dark/snowdin,
+/turf/open/floor/wood/parquet,
 /area/ruin/space/has_grav/powered)
 "Ov" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -1773,15 +1681,6 @@
 	},
 /turf/open/floor/wood/tile,
 /area/ruin/space/has_grav/powered)
-"Pi" = (
-/obj/machinery/computer/teleporter{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 5
-	},
-/turf/open/floor/wood/tile,
-/area/ruin/space/has_grav/powered)
 "Px" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/siding/wood{
@@ -1819,7 +1718,7 @@
 "QW" = (
 /obj/machinery/vending/dinnerware,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "QZ" = (
 /obj/structure/sink/directional/east,
@@ -1970,7 +1869,7 @@
 "VG" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/reinforced,
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "VI" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1978,7 +1877,7 @@
 /obj/structure/desk_bell{
 	pixel_y = 10
 	},
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "VQ" = (
 /obj/structure/table/wood/poker,
@@ -2057,9 +1956,7 @@
 /obj/item/reagent_containers/condiment/saltshaker{
 	pixel_x = -3
 	},
-/turf/open/floor/iron/dark/smooth_corner{
-	dir = 4
-	},
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "XO" = (
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -2100,7 +1997,7 @@
 "YB" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/oven,
-/turf/open/floor/iron/dark/smooth_half,
+/turf/open/floor/iron/dark,
 /area/ruin/space/has_grav/powered)
 "YI" = (
 /obj/machinery/light/small/directional/east,
@@ -2492,7 +2389,7 @@ de
 ZK
 ye
 Ip
-jZ
+mf
 Ln
 jr
 ev
@@ -2522,7 +2419,7 @@ Ei
 nx
 lS
 kw
-kN
+Ip
 Ln
 jr
 jr
@@ -2552,7 +2449,7 @@ Xa
 kw
 Hr
 kw
-Pi
+mf
 Ln
 OJ
 OJ
@@ -2722,9 +2619,9 @@ gB
 Tn
 BQ
 UM
-NA
-ct
-ph
+El
+El
+El
 El
 KE
 VG
@@ -2842,10 +2739,10 @@ LF
 GZ
 gB
 Tn
-oD
+gN
 gN
 ig
-co
+gN
 Zd
 BO
 HU
@@ -2873,12 +2770,12 @@ zw
 Wv
 ai
 jb
-AF
-AF
-KT
+Bz
+Bz
+Bz
 ai
 ai
-IL
+ai
 ai
 ai
 ai
@@ -2904,11 +2801,11 @@ ns
 ng
 ng
 ng
-ng
-ng
+ai
+ai
 ai
 EM
-Ms
+zx
 zx
 QZ
 zx
@@ -2933,8 +2830,8 @@ ng
 Li
 cn
 PB
-ju
-dp
+ng
+Vv
 YI
 Bw
 YI
@@ -3053,7 +2950,7 @@ ng
 ng
 ng
 ng
-rd
+ng
 vA
 MA
 YU
@@ -3085,7 +2982,7 @@ jr
 jr
 jr
 jr
-rX
+jr
 JQ
 MA
 MA
