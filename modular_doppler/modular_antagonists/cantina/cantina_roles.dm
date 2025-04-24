@@ -30,6 +30,7 @@
 	id = /obj/item/card/id/advanced/chameleon
 	belt = /obj/item/storage/belt/utility/frontier_colonist
 	box = /obj/item/storage/box/survival/syndie
+	implants = /obj/item/weapon/implant/weapons_auth
 
 /datum/outfit/cantina_bartender
 	name = "Cantina Bartender"
@@ -43,3 +44,4 @@
 	id = /obj/item/card/id/advanced/chameleon
 	belt = /obj/item/storage/belt/utility/frontier_colonist
 	box = /obj/item/storage/box/survival/syndie
+	implants = /obj/item/weapon/implant/weapons_auth
