@@ -29,6 +29,7 @@
 	r_pocket = /obj/item/pen/edagger
 	id = /obj/item/card/id/advanced/chameleon
 	belt = /obj/item/storage/belt/utility/frontier_colonist
+	box = /obj/item/storage/box/survival/syndie
 
 /datum/outfit/cantina_bartender
 	name = "Cantina Bartender"
@@ -41,3 +42,4 @@
 	r_pocket = /obj/item/pen/edagger
 	id = /obj/item/card/id/advanced/chameleon
 	belt = /obj/item/storage/belt/utility/frontier_colonist
+	box = /obj/item/storage/box/survival/syndie
