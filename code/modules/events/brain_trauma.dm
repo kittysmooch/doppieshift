@@ -1,4 +1,6 @@
-/*/datum/round_event_control/brain_trauma
+/* DOPPLER REMOVAL - disables this random event
+
+/datum/round_event_control/brain_trauma
 	name = "Spontaneous Brain Trauma"
 	typepath = /datum/round_event/brain_trauma
 	weight = 25
