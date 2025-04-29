@@ -7,6 +7,7 @@
 	icon = 'modular_doppler/modular_items/doppler_pda/pda_icons.dmi'
 	greyscale_config = /datum/greyscale_config/pda/neko
 	greyscale_colors = "#ffccff#a92323"
+	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/modular_computer/pda/g3
 	name = "G3 PDA"
@@ -15,6 +16,7 @@
 	icon = 'modular_doppler/modular_items/doppler_pda/pda_icons.dmi'
 	greyscale_config = /datum/greyscale_config/pda/g3
 	greyscale_colors = "#808080#a92323"
+	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/modular_computer/pda/rugged
 	name = "rugged PDA"
@@ -25,6 +27,7 @@
 	greyscale_config = /datum/greyscale_config/pda/rugged
 	greyscale_colors = "#292929#a92323"
 	max_integrity = 200 //:flex:
+	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/modular_computer/pda/slimline
 	name = "slimeline PDA"
@@ -35,6 +38,7 @@
 	greyscale_config = /datum/greyscale_config/pda/slimline
 	greyscale_colors = "#999875#a92323"
 	max_integrity = 75
+	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/modular_computer/pda/ultraslim
 	name = "ultraslim PDA"
@@ -44,3 +48,4 @@
 	greyscale_config = /datum/greyscale_config/pda/ultraslim
 	greyscale_colors = "#cecdbe#a92323"
 	max_integrity = 50
+	flags_1 = IS_PLAYER_COLORABLE_1
