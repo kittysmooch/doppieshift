@@ -16,25 +16,22 @@
 	icon_file = 'modular_doppler/modular_cosmetics/GAGS/icons/obj/devices.dmi'
 	json_config = 'modular_doppler/modular_cosmetics/GAGS/json_configs/objects/aac_device.json'
 
-/datum/greyscale_config/pda
-	icon_file = 'modular_doppler/modular_items/doppler_pda/pda_icons.dmi'
-
-/datum/greyscale_config/pda/neko
+/datum/greyscale_config/pda_neko
 	name = "neko PDA"
 	json_config = 'modular_doppler/modular_cosmetics/GAGS/json_configs/items/pda_neko.json'
 
-/datum/greyscale_config/pda/g3
+/datum/greyscale_config/pda_g3
 	name = "G3 PDA"
 	json_config = 'modular_doppler/modular_cosmetics/GAGS/json_configs/items/pda_g3.json'
 
-/datum/greyscale_config/pda/rugged
+/datum/greyscale_config/pda_rugged
 	name = "rugged PDA"
 	json_config = 'modular_doppler/modular_cosmetics/GAGS/json_configs/items/pda_rugged.json'
 
-/datum/greyscale_config/pda/slimline
+/datum/greyscale_config/pda_slimline
 	name = "slimline PDA"
 	json_config = 'modular_doppler/modular_cosmetics/GAGS/json_configs/items/pda_slimline.json'
 
-/datum/greyscale_config/pda/ultraslim
+/datum/greyscale_config/pda_ultraslim
 	name = "ultraslim PDA"
 	json_config = 'modular_doppler/modular_cosmetics/GAGS/json_configs/items/pda_ultraslim.json'
