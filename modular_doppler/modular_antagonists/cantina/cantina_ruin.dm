@@ -3,7 +3,7 @@
 	name = "The Undisclosed Location"
 	prefix = "_maps/doppler/cantina/"
 	id = "cantina"
-	description = "A little one-way-launch navigation beacon for the charting of unexplored space, launched by the NLP."
+	description = "A popular bar for seedier types in the local Sector"
 	suffix = "badguyzone.dmm"
 	cost = 0
 	always_place = TRUE

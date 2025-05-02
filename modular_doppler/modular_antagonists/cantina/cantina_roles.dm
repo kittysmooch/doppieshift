@@ -1,4 +1,3 @@
-//datums
 
 /datum/job/cantina_regular
 	title = "Undisclosed Location regular"
@@ -31,6 +30,9 @@
 	belt = /obj/item/storage/belt/utility/frontier_colonist
 	box = /obj/item/storage/box/survival/syndie
 	implants = /obj/item/implant/weapons_auth
+	backpack_contents = list(
+		/obj/item/stack/spacecash/c1000 = 2,
+		)
 
 /datum/outfit/cantina_bartender
 	name = "Cantina Bartender"
@@ -45,4 +47,6 @@
 	belt = /obj/item/storage/belt/utility/frontier_colonist
 	box = /obj/item/storage/box/survival/syndie
 	implants = /obj/item/implant/weapons_auth
-
+	backpack_contents = list(
+		/obj/item/stack/spacecash/c1000 = 10,
+		)
