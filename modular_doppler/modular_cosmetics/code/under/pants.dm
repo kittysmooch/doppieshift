@@ -121,8 +121,6 @@
 	name = "simple skirt"
 	desc = "A lone skirt, suitable to combo with your favorite getup."
 	icon_state = "skirt"
-	gets_cropped_on_taurs = FALSE
-	female_sprite_flags = FEMALE_UNIFORM_NO_BREASTS
 
 /obj/item/clothing/under/dress/skirt/medium
 	name = "medium skirt"
