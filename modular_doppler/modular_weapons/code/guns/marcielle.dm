@@ -15,8 +15,9 @@
 	accepted_magazine_type = /obj/item/ammo_box/magazine/marcielle
 	fire_sound = 'modular_doppler/modular_weapons/sounds/rifle_heavy.ogg'
 	can_suppress = FALSE
-	burst_size = 2
+	burst_size = 1
 	fire_delay = 0.45 SECONDS
+	actions_types = list()
 	spread = 3
 	recoil = 0.5
 
@@ -25,13 +26,15 @@
 /obj/item/gun/ballistic/automatic/marcielle/sport
 	name = "\improper Marcielle 2490 sporte"
 	desc = "Faline Saint-Marciele Modele 2490, a powerful rifle built with wood from grow ops on New Gibraltar itself. \
-		This is a special sporting version, lacking the original's twin burst in exchange for higher accuracy."
+		This is a special sporting version, having slightly more accuracy and a scope."
 	icon_state = "marcielle_sport"
 	worn_icon_state = "marcielle_sport"
 	inhand_icon_state = "marcielle_sport"
-	burst_size = 1
 	spread = 0
-	actions_types = list()
+
+/obj/item/gun/ballistic/automatic/marcielle/sport/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/scope, range_modifier = 1.5)
 
 // Magazines
 

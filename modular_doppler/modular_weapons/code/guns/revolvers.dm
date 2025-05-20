@@ -5,6 +5,7 @@
 		little will to live."
 	icon = 'modular_doppler/modular_weapons/icons/obj/guns32x.dmi'
 	icon_state = "det"
+	base_icon_state = "det"
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/cylinder/rev6mm
 	initial_caliber = CALIBER_6MMGIBRALTAR
 	initial_fire_sound = 'modular_doppler/modular_weapons/sounds/pistol_heavy.ogg'

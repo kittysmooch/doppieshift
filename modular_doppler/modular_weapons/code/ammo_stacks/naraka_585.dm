@@ -20,7 +20,7 @@
 	id = "c585naraka"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 3)
-	build_path = /obj/item/ammo_casing/c34nb
+	build_path = /obj/item/ammo_casing/c585naraka
 	category = list(
 		RND_CATEGORY_INITIAL,
 		RND_CATEGORY_WEAPONS + RND_SUBCATEGORY_WEAPONS_AMMO,

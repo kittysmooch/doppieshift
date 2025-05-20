@@ -17,7 +17,6 @@
 	wound_bonus = -10
 	bare_wound_bonus = 10
 	damage_falloff_tile = -3
-	speed = 0.9
 
 /obj/item/ammo_casing/c34nb/special
 	name = ".34 NB special casing"

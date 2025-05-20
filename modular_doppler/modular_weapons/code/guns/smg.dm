@@ -15,6 +15,7 @@
 	desc = "A magazine specifically for use with the Sindaryo PDW."
 	icon = 'modular_doppler/modular_weapons/icons/obj/casings.dmi'
 	icon_state = "sindaryo_mag"
+	base_icon_state = "sindaryo_mag"
 	ammo_band_icon = null
 	ammo_band_color = null
 	ammo_type = /obj/item/ammo_casing/c6ng
@@ -24,11 +25,15 @@
 
 /obj/item/ammo_box/magazine/wt550m9/wtap
 	name = "\improper Sindaryo magazine (6mm Ultrasport)"
+	icon_state = "sindaryo_mag"
+	base_icon_state = "sindaryo_mag"
 	MAGAZINE_TYPE_ARMORPIERCE
 	ammo_type = /obj/item/ammo_casing/c6ng/match
 
 /obj/item/ammo_box/magazine/wt550m9/wtic
 	name = "\improper Sindaryo magazine (6mm Rubber)"
+	icon_state = "sindaryo_mag"
+	base_icon_state = "sindaryo_mag"
 	MAGAZINE_TYPE_INCENDIARY
 	ammo_type = /obj/item/ammo_casing/c6ng/rubber
 

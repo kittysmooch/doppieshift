@@ -8,7 +8,7 @@
 	ammo_stack_type = /obj/item/ammo_box/magazine/ammo_stack/c585naraka
 
 /obj/projectile/bullet/c585naraka
-	name = "8mm bullet"
+	name = ".585 bullet"
 	icon = 'modular_doppler/modular_weapons/icons/projectiles.dmi'
 	icon_state = "bullet"
 	damage = 50

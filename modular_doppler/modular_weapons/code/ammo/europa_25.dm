@@ -15,6 +15,7 @@
 	damage = 35
 	wound_bonus = -10
 	bare_wound_bonus = 10
+	speed = 1.5
 
 /obj/item/ammo_casing/c25euro/tracer
 	name = ".25 europa hunter casing"
