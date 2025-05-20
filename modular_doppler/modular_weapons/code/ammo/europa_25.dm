@@ -28,7 +28,7 @@
 	light_system = OVERLAY_LIGHT
 	light_range = 1
 	light_power = 1.4
-	light_color = GREEN_TRACER_COLOR
+	light_color = LIGHT_COLOR_ELECTRIC_GREEN
 	/// How much the damage is multiplied by when we hit a mob with the correct biotype
 	var/biotype_damage_multiplier = 5
 	/// What biotype we look for
