@@ -12,3 +12,15 @@
 		4,
 	)
 	casing_y_padding = 6
+
+/datum/design/c34nb
+	name = ".34 NB casing (Lethal)"
+	id = "c34nb"
+	build_type = AUTOLATHE
+	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 2)
+	build_path = /obj/item/ammo_casing/c34nb
+	category = list(
+		RND_CATEGORY_INITIAL,
+		RND_CATEGORY_WEAPONS + RND_SUBCATEGORY_WEAPONS_AMMO,
+	)
+	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
