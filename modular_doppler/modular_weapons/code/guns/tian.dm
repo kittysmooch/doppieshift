@@ -10,7 +10,7 @@
 	righthand_file = 'modular_doppler/modular_weapons/icons/mob/inhands/gun_righthand.dmi'
 	inhand_icon_state = "tian"
 	SET_BASE_PIXEL(-8, 0)
-	fire_sound = 'modular_doppler/modular_weapons/sounds/boltie.wav'
+	fire_sound = 'modular_doppler/modular_weapons/sounds/tian.wav'
 	load_sound = 'modular_doppler/modular_weapons/sounds/ramu_load.wav'
 	can_suppress = FALSE
 	w_class = WEIGHT_CLASS_BULKY
