@@ -25,7 +25,7 @@
 	name = "6mm NG ultrasport casing"
 	desc = "Competition grade 6mm New Gibraltar, now when you miss, it absolutely is your fault this time!"
 	icon_state = "6mmalt"
-	projectile_type = /obj/projectile/bullet/c40sol/match
+	projectile_type = /obj/projectile/bullet/c6ng/match
 
 /obj/projectile/bullet/c6ng/match
 	name = "6mm bullet"

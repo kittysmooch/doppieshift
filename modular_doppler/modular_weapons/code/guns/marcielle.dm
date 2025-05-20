@@ -52,7 +52,7 @@
 
 /obj/item/ammo_box/magazine/marcielle/squash
 	name = "\improper Marcielle magazine (.34 Squash)"
-	ammo_type = /obj/item/ammo_casing/c34nb/squash
+	ammo_type = /obj/item/ammo_casing/c34nb/rubber
 
 /obj/item/ammo_box/magazine/marcielle/starts_empty
 	start_empty = TRUE
