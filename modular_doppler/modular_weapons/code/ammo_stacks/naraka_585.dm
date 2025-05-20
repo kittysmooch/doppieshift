@@ -15,7 +15,7 @@
 	)
 	casing_y_padding = 9
 
-/datum/design/c34nb
+/datum/design/c585naraka
 	name = ".585 naraka casing (VERY Lethal)"
 	id = "c585naraka"
 	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
