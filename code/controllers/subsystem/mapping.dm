@@ -101,7 +101,7 @@ SUBSYSTEM_DEF(mapping)
 	current_map = load_map_config(error_if_missing = FALSE)
 	/// DOPPLER SHIFT ADDITION BEGIN
 	world.log << "Config loaded for map [current_map.map_name]"
-	if (!isnull(current_map.minetype) && current_map.minetype != "none" && current_map.minetype != MINETYPE_LAVALAND)
+	if (!isnull(current_map.minetype) && current_map.minetype != MINETYPE_NONE && current_map.minetype != MINETYPE_LAVALAND && current_map.minetype != MINETYPE_ICE)
 		world.log << "Minetype requested: [current_map.minetype]"
 		config_mining = load_map_config(filename = "mining_configs/[current_map.minetype]", directory = MAP_DIRECTORY_MAPS, error_if_missing = TRUE)
 	/// DOPPLER SHIFT ADDITION END
