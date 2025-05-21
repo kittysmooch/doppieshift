@@ -44,7 +44,7 @@
 				if(thing.w_class <= WEIGHT_CLASS_SMALL)
 					wallet.atom_storage.attempt_insert(src, thing, equipper, TRUE, FALSE)
 	else
-		if(!equipper.equip_to_slot_if_possible(wallet, slot = ITEM_SLOT_BACKPACK, initial = TRUE))
+		if(!equipper.equip_to_storage(wallet, ITEM_SLOT_BACK, indirect_action = TRUE))
 			wallet.forceMove(equipper.drop_location())
 
 /*
@@ -258,6 +258,11 @@
 /datum/loadout_item/pocket_items/ahabs_spear
 	name = "Ahab's Spear Retool Kit"
 	item_path = /obj/item/crusher_trophy/retool_kit/ahab
+	restricted_roles = list(JOB_SHAFT_MINER)
+
+/datum/loadout_item/pocket_items/crusher_retool_kit
+	name = "Crusher Retool Kit"
+	item_path = /obj/item/crusher_trophy/retool_kit
 	restricted_roles = list(JOB_SHAFT_MINER)
 
 /*
