@@ -1,7 +1,6 @@
 /obj/item/ammo_casing/c34nb
 	name = ".34 NB casing"
-	desc = "Large casings underloaded with powder to prevent breaching through station walls. \
-		Falls off in effectiveness quickly."
+	desc = "Large casings underloaded to prevent breaching through station walls."
 	icon = 'modular_doppler/modular_weapons/icons/obj/casings.dmi'
 	icon_state = "34nb"
 	caliber = CALIBER_34NB
@@ -16,7 +15,6 @@
 	spread = 3
 	wound_bonus = -10
 	bare_wound_bonus = 10
-	damage_falloff_tile = -3
 
 /obj/item/ammo_casing/c34nb/special
 	name = ".34 NB special casing"
@@ -46,9 +44,9 @@
 
 /obj/projectile/bullet/c34nb/rubber
 	name = ".34 squash bullet"
-	damage = 40
+	damage = 20
+	stamina = 30
 	spread = 3
 	wound_bonus = -10
 	bare_wound_bonus = 10
-	damage_falloff_tile = -3
 	speed = 0.9
