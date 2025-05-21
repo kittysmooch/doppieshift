@@ -19,7 +19,9 @@
 
 /obj/item/ammo_casing/c25euro/tracer
 	name = ".25 europa hunter casing"
-	desc = "A SolFed standard caseless rifle round. The tip is painted with a green tracer."
+	desc = "The inclusion of europa within the name is, in fact, complete false advertising. \
+		The round is much too small to be used against anything there. This is a special made \
+		hunting round built to do as much damage as possible to the flesh of beasts."
 	icon_state = "25euroalt"
 	projectile_type = /obj/projectile/bullet/c25euro/tracer
 
@@ -53,7 +55,7 @@
 	. = ..()
 	AddElement(/datum/element/bane, mob_biotypes = MOB_BEAST, damage_multiplier = 5)
 
-/obj/projectile/bullet/c40sol/tracer/update_overlays()
+/obj/projectile/bullet/c25euro/tracer/update_overlays()
 	. = ..()
 	var/mutable_appearance/emissive_overlay = emissive_appearance(icon, icon_state, src)
 	emissive_overlay.transform = transform
