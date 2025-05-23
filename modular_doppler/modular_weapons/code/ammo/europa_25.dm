@@ -28,6 +28,7 @@
 /obj/projectile/bullet/c25euro/tracer
 	name = ".25 tracer"
 	icon_state = "greentrac"
+	damage = 25
 	light_system = OVERLAY_LIGHT
 	light_range = 1
 	light_power = 1.4

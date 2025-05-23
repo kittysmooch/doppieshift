@@ -15,11 +15,23 @@
 	)
 	casing_y_padding = 9
 
+/datum/design/c585naraka_autolathe
+	name = ".585 naraka casing (VERY Lethal)"
+	id = "c585naraka_autolathe"
+	build_type = AUTOLATHE
+	materials = list(/datum/material/iron = HALF_SHEET_MATERIAL_AMOUNT)
+	build_path = /obj/item/ammo_casing/c585naraka
+	category = list(
+		RND_CATEGORY_HACKED,
+		RND_CATEGORY_WEAPONS + RND_SUBCATEGORY_WEAPONS_AMMO,
+	)
+	departmental_flags = DEPARTMENT_BITFLAG_SECURITY
+
 /datum/design/c585naraka
 	name = ".585 naraka casing (VERY Lethal)"
 	id = "c585naraka"
-	build_type = AUTOLATHE | PROTOLATHE | AWAY_LATHE
-	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 3)
+	build_type = PROTOLATHE | AWAY_LATHE
+	materials = list(/datum/material/iron = HALF_SHEET_MATERIAL_AMOUNT)
 	build_path = /obj/item/ammo_casing/c585naraka
 	category = list(
 		RND_CATEGORY_INITIAL,

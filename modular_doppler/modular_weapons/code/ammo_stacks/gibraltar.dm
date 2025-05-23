@@ -29,7 +29,7 @@
 /datum/design/c38/sec
 	name = "6mm NG casings (Lethal)"
 	desc = "A pile of 6mm casings for you to figure out what to do with."
-	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 10)
+	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 3)
 	build_path = /obj/item/ammo_box/magazine/ammo_stack/c6ng/full
 
 /datum/design/c38_iceblox
@@ -45,5 +45,5 @@
 /datum/design/c38
 	name = "6mm NG casing (Lethal)"
 	id = "c38"
-	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT)
+	materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 2)
 	build_path = /obj/item/ammo_casing/c6ng
