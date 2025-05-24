@@ -13,6 +13,9 @@
 	)
 	casing_y_padding = 6
 
+/obj/item/ammo_box/magazine/ammo_stack/c25euro/full
+	start_empty = FALSE
+
 /datum/design/c25euro_autolathe
 	name = ".25 europa casing (Lethal)"
 	id = "c25euro_autolathe"

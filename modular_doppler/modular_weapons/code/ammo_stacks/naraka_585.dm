@@ -15,6 +15,9 @@
 	)
 	casing_y_padding = 9
 
+/obj/item/ammo_box/magazine/ammo_stack/c585naraka/full
+	start_empty = FALSE
+
 /datum/design/c585naraka_autolathe
 	name = ".585 naraka casing (VERY Lethal)"
 	id = "c585naraka_autolathe"
