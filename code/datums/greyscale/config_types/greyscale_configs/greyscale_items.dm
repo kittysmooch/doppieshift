@@ -274,7 +274,7 @@
 	json_config = 'code/datums/greyscale/json_configs/vape.json'
 
 /datum/greyscale_config/vape/worn
-	name = "Vape (Worn)"
+	name = "Worn Vape"
 	icon_file = 'icons/mob/clothing/mask.dmi'
 	json_config = 'code/datums/greyscale/json_configs/vape_worn.json'
 
@@ -315,12 +315,12 @@
 	json_config = 'code/datums/greyscale/json_configs/tape_piece_spikes.json'
 
 /datum/greyscale_config/tape_piece/worn
-	name = "Tape Piece (Worn)"
+	name = "Worn Tape Piece"
 	icon_file = 'icons/obj/tapes.dmi'
 	json_config = 'code/datums/greyscale/json_configs/tape_piece_worn.json'
 
 /datum/greyscale_config/tape_piece/worn/spikes
-	name = "Spiked Tape Piece (Worn)"
+	name = "Worn Spiked Tape Piece"
 	icon_file = 'icons/obj/tapes.dmi'
 	json_config = 'code/datums/greyscale/json_configs/tape_piece_spikes_worn.json'
 
@@ -347,7 +347,7 @@
 	json_config = 'code/datums/greyscale/json_configs/simple_flower.json'
 
 /datum/greyscale_config/flower_simple_worn
-	name = "Flower (Worn)"
+	name = "Flower Worn"
 	icon_file = 'icons/mob/clothing/head/hydroponics.dmi'
 	json_config = 'code/datums/greyscale/json_configs/simple_flower_worn.json'
 

@@ -785,6 +785,3 @@
 
 // If set, enables the "Link forum account" OOC verb
 /datum/config_entry/string/forum_link_uri
-
-/datum/config_entry/flag/generate_assets_in_init
-	default = FALSE
