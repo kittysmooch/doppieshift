@@ -113,7 +113,7 @@
 	access = ACCESS_WEAPONS
 	access_view = null
 	contains = list(
-		/obj/item/gun/ballistic/shotgun/automatic/combat,
+		/obj/item/gun/ballistic/shotgun/riot,
 	)
 
 /datum/supply_pack/goody/crash_rifle
