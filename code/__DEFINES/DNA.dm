@@ -41,6 +41,9 @@
 #define MUTATION_SOURCE_MAINT_ADAPT "maint_adapt"
 #define MUTATION_SOURCE_BURDENED_TRAUMA "burdened_trauma"
 #define MUTATION_SOURCE_GENE_SYMPTOM "gene_symptom"
+#define MUTATION_SOURCE_QUIRK "quirk" // DOPPLER ADDITION
+#define MUTATION_SOURCE_ORGAN "organ" // DOPPLER ADDITION
+#define MUTATION_SOURCE_SPECIES "species" // DOPPLER ADDITION
 
 //DNA - Because fuck you and your magic numbers being all over the codebase.
 #define DNA_BLOCK_SIZE 3

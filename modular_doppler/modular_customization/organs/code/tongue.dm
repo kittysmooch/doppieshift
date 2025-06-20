@@ -37,7 +37,7 @@
 	signer.verb_yell = "barks"
 	if(!ishuman(signer))
 		return // Only humans have DNA
-	signer.dna.add_mutation(/datum/mutation/olfaction, MUTATION_SOURCE_GENE_SYMPTOM)
+	signer.dna.add_mutation(/datum/mutation/olfaction, MUTATION_SOURCE_ORGAN)
 	signer.dna.activate_mutation(/datum/mutation/olfaction)
 
 /obj/item/organ/tongue/dog/Remove(mob/living/carbon/speaker, special = FALSE, movement_flags)
@@ -47,7 +47,7 @@
 	speaker.verb_whisper = initial(verb_whisper)
 	speaker.verb_yell = initial(verb_yell)
 	if(ishuman(speaker))
-		speaker.dna.remove_mutation(/datum/mutation/olfaction, MUTATION_SOURCE_GENE_SYMPTOM)
+		speaker.dna.remove_mutation(/datum/mutation/olfaction, MUTATION_SOURCE_ORGAN)
 
 /// Bird tongue
 //

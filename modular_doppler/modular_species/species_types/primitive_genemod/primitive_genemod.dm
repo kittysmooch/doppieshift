@@ -43,7 +43,7 @@
 	var/mob/living/carbon/human/hearthkin = new_primitive
 	if(!istype(hearthkin))
 		return
-	hearthkin.dna.add_mutation(/datum/mutation/olfaction, MUTATION_SOURCE_GENE_SYMPTOM)
+	hearthkin.dna.add_mutation(/datum/mutation/olfaction, MUTATION_SOURCE_SPECIES)
 	hearthkin.dna.activate_mutation(/datum/mutation/olfaction)
 
 /datum/species/human/genemod/primitive/on_species_loss(mob/living/carbon/former_primitive, datum/species/new_species, pref_load)
@@ -51,7 +51,7 @@
 	var/mob/living/carbon/human/hearthkin = former_primitive
 	if(!istype(hearthkin))
 		return
-	hearthkin.dna.remove_mutation(/datum/mutation/olfaction, MUTATION_SOURCE_GENE_SYMPTOM)
+	hearthkin.dna.remove_mutation(/datum/mutation/olfaction, MUTATION_SOURCE_SPECIES)
 
 /datum/species/human/genemod/primitive/prepare_human_for_preview(mob/living/carbon/human/human_for_preview)
 	human_for_preview.dna.ear_type = CAT

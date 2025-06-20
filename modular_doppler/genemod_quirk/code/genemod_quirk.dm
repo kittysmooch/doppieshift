@@ -15,12 +15,12 @@
 	if (desired_mutation)
 		added_mutation = GLOB.possible_genemods_for_quirk[desired_mutation]
 		if (!human_holder.dna.activate_mutation(added_mutation))
-			human_holder.dna.add_mutation(added_mutation, MUTATION_SOURCE_GENE_SYMPTOM)
+			human_holder.dna.add_mutation(added_mutation, MUTATION_SOURCE_QUIRK)
 
 /datum/quirk/genemodded/remove()
 	if (added_mutation)
 		var/mob/living/carbon/human/human_holder = quirk_holder
-		human_holder.dna.remove_mutation(added_mutation, MUTATION_SOURCE_GENE_SYMPTOM)
+		human_holder.dna.remove_mutation(added_mutation, MUTATION_SOURCE_QUIRK)
 		added_mutation = null
 
 /datum/quirk_constant_data/genemodded
