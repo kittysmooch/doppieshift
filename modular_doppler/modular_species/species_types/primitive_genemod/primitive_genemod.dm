@@ -51,7 +51,7 @@
 	var/mob/living/carbon/human/hearthkin = former_primitive
 	if(!istype(hearthkin))
 		return
-	hearthkin.dna.remove_mutation(/datum/mutation/olfaction)
+	hearthkin.dna.remove_mutation(/datum/mutation/olfaction, MUTATION_SOURCE_GENE_SYMPTOM)
 
 /datum/species/human/genemod/primitive/prepare_human_for_preview(mob/living/carbon/human/human_for_preview)
 	human_for_preview.dna.ear_type = CAT

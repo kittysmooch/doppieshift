@@ -78,7 +78,7 @@
 		COMSIG_LIVING_HEALTH_UPDATE,
 	))
 	QDEL_NULL(ethereal_light)
-	former_ethereal.dna.remove_mutation(/datum/mutation/shock) //DOPPLER EDIT ADDITION
+	former_ethereal.dna.remove_mutation(/datum/mutation/shock, MUTATION_SOURCE_GENE_SYMPTOM) //DOPPLER EDIT ADDITION
 	return ..()
 
 /datum/species/ethereal/randomize_features()

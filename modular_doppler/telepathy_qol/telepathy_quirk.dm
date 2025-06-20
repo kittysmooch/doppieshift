@@ -28,7 +28,7 @@
 		tele_action_ref = null
 	if (iscarbon(quirk_holder))
 		var/mob/living/carbon/human/human_holder = quirk_holder
-		human_holder.dna.remove_mutation(/datum/mutation/telepathy)
+		human_holder.dna.remove_mutation(/datum/mutation/telepathy, MUTATION_SOURCE_GENE_SYMPTOM)
 	else if (issilicon(quirk_holder) && !isnull(tele_action))
 		QDEL_NULL(tele_action)
 		tele_action_ref = null

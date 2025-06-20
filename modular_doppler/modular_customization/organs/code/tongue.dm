@@ -47,7 +47,7 @@
 	speaker.verb_whisper = initial(verb_whisper)
 	speaker.verb_yell = initial(verb_yell)
 	if(ishuman(speaker))
-		speaker.dna.remove_mutation(/datum/mutation/olfaction)
+		speaker.dna.remove_mutation(/datum/mutation/olfaction, MUTATION_SOURCE_GENE_SYMPTOM)
 
 /// Bird tongue
 //
