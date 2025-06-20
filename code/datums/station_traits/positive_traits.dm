@@ -294,7 +294,7 @@
 		/datum/job/station_engineer = /obj/item/organ/cyberimp/arm/toolkit/toolset,
 		/datum/job/warden = /obj/item/organ/cyberimp/eyes/hud/security,
 		// DOPPLER EDIT BEGIN
-		/datum/job/bridge_assistant = /obj/item/organ/cyberimp/arm/paperwork,
+		/datum/job/bridge_assistant = /obj/item/organ/cyberimp/arm/toolkit/paperwork,
 		/datum/job/command_bodyguard = /obj/item/organ/eyes/robotic/shield,
 		// DOPPLER EDIT END
 	)

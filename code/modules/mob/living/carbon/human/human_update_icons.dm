@@ -219,11 +219,11 @@ There are several things that need to be remembered:
 
 	var/icon_file = 'icons/mob/clothing/hands.dmi'
 
-		/// DOPPLER SHIFT ADDITION BEGIN
-		for(var/shape in gloves.supported_bodyshapes)
-			if(bodyshape & shape)
-				icon_file = gloves.bodyshape_icon_files["[shape]"]
-		/// DOPPLER SHIFT ADDITION END
+	/// DOPPLER SHIFT ADDITION BEGIN
+	for(var/shape in gloves.supported_bodyshapes)
+		if(bodyshape & shape)
+			icon_file = gloves.bodyshape_icon_files["[shape]"]
+	/// DOPPLER SHIFT ADDITION END
 	var/mutable_appearance/gloves_overlay = gloves.build_worn_icon(default_layer = GLOVES_LAYER, default_icon_file = icon_file, humie = src) /// DOPPLER SHIFT EDIT
 
 	var/feature_y_offset = 0
