@@ -102,6 +102,10 @@
 	ui_icon_state = "plushie_snake"
 	item_path = /obj/item/toy/plush/snakeplushie
 
+/datum/loadout_item/pocket_items/plush/horse
+	name = "Plush (Horse)"
+	item_path = /obj/item/toy/plush/horse
+
 /datum/loadout_item/pocket_items/dice
 	group = "Dice"
 	abstract_type = /datum/loadout_item/pocket_items/dice
@@ -270,6 +274,10 @@
 /datum/loadout_item/pocket_items/poster_pinup
 	name = "Poster (Pinup)"
 	item_path = /obj/item/poster/random_contraband/pinup
+
+/datum/loadout_item/pocket_items/lollipop
+	name = "Lollipop"
+	item_path = /obj/item/food/lollipop
 
 /datum/loadout_item/pocket_items/holodisk
 	name = "Holodisk"
