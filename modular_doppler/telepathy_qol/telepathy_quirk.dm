@@ -12,9 +12,7 @@
 /datum/quirk/telepathic/add(client/client_source)
 	if (iscarbon(quirk_holder))
 		var/mob/living/carbon/human/human_holder = quirk_holder
-
-		if (!human_holder.dna.activate_mutation(/datum/mutation/telepathy))
-			human_holder.dna.add_mutation(/datum/mutation/telepathy, MUTATION_SOURCE_QUIRK)
+		human_holder.dna.add_mutation(/datum/mutation/telepathy, MUTATION_SOURCE_QUIRK)
 	else if (issilicon(quirk_holder))
 		var/mob/living/silicon/robot_holder = quirk_holder
 		var/datum/action/cooldown/spell/pointed/telepathy/tele_action = new

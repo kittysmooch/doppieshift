@@ -44,7 +44,6 @@
 	if(!istype(hearthkin))
 		return
 	hearthkin.dna.add_mutation(/datum/mutation/olfaction, MUTATION_SOURCE_SPECIES)
-	hearthkin.dna.activate_mutation(/datum/mutation/olfaction)
 
 /datum/species/human/genemod/primitive/on_species_loss(mob/living/carbon/former_primitive, datum/species/new_species, pref_load)
 	. = ..()

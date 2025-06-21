@@ -38,7 +38,6 @@
 	if(!ishuman(signer))
 		return // Only humans have DNA
 	signer.dna.add_mutation(/datum/mutation/olfaction, MUTATION_SOURCE_ORGAN)
-	signer.dna.activate_mutation(/datum/mutation/olfaction)
 
 /obj/item/organ/tongue/dog/Remove(mob/living/carbon/speaker, special = FALSE, movement_flags)
 	. = ..()

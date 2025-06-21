@@ -6,7 +6,7 @@
 	medical_record_text = "Subject has innately modified genetic information."
 	value = 10
 	icon = FA_ICON_FLASK
-	var/datum/mutation/human/added_mutation = NONE
+	var/datum/mutation/added_mutation = NONE
 
 /datum/quirk/genemodded/add_unique(client/client_source)
 	var/mob/living/carbon/human/human_holder = quirk_holder
@@ -14,8 +14,7 @@
 
 	if (desired_mutation)
 		added_mutation = GLOB.possible_genemods_for_quirk[desired_mutation]
-		if (!human_holder.dna.activate_mutation(added_mutation))
-			human_holder.dna.add_mutation(added_mutation, MUTATION_SOURCE_QUIRK)
+		human_holder.dna.add_mutation(added_mutation, MUTATION_SOURCE_QUIRK)
 
 /datum/quirk/genemodded/remove()
 	if (added_mutation)
@@ -37,7 +36,7 @@
 	var/list/stuff_we_dont_want = list(/datum/mutation/self_amputation, /datum/mutation/hulk, /datum/mutation/clever, /datum/mutation/blind, /datum/mutation/thermal, /datum/mutation/telepathy, /datum/mutation/void, /datum/mutation/badblink, /datum/mutation/acidflesh)
 
 	var/list/genemods = list()
-	for (var/datum/mutation/human/mut as anything in subtypesof(/datum/mutation/human))
+	for (var/datum/mutation/mut as anything in subtypesof(/datum/mutation))
 		if (!mut.locked && !(mut in stuff_we_dont_want))
 			genemods[mut.name] = mut
 
