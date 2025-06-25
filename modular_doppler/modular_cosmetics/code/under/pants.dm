@@ -124,7 +124,7 @@
 /obj/item/clothing/under/shorts/shorter/jeans/shortest
 	name = "shortest jean shorts"
 	desc = "A nondescript pair of tough jean shorts, cut down to near nonexistence by some barbarian."
-	icon_state = "/obj/item/clothing/under/shorts/jeans/shortest"
+	icon_state = "/obj/item/clothing/under/shorts/shorter/jeans/shortest"
 	post_init_icon_state = "jeanshortestshorts"
 
 /obj/item/clothing/under/shorts/shorter/skirt

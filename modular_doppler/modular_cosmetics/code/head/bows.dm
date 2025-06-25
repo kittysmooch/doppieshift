@@ -4,7 +4,6 @@
 	icon = 'icons/map_icons/clothing/head/_head.dmi'
 	icon_state = "/obj/item/clothing/head/bow"
 	post_init_icon_state = "large_bow"
-	icon_preview = 'modular_doppler/modular_cosmetics/GAGS/icons/obj/head.dmi'
 	greyscale_config = /datum/greyscale_config/large_bow
 	greyscale_config_worn = /datum/greyscale_config/large_bow/worn
 	greyscale_colors = "#7b9ab5"
