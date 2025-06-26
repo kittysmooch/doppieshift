@@ -230,7 +230,9 @@
 		right down the precise tension of thread spun on the precisely correct looms. The pilots it pays homage \
 		to worked in small ships and in close proximity to their supercooled drives and needed extreme insulation, \
 		hence the bulk."
-	icon_state = "big_jacket"
+	icon = 'icons/map_icons/clothing/suit/_suit.dmi'
+	icon_state = "/obj/item/clothing/suit/jacket/doppler/big_jacket"
+	post_init_icon_state = "big_jacket"
 	greyscale_config = /datum/greyscale_config/big_jacket
 	greyscale_config_worn = /datum/greyscale_config/big_jacket/worn
 	greyscale_colors = "#666633#333300#666633"
@@ -252,7 +254,9 @@
 /obj/item/clothing/suit/jacket/doppler/chokha
 	name = "\improper Iseurian chokha"
 	desc = "A ceremonial woolen coat sporting a high neck and decorative gunpowder cases on the breast. The label on this one bears the Iseurian Revolutionary flag."
-	icon_state = "chokha"
+	icon = 'icons/map_icons/clothing/suit/_suit.dmi'
+	icon_state = "/obj/item/clothing/suit/jacket/doppler/chokha"
+	post_init_icon_state = "chokha"
 	greyscale_config = /datum/greyscale_config/chokha
 	greyscale_config_worn = /datum/greyscale_config/chokha/worn
 	greyscale_colors = "#1c1c1c#491618#1c1c1c#491618"
@@ -285,7 +289,9 @@
 /obj/item/clothing/suit/warm_coat
 	name = "warm coat"
 	desc = "A long insulated coat with fur, it looks quite comfortable."
-	icon_state = "warm_coat"
+	icon = 'icons/map_icons/clothing/suit/_suit.dmi'
+	icon_state = "/obj/item/clothing/suit/warm_coat"
+	post_init_icon_state = "warm_coat"
 	greyscale_config = /datum/greyscale_config/warm_coat
 	greyscale_config_worn = /datum/greyscale_config/warm_coat/worn
 	greyscale_colors = "#7a5f4f#d9cec7"
@@ -299,7 +305,9 @@
 	name = "cropped cold shoulder hoodie"
 	desc = "Ringspun sweatshirt fleece has been hemmed raw at elbow height and left to roll upon itself, and \
 	the patternmaker took the time to ensure the cutout shoulders lay just so."
-	icon_state = "crop_cold_hoodie"
+	icon = 'icons/map_icons/clothing/suit/_suit.dmi'
+	icon_state = "/obj/item/clothing/suit/hooded/crop_cold_hoodie"
+	post_init_icon_state = "crop_cold_hoodie"
 	greyscale_config = /datum/greyscale_config/crop_cold_hoodie
 	greyscale_config_worn = /datum/greyscale_config/crop_cold_hoodie/worn
 	greyscale_colors = "#4fc5c9"
@@ -311,7 +319,9 @@
 	name = "cropped cold shoulder hood"
 	desc = "A fleece hood with jersey lining. It's surprisingly warm in spite of the garment that it is \
 	attached to."
-	icon_state = "crop_cold_hoodie_hood"
+	icon = 'icons/map_icons/clothing/head/_head.dmi'
+	icon_state = "/obj/item/clothing/head/hooded/crop_cold_hoodie_hood"
+	post_init_icon_state = "crop_cold_hoodie_hood"
 	body_parts_covered = HEAD
 	cold_protection = HEAD
 	flags_inv = HIDEEARS|HIDEHAIR
@@ -341,7 +351,9 @@
 	name = "oversized hoodie"
 	desc = "Cotton fibres grown in vertical aeroponic farming systems were ringspun and knit into a continuous loop fleece with \
 	a soft pile and little stretch. This fabric was cut oversized with soft sloping shoulders and cuffs that fall right at the first knuckle."
-	icon_state = "big_hoodie"
+	icon = 'icons/map_icons/clothing/suit/_suit.dmi'
+	icon_state = "/obj/item/clothing/suit/hooded/big_hoodie"
+	post_init_icon_state = "big_hoodie"
 	greyscale_config = /datum/greyscale_config/big_hoodie
 	greyscale_config_worn = /datum/greyscale_config/big_hoodie/worn
 	greyscale_colors = "#5d6161"
@@ -356,7 +368,9 @@
 	name = "oversized hood"
 	desc = "Cotton fibres grown in vertical aeroponic farming systems were ringspun and knit into a continuous loop fleece with \
 	a soft pile and little stretch. The hood was cut comfortably oversized."
-	icon_state = "big_hoodie_hood"
+	icon = 'icons/map_icons/clothing/head/_head.dmi'
+	icon_state = "/obj/item/clothing/head/hooded/big_hoodie_hood"
+	post_init_icon_state = "big_hoodie_hood"
 	body_parts_covered = HEAD
 	cold_protection = HEAD
 	flags_inv = HIDEEARS|HIDEHAIR
@@ -385,7 +399,9 @@
 /obj/item/clothing/suit/hooded/twee_hoodie
 	name = "disconcertingly twee hoodie"
 	desc = "A sweatshirt of heavy and soft ringspun fleece has been adorned with a fabric simulation of ears."
-	icon_state = "twee_hoodie"
+	icon = 'icons/map_icons/clothing/suit/_suit.dmi'
+	icon_state = "/obj/item/clothing/suit/hooded/twee_hoodie"
+	post_init_icon_state = "twee_hoodie"
 	greyscale_config = /datum/greyscale_config/twee_hoodie
 	greyscale_config_worn = /datum/greyscale_config/twee_hoodie/worn
 	greyscale_colors = "#dbc0e0"
@@ -399,7 +415,9 @@
 /obj/item/clothing/head/hooded/twee_hoodie_hood
 	name = "disconcertingly twee hood"
 	desc = "A hood of heavy and soft ringspun fleece has been adorned with a fabric simulation of ears."
-	icon_state = "twee_hoodie_hood"
+	icon = 'icons/map_icons/clothing/head/_head.dmi'
+	icon_state = "/obj/item/clothing/head/hooded/twee_hoodie_hood"
+	post_init_icon_state = "twee_hoodie_hood"
 	body_parts_covered = HEAD
 	cold_protection = HEAD
 	flags_inv = HIDEEARS|HIDEHAIR
