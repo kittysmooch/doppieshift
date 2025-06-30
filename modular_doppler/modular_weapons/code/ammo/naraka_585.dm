@@ -13,5 +13,5 @@
 	icon_state = "bullet"
 	damage = 50
 	wound_bonus = 10
-	bare_wound_bonus = 20
+	exposed_wound_bonus = 20
 	speed = 2.5
