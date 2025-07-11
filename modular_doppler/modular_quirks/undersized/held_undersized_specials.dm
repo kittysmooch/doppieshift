@@ -18,7 +18,7 @@
 		return
 	UnregisterSignal(tongue_owner, COMSIG_ADDING_MOB_HOLDER_SPECIALS)
 
-/obj/item/organ/tongue/carp/proc/on_adding_mob_holder_specials(datum/source, mob/living/held_creature, obj/item/clothing/head/mob_holder/our_holder)
+/obj/item/organ/tongue/carp/proc/on_adding_mob_holder_specials(datum/source, mob/living/held_creature, obj/item/mob_holder/our_holder)
 	SIGNAL_HANDLER
 	if(!held_creature.has_quirk(/datum/quirk/undersized))
 		return
