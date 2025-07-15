@@ -45,7 +45,9 @@
 	shoes = /obj/item/clothing/shoes/laceup
 	ears = /obj/item/radio/headset/heads/hos/alt
 	implants = list(/obj/item/implant/mindshield)
-
+	backpack_contents = list(
+		/obj/item/choice_beacon/bodyguard = 1,
+	)
 	backpack = /obj/item/storage/backpack/security
 	satchel = /obj/item/storage/backpack/satchel/sec
 	duffelbag = /obj/item/storage/backpack/duffelbag/sec
