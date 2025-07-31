@@ -75,7 +75,7 @@
 		final_icon.blend_icon(accessory_icon_3, ICON_OVERLAY)
 
 	final_icon.scale(64, 32)
-	final_icon.shift(EAST, 0, ICON_SIZE_X, ICON_SIZE_Y)
+	final_icon.shift(EAST, 0)
 
 
 	return final_icon
