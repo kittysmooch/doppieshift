@@ -1123,7 +1123,6 @@
 	blink_animation = FALSE
 	pupils_name = "eyestalks" //many species of snails can retract their eyes into their face! (my lame science excuse for not having better writing here)
 	penlight_message = "are sat upon retractable tentacles"
-	eyes_layer = ABOVE_BODY_FRONT_HEAD_LAYER // DOPPLER EDIT - Roundstart Snails
 
 /obj/item/organ/eyes/jelly
 	name = "jelly eyes"

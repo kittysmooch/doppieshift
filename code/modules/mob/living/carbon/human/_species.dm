@@ -507,6 +507,12 @@ GLOBAL_LIST_EMPTY(features_by_species)
 			if(eye_organ)
 				eye_organ.refresh(call_update = FALSE)
 				species_human.overlays_standing[EYES_LAYER] = eye_organ.generate_body_overlay(species_human)
+				// DOPPLER ADDITION START
+				if(istype(eye_organ, /obj/item/organ/eyes/snail))
+					var/list/eye_overlays = species_human.overlays_standing[EYES_LAYER]
+					for(var/mutable_appearance/overlay as anything in eye_overlays)
+						overlay.layer = ABOVE_BODY_FRONT_HEAD_LAYER
+				// DOPPLER ADDITION END
 				species_human.apply_overlay(EYES_LAYER)
 
 	if(HAS_TRAIT(species_human, TRAIT_NO_UNDERWEAR))
