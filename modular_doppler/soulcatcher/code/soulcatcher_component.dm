@@ -401,7 +401,7 @@ GLOBAL_LIST_EMPTY(soulcatchers)
 /atom/movable/screen/ghost/join_soulcatcher/Destroy()
 	vis_contents -= num_overlay
 	QDEL_NULL(num_overlay)
-	UnregisterSignal(hud.mymob, COMSIG_SOULCATCHER_UPDATE_JOINABILITY)
+	UnregisterSignal(SSdcs, COMSIG_SOULCATCHER_UPDATE_JOINABILITY)
 	return ..()
 
 /// returns the number of soulcatcher components that are joinable by ghosts
