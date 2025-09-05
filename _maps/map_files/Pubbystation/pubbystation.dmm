@@ -43400,11 +43400,11 @@
 /area/station/medical/morgue)
 "pkj" = (
 /obj/structure/cable,
-/obj/structure/disposalpipe/junction,
 /obj/machinery/door/airlock/maintenance{
 	name = "Medbay Maintenance"
 	},
 /obj/effect/mapping_helpers/airlock/access/any/medical/general,
+/obj/structure/disposalpipe/segment,
 /turf/open/floor/plating,
 /area/station/maintenance/department/medical)
 "pkt" = (
