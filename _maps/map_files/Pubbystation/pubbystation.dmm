@@ -1642,7 +1642,6 @@
 "air" = (
 /obj/machinery/recharge_station,
 /obj/effect/turf_decal/bot,
-/obj/machinery/camera/autoname/directional/north,
 /turf/open/floor/plastic,
 /area/station/security/lockers)
 "ais" = (
@@ -3935,13 +3934,13 @@
 /turf/open/floor/iron/dark,
 /area/station/command/gateway)
 "aqT" = (
-/obj/effect/spawner/random/entertainment/arcade,
+/obj/structure/table,
+/obj/item/clothing/under/color/grey,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/cafeteria,
 /area/station/commons/dorms/laundry)
 "aqV" = (
-/obj/machinery/firealarm/directional/north,
-/obj/structure/table,
-/obj/item/clothing/under/color/grey,
+/obj/machinery/washing_machine,
 /turf/open/floor/iron/cafeteria,
 /area/station/commons/dorms/laundry)
 "aqY" = (
@@ -4277,6 +4276,7 @@
 /turf/open/floor/iron/cafeteria,
 /area/station/commons/dorms/laundry)
 "asg" = (
+/obj/structure/bedsheetbin,
 /obj/machinery/computer/security/telescreen/entertainment/directional/east,
 /turf/open/floor/iron/cafeteria,
 /area/station/commons/dorms/laundry)
@@ -4490,7 +4490,7 @@
 /obj/machinery/power/apc/auto_name/directional/south,
 /obj/structure/cable,
 /obj/structure/sign/departments/maint/directional/west,
-/obj/structure/bedsheetbin,
+/obj/effect/spawner/random/entertainment/arcade,
 /turf/open/floor/iron/cafeteria,
 /area/station/commons/dorms/laundry)
 "ath" = (
@@ -4516,11 +4516,10 @@
 /turf/open/floor/iron/cafeteria,
 /area/station/commons/dorms/laundry)
 "atj" = (
+/obj/machinery/disposal/bin,
 /obj/structure/disposalpipe/trunk{
 	dir = 8
 	},
-/obj/structure/sign/poster/official/random/directional/east,
-/obj/machinery/disposal/bin,
 /turf/open/floor/iron/cafeteria,
 /area/station/commons/dorms/laundry)
 "atk" = (
@@ -25702,7 +25701,6 @@
 /area/station/hallway/secondary/entry)
 "cod" = (
 /obj/structure/window/reinforced/spawner/directional/east,
-/obj/machinery/washing_machine,
 /turf/open/floor/iron/cafeteria,
 /area/station/commons/dorms/laundry)
 "coe" = (
@@ -27654,7 +27652,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/carpet/green,
 /area/station/medical/psychology)
 "cCk" = (
@@ -30222,7 +30219,6 @@
 	dir = 4
 	},
 /obj/structure/cable,
-/obj/machinery/camera/autoname/directional/north,
 /turf/open/floor/iron/dark,
 /area/station/service/library/artgallery)
 "eMp" = (
@@ -31353,7 +31349,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
 	dir = 4
 	},
-/obj/machinery/holopad,
 /turf/open/floor/iron/white/textured_large,
 /area/station/medical/surgery)
 "fyK" = (
@@ -31656,6 +31651,10 @@
 	},
 /turf/open/floor/iron/dark/small,
 /area/station/science/ordnance)
+"fMy" = (
+/obj/structure/sign/poster/official/random/directional/east,
+/turf/closed/wall,
+/area/station/maintenance/department/crew_quarters/dorms)
 "fNg" = (
 /turf/open/floor/plating,
 /area/station/service/abandoned_gambling_den)
@@ -35391,6 +35390,7 @@
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
 	dir = 8
 	},
+/obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 4
 	},
@@ -35783,20 +35783,6 @@
 /obj/structure/extinguisher_cabinet/directional/west,
 /turf/open/floor/iron,
 /area/station/hallway/primary/aft)
-"jis" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4{
-	dir = 4
-	},
-/obj/effect/turf_decal/tile/yellow/half/contrasted{
-	dir = 8
-	},
-/obj/machinery/camera/autoname/directional/west,
-/turf/open/floor/iron/white/smooth_edge{
-	dir = 4
-	},
-/area/station/medical/chemistry)
 "jiu" = (
 /obj/machinery/requests_console/directional/north{
 	department = "Cargo";
@@ -37378,7 +37364,6 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/obj/machinery/holopad,
 /turf/open/floor/iron/white/smooth_large,
 /area/station/medical/medbay/central)
 "kut" = (
@@ -37470,10 +37455,6 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
 	dir = 8
-	},
-/obj/machinery/camera/autoname/directional/east{
-	c_tag = "Monastery Art Gallery";
-	network = list("ss13","monastery")
 	},
 /turf/open/floor/iron/dark,
 /area/station/service/library/artgallery)
@@ -38380,6 +38361,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/trimline/pine_green/line,
+/obj/machinery/holopad,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 1
 	},
@@ -38786,6 +38768,7 @@
 	},
 /obj/effect/turf_decal/tile/pine_green/half/contrasted,
 /obj/machinery/firealarm/directional/south,
+/obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 1
 	},
@@ -38850,8 +38833,8 @@
 /turf/open/floor/iron,
 /area/station/security/checkpoint/medical)
 "lEQ" = (
-/obj/machinery/airalarm/directional/north,
 /obj/machinery/washing_machine,
+/obj/machinery/firealarm/directional/north,
 /turf/open/floor/iron/cafeteria,
 /area/station/commons/dorms/laundry)
 "lEX" = (
@@ -40253,7 +40236,6 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/machinery/holopad/secure,
 /turf/open/floor/wood/large,
 /area/station/medical/psychology)
 "mKl" = (
@@ -42549,10 +42531,15 @@
 /turf/open/floor/iron,
 /area/station/cargo/sorting)
 "oya" = (
-/obj/effect/turf_decal/trimline/pine_green/line,
-/obj/machinery/holopad,
-/turf/open/floor/iron/dark,
-/area/station/medical/coldroom)
+/obj/machinery/camera/directional/east{
+	c_tag = "Monastery Art Gallery";
+	network = list("ss13","monastery")
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/carpet,
+/area/station/service/library/artgallery)
 "oyF" = (
 /obj/structure/disposalpipe/segment,
 /turf/open/floor/iron/dark,
@@ -46091,10 +46078,6 @@
 "reH" = (
 /turf/open/floor/wood,
 /area/station/construction)
-"reP" = (
-/obj/machinery/holopad,
-/turf/open/floor/iron/white/smooth_large,
-/area/station/medical/chemistry)
 "reR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood,
@@ -51105,6 +51088,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
+/obj/machinery/holopad,
 /turf/open/floor/carpet/green,
 /area/station/medical/psychology)
 "uAx" = (
@@ -53140,6 +53124,7 @@
 /area/station/engineering/supermatter/room)
 "wcx" = (
 /obj/machinery/light/directional/south,
+/obj/machinery/camera/autoname/directional/south,
 /turf/open/floor/carpet/green,
 /area/station/medical/psychology)
 "wdl" = (
@@ -55491,6 +55476,7 @@
 	},
 /obj/structure/cable,
 /obj/machinery/light/dim/directional/west,
+/obj/machinery/camera/autoname/motion/directional/north,
 /turf/open/floor/iron/white/textured,
 /area/station/engineering/atmos/hfr_room)
 "xFo" = (
@@ -74263,7 +74249,7 @@ cfm
 pIy
 voM
 gda
-xkb
+oya
 rUS
 eie
 xkb
@@ -81159,7 +81145,7 @@ pcH
 vgg
 vEL
 bss
-oya
+fQB
 mKz
 gsP
 sea
@@ -84494,7 +84480,7 @@ bjc
 bNW
 xgA
 txK
-jis
+iRD
 nKE
 iRD
 txK
@@ -84752,7 +84738,7 @@ prD
 nIW
 mqm
 cmc
-reP
+cmc
 vou
 mqm
 ygx
@@ -87322,7 +87308,7 @@ bCp
 bll
 mqm
 cmc
-reP
+cmc
 qtR
 tDz
 bMN
@@ -93938,7 +93924,7 @@ sFK
 cBA
 ajv
 ajv
-aiS
+fMy
 aiS
 jzX
 aiS
@@ -94196,7 +94182,7 @@ ajv
 ajv
 asl
 aiS
-aqT
+aqV
 uXv
 atg
 apX
@@ -94453,7 +94439,7 @@ ajv
 ajv
 eaE
 aiS
-aqV
+lEQ
 ase
 ath
 apX
@@ -94710,7 +94696,7 @@ sbk
 aqZ
 apw
 aiS
-lEQ
+aqT
 asf
 ati
 auk
