@@ -7115,6 +7115,8 @@
 #include "modular_doppler\modular_cosmetics\code\belt\crusaderbelt.dm"
 #include "modular_doppler\modular_cosmetics\code\belt\med_bandolier.dm"
 #include "modular_doppler\modular_cosmetics\code\belt\rigs.dm"
+#include "modular_doppler\modular_cosmetics\code\cargo_resprite\cargo_uniform_overrides.dm"
+#include "modular_doppler\modular_cosmetics\code\cargo_resprite\doppler_cargo_uniforms.dm"
 #include "modular_doppler\modular_cosmetics\code\eyes\mining.dm"
 #include "modular_doppler\modular_cosmetics\code\face\basemasks.dm"
 #include "modular_doppler\modular_cosmetics\code\face\designs.dm"
