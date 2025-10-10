@@ -26,3 +26,10 @@
 
 /obj/item/storage/box/survival/mining
 	mask_type = /obj/item/clothing/mask/neck_gaiter
+
+/datum/outfit/job/quartermaster
+	uniform = /obj/item/clothing/under/rank/cargo/tech/turtleneck
+	suit = /obj/item/clothing/suit/jacket/cargo_coat/fancy
+
+/datum/outfit/job/cargo_tech
+	suit = /obj/item/clothing/suit/jacket/cargo_coat

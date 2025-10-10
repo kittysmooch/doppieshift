@@ -51,6 +51,10 @@
 /obj/machinery/vending/wardrobe/cargo_wardrobe
 	products_doppler = list(
 		/obj/item/clothing/suit/jacket/doppler/departmental_jacket/supply = 3,
+		/obj/item/clothing/under/rank/cargo/tech/turtleneck = 3,
+		/obj/item/clothing/under/rank/cargo/tech/turtleskirt = 3,
+		/obj/item/clothing/under/rank/cargo/tech/rough = 4,
+		/obj/item/clothing/under/rank/cargo/tech/rough_skirt = 4,
 		/obj/item/clothing/under/misc/doppler_uniform/cargo = 5,
 		/obj/item/clothing/under/rank/cargo/miner = 3,
 		/obj/item/clothing/under/rank/cargo/miner/lavaland = 3,
@@ -64,6 +68,10 @@
 		/obj/item/clothing/mask/neck_gaiter = 3,
 		/obj/item/clothing/gloves/doppler_mining = 3,
 		/obj/item/clothing/glasses/mining_meson = 3,
+	)
+	premium_doppler = list(
+		/obj/item/clothing/under/rank/cargo/tech/fancy = 2,
+		/obj/item/clothing/under/rank/cargo/tech/fancy_skirt = 2,
 	)
 
 /obj/machinery/vending/wardrobe/robo_wardrobe
