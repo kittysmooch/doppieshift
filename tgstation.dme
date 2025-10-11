@@ -7147,6 +7147,7 @@
 #include "modular_doppler\modular_cosmetics\code\storage\mining.dm"
 #include "modular_doppler\modular_cosmetics\code\storage\rings.dm"
 #include "modular_doppler\modular_cosmetics\code\suits\basesuits.dm"
+#include "modular_doppler\modular_cosmetics\code\suits\cargo.dm"
 #include "modular_doppler\modular_cosmetics\code\suits\jacket.dm"
 #include "modular_doppler\modular_cosmetics\code\suits\labcoat.dm"
 #include "modular_doppler\modular_cosmetics\code\suits\mining.dm"

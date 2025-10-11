@@ -1,4 +1,4 @@
-// under suits
+// new dopplerian cargo uniforms
 
 /obj/item/clothing/under/rank/doppler_cargo
 	icon = 'modular_doppler/modular_cosmetics/icons/cargo_resprite/doppler_cargo_obj.dmi'
@@ -33,73 +33,33 @@
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/fancy
 	name = "cargo technician's dress uniform"
-	desc = ""
+	desc = "A dress uniform in crisp-pressed and violently starched fabric."
 	icon_state = "cargo_fancypants"
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/fancy_skirt
 	name = "cargo technician's dress skirt"
-	desc = ""
+	desc = "A dress skirt uniform in crisp-pressed and violently starched fabric."
 	icon_state = "cargo_fancyskirt"
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/turtleneck
 	name = "cargo technician's turtleneck"
-	desc = ""
+	desc = "A cozy turtleneck sweater and slack set. The fabric is nice looking and wrinkle-resistant, yet \
+	woe to the hapless one who actually sweats in them."
 	icon_state = "cargo_turtleneck"
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/turtleskirt
 	name = "cargo technician's turtleneck and skirt"
-	desc = ""
+	desc = "A cozy turtleneck sweater and skirt set. The fabric is nice looking and wrinkle-resistant, and the \
+	breezy skirt alleviates the cloying fabric."
 	icon_state = "cargo_turtleskirt"
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/rough
 	name = "cargo technician's rugged uniform"
-	desc = ""
+	desc = "A hardwearing laborer's set with a familiar logo emblazoned. Equally popular with physical laborers and \
+	fashionable Marsian streetwear heads."
 	icon_state = "cargo_rough"
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/rough_skirt
 	name = "cargo technician's rugged skirt"
-	desc = ""
+	desc = "A hardwearing laborer's skirt set with a familiar logo. The rugged skirt design is practical for warehouse work."
 	icon_state = "cargo_roughskirt"
-
-// suits
-
-/obj/item/clothing/suit/jacket/cargo_coat
-	name = "cargo warehouse coat"
-	desc = ""
-	icon = 'modular_doppler/modular_cosmetics/icons/cargo_resprite/doppler_cargo_obj.dmi'
-	icon_state = ""
-	worn_icon = 'modular_doppler/modular_cosmetics/icons/cargo_resprite/doppler_cargo_mob.dmi'
-	allowed = list(
-		/obj/item/tank/internals/emergency_oxygen,
-		/obj/item/tank/internals/plasmaman,
-		/obj/item/boxcutter,
-		/obj/item/dest_tagger,
-		/obj/item/stamp,
-		/obj/item/storage/bag/mail,
-		/obj/item/universal_scanner,
-	)
-
-/obj/item/clothing/suit/jacket/cargo_coat/fancy
-	name = "cargo technician's dress coat"
-	desc = ""
-	icon_state = ""
-
-/obj/item/clothing/suit/jacket/cargo_coat/high_vis
-	name = ""
-	desc = ""
-	icon_state = ""
-
-/obj/item/clothing/suit/jacket/cargo_coat/chore
-	name = "cargo chore coat"
-	desc = "A brown jacket made of a synthetic fiber in a tightly woven duck fabric."
-	icon_state = "cargo_chore_coat"
-
-/obj/item/clothing/suit/jacket/cargo_shearling
-	name = ""
-	desc = ""
-	icon_state = ""
-
-/obj/item/clothing/suit/jacket/cargo_greatcoat
-	name = ""
-	desc = ""
-	icon_state = ""
