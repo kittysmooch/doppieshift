@@ -51,6 +51,7 @@
 /obj/machinery/vending/wardrobe/cargo_wardrobe
 	products_doppler = list(
 		/obj/item/clothing/suit/jacket/doppler/departmental_jacket/supply = 3,
+		/obj/item/clothing/suit/jacket/cargo_coat/high_vis = 5,
 		/obj/item/clothing/under/rank/doppler_cargo/tech = 5,
 		/obj/item/clothing/under/rank/doppler_cargo/tech/skirt = 5,
 		/obj/item/clothing/under/rank/doppler_cargo/tech/alt = 5,
@@ -60,6 +61,11 @@
 		/obj/item/clothing/under/rank/doppler_cargo/tech/rough = 4,
 		/obj/item/clothing/under/rank/doppler_cargo/tech/rough_skirt = 4,
 		/obj/item/clothing/under/misc/doppler_uniform/cargo = 5,
+		/obj/item/clothing/gloves/doppler_cargo = 3,
+		/obj/item/clothing/gloves/doppler_cargo/work_gloves = 3,
+		/obj/item/clothing/gloves/doppler_cargo/gauntlets = 3,
+		/obj/item/clothing/gloves/doppler_cargo/colorblock_gauntlets = 3,
+		/obj/item/clothing/gloves/doppler_cargo/fingerless = 5,
 		/obj/item/clothing/under/rank/cargo/miner = 3,
 		/obj/item/clothing/under/rank/cargo/miner/lavaland = 3,
 		/obj/item/clothing/suit/armor/vest/miningjacket = 3,
@@ -76,6 +82,11 @@
 	premium_doppler = list(
 		/obj/item/clothing/under/rank/doppler_cargo/tech/fancy = 2,
 		/obj/item/clothing/under/rank/doppler_cargo/tech/fancy_skirt = 2,
+		/obj/item/clothing/suit/jacket/cargo_coat = 3,
+		/obj/item/clothing/suit/jacket/cargo_coat/fancy = 2,
+		/obj/item/clothing/suit/jacket/cargo_coat/chore = 3,
+		/obj/item/clothing/suit/jacket/cargo_coat/cargo_shearling = 3,
+		/obj/item/clothing/suit/jacket/cargo_coat/cargo_greatcoat = 3,
 	)
 
 /obj/machinery/vending/wardrobe/robo_wardrobe
