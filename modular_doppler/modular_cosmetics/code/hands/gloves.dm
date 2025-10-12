@@ -56,19 +56,19 @@
 	name = "cargo technician's work gloves"
 	desc = "Textile work gloves with a close fit, cut and sewn from a synthetic tech fabric."
 	icon_state = "cargo_glove2"
-	worn_icon_state = "cargo_gloves2"
+	worn_icon_state = "cargo_glove2"
 
 /obj/item/clothing/gloves/doppler_cargo/colorblock_gauntlets
 	name = "cargo technician's colorblock gauntlets"
 	desc = "Brown leather gauntlets with nylon fingertips."
 	icon_state = "cargo_glove3"
-	worn_icon_state = "cargo_gloves3"
+	worn_icon_state = "cargo_glove3"
 
 /obj/item/clothing/gloves/doppler_cargo/gauntlets
 	name = "cargo technician's gauntlets"
 	desc = "A pair of leather gauntlets that reach halfway up the forearms."
 	icon_state = "cargo_glove4"
-	worn_icon_state = "cargo_gloves4"
+	worn_icon_state = "cargo_glove4"
 
 /obj/item/clothing/gloves/doppler_cargo/fingerless
 	name = "cargo technician's fingerless gloves"
