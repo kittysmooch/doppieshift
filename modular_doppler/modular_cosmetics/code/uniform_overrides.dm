@@ -29,7 +29,8 @@
 
 /datum/outfit/job/quartermaster
 	uniform = /obj/item/clothing/under/rank/doppler_cargo/tech/turtleneck
-	suit = /obj/item/clothing/suit/jacket/cargo_coat/fancy
+	suit = /obj/item/clothing/suit/jacket/cargo_coat/cargo_greatcoat
 
 /datum/outfit/job/cargo_tech
+	uniform = /obj/item/clothing/under/rank/doppler_cargo/tech
 	suit = /obj/item/clothing/suit/jacket/cargo_coat
