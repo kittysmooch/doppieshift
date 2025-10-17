@@ -16,14 +16,16 @@
 	var/power_draw_per_shot = 2000 WATTS
 	/// what comes out of our barrel
 	var/projectile_type = /obj/projectile/energy/snub_particle_cannon_bolt
-	/// whether we're on cooldown
+	/// can we shoot or are we on cooldown?
 	var/ready_to_fire = TRUE
+	/// our id to link with our firing computer
+	var/mapping_id
 
 /obj/machinery/snub_particle_cannon/wrench_act(mob/living/user, obj/item/tool)
 	. = ..()
 	return FALSE
 
-/obj/machinerysnub_particle_cannon/proc/fire()
+/obj/machinery/snub_particle_cannon/proc/fire()
 	var/obj/projectile/fired_bolt = new projectile_type(get_turf(src))
 	use_energy(power_draw_per_shot)
 
@@ -41,7 +43,7 @@
 	var/datum/weakref/snub_particle_cannon
 	/// mapping id for our attached gun
 	var/mapping_id
-	/// tells us if the cannon is working
+	/// tells us if the cannon is working/present
 	var/cannon_info
 
 /obj/machinery/computer/snub_particle_cannon_controller/post_machine_initialize()
@@ -64,3 +66,14 @@
 		ui = new(user, src, "SnubProtonCannon", name)
 		ui.open()
 
+/obj/machinery/computer/bsa_control/ui_data()
+	var/obj/machinery/snub_particle_cannon/cannon = snub_particle_cannon?.resolve()
+	var/list/data = list()
+	data["ready"] = cannon ? cannon.ready_to_fire : FALSE
+	data["cannoninfo"] = cannon_info
+	return data
+
+/obj/machinery/computer/snub_particle_cannon_controller/proc/register_machine(/obj/machinery/snub_particle_cannon/cannon)
+	PRIVATE_PROC(TRUE)
+
+	snub_particle_cannon = WEAKREF(cannon)

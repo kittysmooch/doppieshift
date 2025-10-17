@@ -11,8 +11,8 @@ import { useBackend } from '../backend';
 import { Window } from '../layouts';
 
 type Data = {
-  connected: BooleanLike;
-  notice: string;
+  ready: BooleanLike;
+  cannoninfo: string;
 };
 
 export const SnubProtonCannon = (props) => {
