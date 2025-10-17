@@ -6,6 +6,9 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 4
 	},
+/obj/structure/railing/wooden_fencing{
+	dir = 8
+	},
 /turf/open/misc/sandy_dirt/icemoon,
 /area/ruin/unpowered/primitive_genemod_den)
 "c" = (
@@ -38,16 +41,6 @@
 /area/ruin/unpowered/primitive_genemod_den)
 "h" = (
 /obj/structure/bonfire/prelit,
-/obj/structure/railing/wooden_fencing,
-/obj/structure/railing/wooden_fencing{
-	dir = 4
-	},
-/obj/structure/railing/wooden_fencing{
-	dir = 1
-	},
-/obj/structure/railing/wooden_fencing{
-	dir = 8
-	},
 /turf/open/misc/sandy_dirt/icemoon,
 /area/ruin/unpowered/primitive_genemod_den)
 "i" = (
@@ -58,6 +51,10 @@
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 9
 	},
+/turf/open/misc/sandy_dirt/icemoon,
+/area/ruin/unpowered/primitive_genemod_den)
+"j" = (
+/obj/structure/railing/wooden_fencing,
 /turf/open/misc/sandy_dirt/icemoon,
 /area/ruin/unpowered/primitive_genemod_den)
 "k" = (
@@ -97,6 +94,9 @@
 "o" = (
 /obj/effect/turf_decal/weather/snow/corner,
 /obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/railing/wooden_fencing{
+	dir = 1
+	},
 /turf/open/misc/sandy_dirt/icemoon,
 /area/ruin/unpowered/primitive_genemod_den)
 "p" = (
@@ -118,6 +118,16 @@
 /obj/item/seeds/aloe{
 	pixel_y = 9;
 	pixel_x = -7
+	},
+/turf/open/misc/sandy_dirt/icemoon,
+/area/ruin/unpowered/primitive_genemod_den)
+"t" = (
+/obj/effect/turf_decal/weather/snow/corner{
+	dir = 8
+	},
+/obj/structure/flora/bush/sparsegrass/style_random,
+/obj/structure/railing/wooden_fencing{
+	dir = 4
 	},
 /turf/open/misc/sandy_dirt/icemoon,
 /area/ruin/unpowered/primitive_genemod_den)
@@ -393,7 +403,7 @@ C
 n
 d
 n
-e
+t
 e
 B
 l
@@ -409,7 +419,7 @@ n
 n
 n
 n
-n
+j
 h
 o
 a
