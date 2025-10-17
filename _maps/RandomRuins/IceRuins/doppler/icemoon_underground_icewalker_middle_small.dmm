@@ -16,7 +16,7 @@
 	dir = 8
 	},
 /turf/open/misc/asteroid/snow/icemoon,
-/area/ruin/unpowered/primitive_genemod_den)
+/area/icemoon/surface/outdoors/nospawn)
 "j" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/turf_decal/weather/snow/corner{
@@ -26,7 +26,7 @@
 	dir = 8
 	},
 /turf/open/misc/sandy_dirt/icemoon,
-/area/ruin/unpowered/primitive_genemod_den)
+/area/icemoon/surface/outdoors/nospawn)
 "m" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 5
@@ -36,9 +36,15 @@
 	},
 /turf/open/misc/sandy_dirt/icemoon,
 /area/ruin/unpowered/primitive_genemod_den)
+"n" = (
+/turf/closed/mineral/snowmountain/icemoon/unscrapeable,
+/area/icemoon/surface/outdoors/nospawn)
 "o" = (
 /turf/open/misc/asteroid/snow/icemoon,
 /area/ruin/unpowered/primitive_genemod_den)
+"z" = (
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/surface/outdoors/nospawn)
 "B" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/turf_decal/weather/snow/corner{
@@ -46,7 +52,7 @@
 	},
 /obj/effect/turf_decal/weather/snow/corner,
 /turf/open/misc/sandy_dirt/icemoon,
-/area/ruin/unpowered/primitive_genemod_den)
+/area/icemoon/surface/outdoors/nospawn)
 "D" = (
 /obj/effect/turf_decal/weather/snow/corner{
 	dir = 5
@@ -74,8 +80,8 @@
 /area/ruin/unpowered/primitive_genemod_den)
 
 (1,1,1) = {"
-o
-o
+z
+z
 o
 o
 K
@@ -86,12 +92,12 @@ o
 o
 o
 o
-o
-o
-o
+z
+z
+z
 "}
 (2,1,1) = {"
-o
+z
 m
 o
 K
@@ -104,8 +110,8 @@ K
 o
 o
 o
-o
-o
+z
+z
 "}
 (3,1,1) = {"
 m
@@ -122,7 +128,7 @@ K
 o
 o
 o
-o
+z
 "}
 (4,1,1) = {"
 o
@@ -139,7 +145,7 @@ K
 o
 o
 o
-o
+z
 "}
 (5,1,1) = {"
 o
@@ -156,7 +162,7 @@ K
 K
 o
 o
-o
+z
 "}
 (6,1,1) = {"
 o
@@ -292,7 +298,7 @@ o
 S
 S
 S
-S
+n
 "}
 (14,1,1) = {"
 j
@@ -308,8 +314,8 @@ o
 S
 S
 S
-S
-S
+n
+n
 "}
 (15,1,1) = {"
 i
@@ -324,7 +330,7 @@ m
 Y
 S
 S
-S
-S
-S
+n
+n
+n
 "}
