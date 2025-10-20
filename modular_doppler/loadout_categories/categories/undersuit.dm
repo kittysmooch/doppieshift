@@ -358,35 +358,35 @@
 	item_path = /obj/item/clothing/under/rank/cargo/miner/lavaland
 
 /datum/loadout_item/undersuit/cargo_tech_uniform
-	name = "Cargo Technician's  Uniform"
+	name = "Uniform (Cargo)"
 	item_path = /obj/item/clothing/under/rank/doppler_cargo/tech
 
 /datum/loadout_item/undersuit/cargo_tech_uniform_skirt
-	name = "Cargo Technician's Uniform Skirt"
+	name = "Uniform Skirt (Cargo)"
 	item_path = /obj/item/clothing/under/rank/doppler_cargo/tech/skirt
 
 /datum/loadout_item/undersuit/cargo_tech_tanktop
-	name = "Cargo Technician's Tanktop"
+	name = "Uniform Tanktop (Cargo)"
 	item_path = /obj/item/clothing/under/rank/doppler_cargo/tech/alt
 
 /datum/loadout_item/undersuit/cargo_tech_tankskirt
-	name = "Cargo Technician's Tanktop & Skirt"
+	name = "Uniform Tanktop & Skirt (Cargo)"
 	item_path = /obj/item/clothing/under/rank/doppler_cargo/tech/skirt/alt
 
 /datum/loadout_item/undersuit/cargo_tech_turtleneck
-	name = "Cargo Technician's Turtleneck"
+	name = "Turtleneck (Cargo)"
 	item_path = /obj/item/clothing/under/rank/doppler_cargo/tech/turtleneck
 
 /datum/loadout_item/undersuit/cargo_tech_turtleneck
-	name = "Cargo Technician's Turtleneck & Skirt"
+	name = "Turtleneck & Skirt (Cargo)"
 	item_path = /obj/item/clothing/under/rank/doppler_cargo/tech/turtleskirt
 
 /datum/loadout_item/undersuit/cargo_tech_rough
-	name = "Cargo Technician's Rugged Uniform"
+	name = "Rugged Uniform (Cargo)"
 	item_path = /obj/item/clothing/under/rank/doppler_cargo/tech/rough
 
 /datum/loadout_item/undersuit/cargo_tech_rough_skirt
-	name = "Cargo Technician's Rugged Skirt Uniform"
+	name = "Rugged Skirt Uniform (Cargo)"
 	item_path = /obj/item/clothing/under/rank/doppler_cargo/tech/rough_skirt
 
 /datum/loadout_item/undersuit/bodysuit
