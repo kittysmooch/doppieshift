@@ -7553,6 +7553,7 @@
 #include "modular_doppler\modular_weapons\code\melee.dm"
 #include "modular_doppler\modular_weapons\code\weapon_overrides.dm"
 #include "modular_doppler\modular_weapons\code\ammo\bandolier.dm"
+#include "modular_doppler\modular_weapons\code\ammo\bolt_shot.dm"
 #include "modular_doppler\modular_weapons\code\ammo\calistan_4mm.dm"
 #include "modular_doppler\modular_weapons\code\ammo\detective_holster.dm"
 #include "modular_doppler\modular_weapons\code\ammo\europa_25.dm"

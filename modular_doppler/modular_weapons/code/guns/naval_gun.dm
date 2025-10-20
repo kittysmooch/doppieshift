@@ -16,6 +16,8 @@
 	var/power_draw_per_shot = 2000 WATTS
 	/// what comes out of our barrel
 	var/projectile_type = /obj/projectile/energy/snub_particle_cannon_bolt
+	/// how long between shots?
+	var/shot_cooldown = 90 SECONDS
 	/// can we shoot or are we on cooldown?
 	var/ready_to_fire = TRUE
 	/// our id to link with our firing computer
@@ -43,7 +45,7 @@
 	var/datum/weakref/snub_particle_cannon
 	/// mapping id for our attached gun
 	var/mapping_id
-	/// tells us if the cannon is working/present
+	/// tells us if the cannon is ready to fire
 	var/cannon_info
 
 /obj/machinery/computer/snub_particle_cannon_controller/post_machine_initialize()

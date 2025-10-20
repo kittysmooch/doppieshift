@@ -12,3 +12,5 @@
 /// Special Calibers
 
 #define CALIBER_980TYDHOUER ".980 Tydhouer"
+
+#define CALIBER_BOLT_THROWER "Machined Bolt"
