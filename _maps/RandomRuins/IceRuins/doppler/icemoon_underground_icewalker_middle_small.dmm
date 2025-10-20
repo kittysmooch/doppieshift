@@ -80,8 +80,8 @@
 /area/ruin/unpowered/primitive_genemod_den)
 
 (1,1,1) = {"
-z
-z
+n
+n
 o
 o
 K
@@ -92,12 +92,12 @@ o
 o
 o
 o
-z
-z
-z
+n
+n
+n
 "}
 (2,1,1) = {"
-z
+n
 m
 o
 K
@@ -110,13 +110,13 @@ K
 o
 o
 o
-z
-z
+n
+n
 "}
 (3,1,1) = {"
 m
 o
-K
+o
 K
 K
 K
@@ -127,8 +127,8 @@ K
 K
 o
 o
-o
-z
+S
+n
 "}
 (4,1,1) = {"
 o
@@ -142,10 +142,10 @@ K
 K
 K
 K
+S
 o
 o
-o
-z
+n
 "}
 (5,1,1) = {"
 o
@@ -244,7 +244,7 @@ K
 K
 K
 K
-o
+S
 o
 o
 S
@@ -260,7 +260,7 @@ K
 K
 K
 K
-o
+S
 o
 o
 S
@@ -285,7 +285,7 @@ S
 "}
 (13,1,1) = {"
 o
-o
+S
 K
 K
 K
@@ -303,7 +303,7 @@ n
 (14,1,1) = {"
 j
 N
-o
+S
 K
 K
 o

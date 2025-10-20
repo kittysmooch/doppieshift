@@ -15,6 +15,10 @@
 	},
 /turf/open/misc/sandy_dirt/icemoon,
 /area/icemoon/surface/outdoors/less_spawns)
+"K" = (
+/obj/structure/flora/tree/pine/style_random,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/icemoon/surface/outdoors/less_spawns)
 "L" = (
 /obj/structure/statue/hearthkin/odin,
 /obj/effect/turf_decal/weather/snow/corner{
@@ -42,7 +46,7 @@
 a
 a
 a
-a
+K
 a
 a
 a
@@ -57,7 +61,7 @@ a
 "}
 (2,1,1) = {"
 a
-a
+K
 a
 a
 a
@@ -68,9 +72,9 @@ S
 a
 a
 a
+K
 a
-a
-a
+K
 "}
 (3,1,1) = {"
 a
@@ -103,7 +107,7 @@ S
 S
 a
 a
-a
+K
 a
 "}
 (5,1,1) = {"
@@ -138,7 +142,7 @@ S
 S
 a
 a
-a
+K
 "}
 (7,1,1) = {"
 a
@@ -189,7 +193,7 @@ S
 S
 a
 a
-a
+K
 "}
 (10,1,1) = {"
 a
@@ -221,12 +225,12 @@ a
 S
 a
 a
-a
+K
 a
 a
 "}
 (12,1,1) = {"
-a
+K
 a
 S
 S
@@ -240,7 +244,7 @@ a
 a
 a
 a
-a
+K
 "}
 (13,1,1) = {"
 a
@@ -261,7 +265,7 @@ a
 "}
 (14,1,1) = {"
 a
-a
+K
 a
 a
 S
@@ -280,7 +284,7 @@ a
 a
 a
 a
-a
+K
 a
 S
 S

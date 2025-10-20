@@ -261,6 +261,10 @@
 	},
 /turf/open/misc/asteroid/snow/icemoon,
 /area/ruin/unpowered/primitive_genemod_den)
+"T" = (
+/obj/structure/glowshroom,
+/turf/open/misc/asteroid/snow/icemoon,
+/area/ruin/unpowered/primitive_genemod_den)
 "U" = (
 /obj/item/flashlight/lantern/on{
 	pixel_y = 5
@@ -302,12 +306,12 @@ a
 a
 a
 a
+H
 a
-a
-a
-a
-a
-a
+H
+H
+H
+H
 "}
 (2,1,1) = {"
 H
@@ -322,9 +326,9 @@ a
 a
 a
 a
-a
-a
-a
+T
+H
+H
 "}
 (3,1,1) = {"
 H
@@ -337,11 +341,11 @@ a
 a
 a
 a
+H
 a
 a
 a
-a
-a
+H
 "}
 (4,1,1) = {"
 a
@@ -358,7 +362,7 @@ f
 f
 a
 a
-a
+H
 "}
 (5,1,1) = {"
 a
@@ -476,11 +480,11 @@ a
 a
 X
 a
-a
+H
 a
 "}
 (12,1,1) = {"
-a
+T
 a
 a
 a
@@ -497,7 +501,7 @@ a
 a
 "}
 (13,1,1) = {"
-a
+H
 a
 a
 a
@@ -514,6 +518,8 @@ a
 a
 "}
 (14,1,1) = {"
+H
+H
 a
 a
 a
@@ -525,25 +531,23 @@ a
 a
 a
 a
-a
-a
-a
-a
+T
+H
 "}
 (15,1,1) = {"
+H
+H
+H
+a
+a
+H
+H
 a
 a
 a
 a
 a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+T
+H
+H
 "}
