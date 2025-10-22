@@ -22,12 +22,12 @@
 	icon_state = "cargo_skirt"
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/alt
-	name = "cargo tanktop uniform"
+	name = "cargo tanktop"
 	desc = "A sleeveless variant on the cargo uniform standard and a popular choice for poorly ventilated warehouses."
 	icon_state = "cargo_tanktop"
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/skirt/alt
-	name = "cargo tanktop and skirt uniform"
+	name = "cargo tanktop and skirt"
 	desc = "A sleeveless variant on the cargo uniform standard paired with a rugged take on a skirt."
 	icon_state = "cargo_tankskirt"
 
@@ -60,6 +60,6 @@
 	icon_state = "cargo_rough"
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/rough_skirt
-	name = "cargo rugged skirt uniform"
+	name = "cargo rugged skirt"
 	desc = "A hardwearing laborer's skirt set with a familiar logo. The rugged skirt design is practical for warehouse work."
 	icon_state = "cargo_roughskirt"
