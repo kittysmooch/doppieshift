@@ -34,3 +34,10 @@
 /datum/outfit/job/cargo_tech
 	uniform = /obj/item/clothing/under/rank/doppler_cargo/tech
 	suit = /obj/item/clothing/suit/jacket/cargo_coat
+
+/datum/outfit/job/security
+	suit_store = null
+	backpack_contents = list(
+		/obj/item/signature_beacon/security_equipment_package = 1,
+		/obj/item/evidencebag = 1,
+	)
