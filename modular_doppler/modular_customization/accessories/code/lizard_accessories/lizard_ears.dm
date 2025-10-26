@@ -7,7 +7,7 @@
 
 //sprites by thgvr
 /datum/sprite_accessory/ears_more/lizard/ears
-	name = "Ears"
+	name = "Basic"
 	icon_state = "ears"
 
 /datum/sprite_accessory/ears_more/lizard/long
