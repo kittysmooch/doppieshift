@@ -1,7 +1,6 @@
 /datum/sprite_accessory/horns
 	icon = 'modular_doppler/modular_customization/accessories/icons/lizard/lizard_horns.dmi'
 
-//sprites by thgvr
 /datum/sprite_accessory/horns/simplenew
 	name = "Simple Alt"
 	icon_state = "simplenew"
@@ -21,4 +20,3 @@
 /datum/sprite_accessory/horns/ramnew
 	name = "Ram Alt"
 	icon_state = "ramnew"
-//sprites by thgvr END

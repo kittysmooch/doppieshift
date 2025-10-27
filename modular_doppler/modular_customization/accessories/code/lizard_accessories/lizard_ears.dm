@@ -5,7 +5,6 @@
 	name = "Cobra"
 	icon_state = "cobraears"
 
-//sprites by thgvr
 /datum/sprite_accessory/ears_more/lizard/ears
 	name = "Basic"
 	icon_state = "ears"
@@ -17,4 +16,3 @@
 /datum/sprite_accessory/ears_more/lizard/curved
 	name = "Curved"
 	icon_state = "curved"
-//sprites by thgvr END
