@@ -3,13 +3,13 @@
 	key = "horns"
 	color_src = USE_MATRIXED_COLORS
 
-/datum/sprite_accessory/horns/simplenew
+/datum/sprite_accessory/horns/simple_alt
 	name = "Simple Alt"
-	icon_state = "simplenew"
+	icon_state = "simplealt"
 
-/datum/sprite_accessory/horns/brokennew
+/datum/sprite_accessory/horns/broken_alt
 	name = "Broken Alt"
-	icon_state = "brokennew"
+	icon_state = "brokenalt"
 
 /datum/sprite_accessory/horns/lightning
 	name = "Lightning"
@@ -19,6 +19,6 @@
 	name = "Brimstone"
 	icon_state = "brimstone"
 
-/datum/sprite_accessory/horns/ramnew
+/datum/sprite_accessory/horns/ram_alt
 	name = "Ram Alt"
-	icon_state = "ramnew"
+	icon_state = "ramalt"
