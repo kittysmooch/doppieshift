@@ -43,4 +43,4 @@
 	name = "greatcoat"
 	desc = "A shin-skimming shearling coat with pockets sizeable enough to carry your drink, your book, and your gun."
 	icon_state = "cargo_greatcoat"
-	body_parts_covered = CHEST|GROIN|LEGS|ARM
+	body_parts_covered = CHEST|GROIN|LEGS|ARMS
