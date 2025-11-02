@@ -15,6 +15,7 @@
 		/obj/item/storage/bag/mail,
 		/obj/item/universal_scanner,
 	)
+	pocket_storage_type = /datum/storage/pockets/jacket/jumbo
 
 /obj/item/clothing/suit/jacket/cargo_coat/fancy
 	name = "dress coat"
@@ -37,10 +38,9 @@
 	desc = "A hide coat with soft wool turned towards the neckline. The tag inside is frighteningly nonspecific about \
 	the animal this hide came from."
 	icon_state = "cargo_shearling"
-	pocket_storage_type = /datum/storage/pockets/jacket/jumbo
 
 /obj/item/clothing/suit/jacket/cargo_coat/cargo_greatcoat
 	name = "greatcoat"
 	desc = "A shin-skimming shearling coat with pockets sizeable enough to carry your drink, your book, and your gun."
 	icon_state = "cargo_greatcoat"
-	pocket_storage_type = /datum/storage/pockets/jacket/jumbo
+	body_parts_covered = CHEST|GROIN|LEGS|ARM

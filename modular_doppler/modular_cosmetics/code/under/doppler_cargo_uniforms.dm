@@ -9,6 +9,7 @@
 		BODYSHAPE_HUMANOID_T = 'modular_doppler/modular_cosmetics/icons/cargo_resprite/doppler_cargo_mob.dmi',
 		BODYSHAPE_DIGITIGRADE_T = 'modular_doppler/modular_cosmetics/icons/cargo_resprite/doppler_cargo_mob_digi.dmi'
 	)
+	abstract_type = /obj/item/clothing/under/rank/doppler_cargo
 
 
 /obj/item/clothing/under/rank/doppler_cargo/tech
@@ -25,11 +26,13 @@
 	name = "cargo tanktop"
 	desc = "A sleeveless variant on the cargo uniform standard and a popular choice for poorly ventilated warehouses."
 	icon_state = "cargo_tanktop"
+	body_parts_covered = CHEST|GROIN|LEGS
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/skirt/alt
 	name = "cargo tanktop and skirt"
 	desc = "A sleeveless variant on the cargo uniform standard paired with a rugged take on a skirt."
 	icon_state = "cargo_tankskirt"
+	body_parts_covered = CHEST|GROIN|LEGS
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/fancy
 	name = "cargo dress uniform"
