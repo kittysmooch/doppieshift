@@ -377,7 +377,7 @@
 	name = "Turtleneck (Cargo)"
 	item_path = /obj/item/clothing/under/rank/doppler_cargo/tech/turtleneck
 
-/datum/loadout_item/undersuit/cargo_tech_turtleneck
+/datum/loadout_item/undersuit/cargo_tech_turtleskirt
 	name = "Turtleneck & Skirt (Cargo)"
 	item_path = /obj/item/clothing/under/rank/doppler_cargo/tech/turtleskirt
 
