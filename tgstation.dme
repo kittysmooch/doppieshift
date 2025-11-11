@@ -7144,6 +7144,7 @@
 #include "modular_doppler\modular_cosmetics\code\face\glasses.dm"
 #include "modular_doppler\modular_cosmetics\code\face\masks.dm"
 #include "modular_doppler\modular_cosmetics\code\face\papermask.dm"
+#include "modular_doppler\modular_cosmetics\code\hands\cargo.dm"
 #include "modular_doppler\modular_cosmetics\code\hands\gloves.dm"
 #include "modular_doppler\modular_cosmetics\code\hands\rings.dm"
 #include "modular_doppler\modular_cosmetics\code\hands\special.dm"
