@@ -21,6 +21,7 @@
 	name = "cargo skirt"
 	desc = "A durable techthread top and skirt set."
 	icon_state = "cargo_skirt"
+	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/alt
 	name = "cargo tanktop"
@@ -33,6 +34,7 @@
 	desc = "A sleeveless variant on the cargo uniform standard paired with a rugged take on a skirt."
 	icon_state = "cargo_tankskirt"
 	body_parts_covered = CHEST|GROIN|LEGS
+	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/fancy
 	name = "cargo dress uniform"
@@ -43,6 +45,7 @@
 	name = "cargo dress skirt"
 	desc = "A dress skirt uniform in crisp-pressed and violently starched fabric."
 	icon_state = "cargo_fancyskirt"
+	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/turtleneck
 	name = "cargo turtleneck"
@@ -55,6 +58,7 @@
 	desc = "A cozy turtleneck sweater and skirt set. The fabric is nice looking and wrinkle-resistant, and the \
 	breezy skirt alleviates the cloying fabric."
 	icon_state = "cargo_turtleskirt"
+	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
 /obj/item/clothing/under/rank/doppler_cargo/tech/rough
 	name = "cargo rugged uniform"
@@ -66,3 +70,4 @@
 	name = "cargo rugged skirt"
 	desc = "A hardwearing laborer's skirt set with a familiar logo. The rugged skirt design is practical for warehouse work."
 	icon_state = "cargo_roughskirt"
+	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
