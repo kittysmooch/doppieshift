@@ -141,6 +141,7 @@
 	post_init_icon_state = "shortalls"
 	greyscale_colors = "#66ccff"
 	greyscale_config = /datum/greyscale_config/shortalls
+	greyscale_config_worn = /datum/greyscale_config/shortalls/worn
 	female_sprite_flags = FEMALE_UNIFORM_NO_BREASTS
 
 /obj/item/clothing/under/shorts/shortalls/Initialize(mapload)

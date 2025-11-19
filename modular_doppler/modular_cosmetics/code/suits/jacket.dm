@@ -262,6 +262,10 @@
 	cold_protection = CHEST|ARMS
 	min_cold_protection_temperature = FIRE_SUIT_MIN_TEMP_PROTECT
 
+/obj/item/clothing/suit/jacket/doppler/bad_for_school/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/toggle_icon, "zipper")
+
 /////////
 //COATS//
 /////////
