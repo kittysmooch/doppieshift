@@ -106,8 +106,7 @@
 	post_init_icon_state = "geowpn"
 	greyscale_config = /datum/greyscale_config/geowpn
 	greyscale_config_worn = /datum/greyscale_config/geowpn/worn
-	greyscale_colors = "#FFFFFF#FFFFFF#FFFFFF"
-	body_parts_covered = FALSE
+	greyscale_colors = "#e8dccf#292929#cfdbe8"
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/shoes/geowpn/Initialize(mapload)
