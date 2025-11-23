@@ -57,7 +57,7 @@
 				/obj/item/clothing/under/shorts/shorter/jeans/shortest = 5,
 				/obj/item/clothing/under/cowl_neck_shirt = 5,
 				/obj/item/clothing/under/collared_shirt = 5,
-				/obj/item/clothing/suit/apron/overalls/shortalls = 5,
+				/obj/item/clothing/under/shortalls = 5,
 			),
 		),
 
