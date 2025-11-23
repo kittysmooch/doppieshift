@@ -415,7 +415,7 @@
 
 /datum/loadout_item/undersuit/shortalls
 	name = "Short Overalls"
-	item_path = /obj/item/clothing/under/shorts/shortalls
+	item_path = /obj/item/clothing/suit/apron/overalls/shortalls
 
 // Man in suit gif
 
