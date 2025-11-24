@@ -5,7 +5,7 @@
 /obj/item/ammo_casing/bolt_slug
 	name = "machined slug"
 	desc = "A solid lathe turned slug of ferrous alloy, ready to be shunted through a hot coil wrap and deep into something or \
-	someone unfortunate.""
+	someone unfortunate."
 	icon = 'modular_doppler/modular_weapons/icons/obj/casings.dmi'
 	icon_state = "machined_bolt"
 	caliber = CALIBER_BOLT_THROWER
