@@ -236,6 +236,43 @@
 /obj/effect/turf_decal/tile/red/full,
 /turf/open/floor/iron/dark/textured,
 /area/space)
+"yW" = (
+/obj/structure/shelf,
+/obj/item/grenade/firecracker{
+	pixel_x = -6;
+	pixel_y = 6
+	},
+/obj/item/grenade/firecracker{
+	pixel_x = -6;
+	pixel_y = 8
+	},
+/obj/item/grenade/firecracker{
+	pixel_x = -6;
+	pixel_y = 10
+	},
+/obj/item/lighter/skull{
+	pixel_x = -6;
+	pixel_y = -8
+	},
+/obj/item/grenade/firecracker{
+	pixel_x = 6;
+	pixel_y = -4
+	},
+/obj/item/grenade/firecracker{
+	pixel_x = 6;
+	pixel_y = -2
+	},
+/obj/item/grenade/firecracker{
+	pixel_x = 6
+	},
+/turf/open/floor/plating,
+/area/space)
+"zh" = (
+/obj/machinery/deployable_turret/snub_particle_cannon{
+	pixel_y = -5
+	},
+/turf/open/floor/catwalk_floor/iron_dark/airless,
+/area/space)
 "zk" = (
 /obj/effect/turf_decal/tile/red/half{
 	dir = 1
@@ -388,6 +425,19 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark/airless,
 /area/space)
+"JM" = (
+/obj/structure/shelf,
+/obj/item/gun/ballistic/rifle/bolt_thrower,
+/obj/item/gun/ballistic/rifle/bolt_thrower{
+	pixel_y = 5;
+	pixel_x = -4
+	},
+/obj/item/gun/ballistic/rifle/bolt_thrower{
+	pixel_y = 10;
+	pixel_x = -8
+	},
+/turf/open/floor/plating,
+/area/space)
 "JW" = (
 /obj/structure/railing{
 	color = "#36373a";
@@ -422,6 +472,11 @@
 /area/space)
 "Rf" = (
 /turf/open/floor/catwalk_floor/iron_dark,
+/area/space)
+"RO" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
+/obj/structure/shelf,
+/turf/open/floor/plating,
 /area/space)
 "Sf" = (
 /obj/structure/tank_dispenser/oxygen,
@@ -871,7 +926,7 @@ In
 gG
 In
 bn
-pW
+zh
 MZ
 MZ
 MZ
@@ -1384,7 +1439,7 @@ LG
 Yq
 vV
 vV
-vV
+RO
 In
 In
 WA
@@ -1416,7 +1471,7 @@ LG
 eY
 LG
 LG
-LG
+JM
 In
 LG
 Em
@@ -1446,8 +1501,8 @@ MZ
 bn
 In
 Tu
-zX
-zX
+yW
+LG
 zX
 In
 zT

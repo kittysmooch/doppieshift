@@ -1,0 +1,274 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/space/basic,
+/area/space)
+"e" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/space)
+"h" = (
+/turf/open/floor/engine/hull/reinforced,
+/area/space)
+"i" = (
+/obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/pirate{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"l" = (
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/turf/open/space/basic,
+/area/space)
+"o" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/space)
+"s" = (
+/obj/machinery/porta_turret/syndicate,
+/turf/closed/wall/mineral/plastitanium,
+/area/space)
+"z" = (
+/turf/open/floor/plating,
+/area/space)
+"B" = (
+/obj/machinery/computer/monitor{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+"I" = (
+/obj/machinery/door/airlock/external,
+/turf/open/floor/plating,
+/area/space)
+"K" = (
+/obj/machinery/power/shuttle_engine/propulsion{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/space)
+"S" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "piratebridge"
+	},
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/space)
+"T" = (
+/obj/structure/minecart_rail{
+	dir = 4
+	},
+/obj/structure/marker_beacon/burgundy{
+	pixel_x = 16;
+	pixel_y = -7
+	},
+/obj/structure/marker_beacon/burgundy{
+	pixel_x = 16;
+	pixel_y = 5
+	},
+/turf/open/space/basic,
+/area/space)
+"V" = (
+/obj/machinery/computer/shuttle/pirate{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/space)
+
+(1,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
+(2,1,1) = {"
+a
+a
+a
+a
+a
+h
+h
+a
+a
+a
+a
+h
+h
+"}
+(3,1,1) = {"
+a
+a
+a
+a
+a
+h
+h
+K
+K
+K
+K
+h
+h
+"}
+(4,1,1) = {"
+a
+a
+a
+a
+a
+h
+h
+o
+o
+o
+o
+h
+h
+"}
+(5,1,1) = {"
+a
+a
+a
+a
+a
+h
+h
+o
+z
+z
+I
+h
+h
+"}
+(6,1,1) = {"
+a
+a
+a
+a
+a
+h
+h
+o
+I
+o
+o
+h
+h
+"}
+(7,1,1) = {"
+a
+a
+a
+a
+a
+l
+h
+o
+z
+e
+S
+h
+a
+"}
+(8,1,1) = {"
+a
+a
+a
+a
+a
+T
+a
+o
+z
+B
+o
+a
+a
+"}
+(9,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+S
+z
+e
+S
+a
+a
+"}
+(10,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+S
+V
+i
+S
+a
+a
+"}
+(11,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+s
+S
+S
+s
+a
+a
+"}
+(12,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+h
+h
+a
+a
+a
+"}
+(13,1,1) = {"
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+a
+"}
