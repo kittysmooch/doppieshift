@@ -12,16 +12,29 @@
 	icon_state = "snub_nose_ppc"
 	density = TRUE
 	projectile_type = /obj/projectile/energy/snub_particle_cannon_bolt
+	number_of_shots = 1
+	cooldown_duration = 5 SECONDS
 	firesound = 'modular_doppler/modular_sounds/sound/items/particle_cannon.ogg'
 	always_anchored = TRUE
 	cooldown_duration = 10 SECONDS
 	/// how much energy we take out of the grid when we fire a shot. uses WATTS
 	var/power_draw_per_shot = 2000 WATTS
 
-/obj/machinery/deployable_turret/snub_particle_cannon/proc/fire()
+/obj/machinery/deployable_turret/snub_particle_cannon/proc/fire_helper(mob/user)
+	. = ..()
 	use_energy(power_draw_per_shot)
+
+//we don't want it to spin like the parent turret can, so we override this behavior.
+/obj/machinery/deployable_turret/snub_particle_cannon/direction_track(mob/user, atom/targeted)
+	return
 
 /obj/projectile/energy/snub_particle_cannon_bolt
 	name = "energized particle bolt"
 	icon = 'modular_doppler/modular_weapons/icons/projectiles.dmi'
 	icon_state = "ppc_bolt"
+	damage = 50
+
+/obj/projectile/energy/snub_particle_cannon_bolt/on_hit(atom/target, blocked, pierce_hit)
+	. = ..()
+	explosion(target, devastation_range = 1, heavy_impact_range = 2, light_impact_range = 3, explosion_cause = src)	//small concentrated explosion makes tiny breaches for ingress
+	return BULLET_ACT_HIT
