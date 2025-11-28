@@ -20,7 +20,7 @@
 	/// how much energy we take out of the grid when we fire a shot. uses WATTS
 	var/power_draw_per_shot = 2000 WATTS
 
-/obj/machinery/deployable_turret/snub_particle_cannon/proc/fire_helper(mob/user)
+/obj/machinery/deployable_turret/snub_particle_cannon/fire_helper(mob/user)
 	. = ..()
 	use_energy(power_draw_per_shot)
 

@@ -11,7 +11,7 @@
 	caliber = CALIBER_BOLT_THROWER
 	projectile_type = /obj/projectile/bullet/bolt_slug
 
-/obj/item/ammo_casing/strilka310/Initialize(mapload)
+/obj/item/ammo_casing/bolt_slug/Initialize(mapload)
 	. = ..()
 	AddElement(/datum/element/caseless)
 
@@ -24,22 +24,11 @@
 	wound_bonus = -45
 	wound_falloff_tile = 0
 
-/obj/item/ammo_casing/bolt_slug/scattershot
-	name = "machined grapeshot"
-	desc = "A fistful of ferrous roundshot wrapped in a paper sleeve. The sleeve readily burns off from the heat of acceleration, leaving \
-	the shot free to spread and brutalize exposed tissue."
-	icon_state = "machined_grapeshot"
-	projectile_type = /obj/projectile/bullet/pellet/machined_grapeshot
-	pellets = 9
-	weak_against_armour = TRUE
-
-/obj/projectile/bullet/pellet/machined_grapeshot
-	name = "machined grapeshot"
-	icon = 'modular_doppler/modular_weapons/icons/projectiles.dmi'
-	icon_state = "shortyellowtrac"
-	damage = 5
-	wound_bonus = 5
-	exposed_wound_bonus = 5
-	speed = 1.1
-	wound_falloff_tile = -0.5 //We would very much like this to cause wounds despite the low damage, so the drop off is relatively slow
-	sharpness = SHARP_EDGED
+/obj/item/ammo_box/magazine/ammo_stack/bolt_slug
+	name = "machined slugs"
+	desc = "A stack of machined slugs."
+	caliber = CALIBER_BOLT_THROWER
+	ammo_type = /obj/item/ammo_casing/bolt_slug
+	max_ammo = 4
+	casing_w_spacing = 2
+	casing_z_padding = 6
