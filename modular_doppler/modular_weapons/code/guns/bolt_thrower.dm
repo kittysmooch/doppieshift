@@ -10,6 +10,10 @@
 	when field operators overtune their coils for greater penetration until the projectile spall itself ignites."
 	icon = 'modular_doppler/modular_weapons/icons/obj/guns32x.dmi'
 	icon_state = "bolt_thrower"
+	worn_icon = 'modular_doppler/modular_weapons/icons/mob/worn/guns.dmi'
+	worn_icon_state = "bolt_thrower"
+	lefthand_file = 'modular_doppler/modular_weapons/icons/mob/inhands/gun_lefthand.dmi'
+	righthand_file = 'modular_doppler/modular_weapons/icons/mob/inhands/gun_righthand.dmi'
 	inhand_icon_state = "bolt_thrower"
 	slot_flags = ITEM_SLOT_BACK | ITEM_SLOT_SUITSTORE
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/bolt_thrower
@@ -19,8 +23,6 @@
 	fire_delay = 10
 	fire_sound = 'modular_doppler/modular_sounds/sound/items/bolt_thrower.ogg'
 	weapon_weight = WEAPON_HEAVY
-	bolt_wording = "mass driver"
-	magazine_wording = "hopper"
 	cartridge_wording = "slug"
 
 /obj/item/ammo_box/magazine/internal/bolt_thrower
