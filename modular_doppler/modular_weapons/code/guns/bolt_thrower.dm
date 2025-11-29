@@ -14,6 +14,8 @@
 	slot_flags = ITEM_SLOT_BACK | ITEM_SLOT_SUITSTORE
 	accepted_magazine_type = /obj/item/ammo_box/magazine/internal/bolt_thrower
 	internal_magazine = TRUE
+	mag_display = TRUE
+	mag_display_ammo = TRUE
 	fire_delay = 10
 	fire_sound = 'modular_doppler/modular_sounds/sound/items/bolt_thrower.ogg'
 	weapon_weight = WEAPON_HEAVY

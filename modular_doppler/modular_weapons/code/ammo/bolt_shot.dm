@@ -32,3 +32,6 @@
 	max_ammo = 4
 	casing_w_spacing = 2
 	casing_z_padding = 6
+
+/obj/item/ammo_box/magazine/ammo_stack/bolt_slug/full
+	start_empty = FALSE
