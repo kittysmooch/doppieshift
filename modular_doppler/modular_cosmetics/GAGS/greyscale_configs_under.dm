@@ -306,8 +306,8 @@
 	name = "Moto Leggings (Worn)"
 	icon_file = 'modular_doppler/modular_cosmetics/icons/mob/under/miscellania.dmi'
 
-/datum/greyscale_config/moto_leggings/digi
-	name = "Moto Leggings (Digi)"
+/datum/greyscale_config/moto_leggings/worn/digi
+	name = "Moto Leggings (Worn, Digi)"
 	icon_file = 'modular_doppler/modular_cosmetics/icons/mob/under/pants_digi.dmi'
 
 /datum/greyscale_config/track_pants

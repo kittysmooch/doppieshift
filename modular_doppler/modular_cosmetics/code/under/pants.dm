@@ -144,16 +144,16 @@
 	greyscale_colors = "#66ccff"
 	greyscale_config = /datum/greyscale_config/shortalls
 	greyscale_config_worn = /datum/greyscale_config/shortalls/worn
+	greyscale_config_worn_bodyshapes = list(
+		BODYSHAPE_HUMANOID_T = /datum/greyscale_config/shortalls/worn,
+		BODYSHAPE_DIGITIGRADE_T = /datum/greyscale_config/shortalls/worn/digi,
+	)
 	female_sprite_flags = FEMALE_UNIFORM_NO_BREASTS
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/suit/under/shortalls/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/adjust_fishing_difficulty, -4)
-	greyscale_config_worn_bodyshapes = list()
-	greyscale_config_worn_bodyshapes["[BODYSHAPE_HUMANOID]"] = /datum/greyscale_config/shortalls/worn
-	greyscale_config_worn_bodyshapes["[BODYSHAPE_DIGITIGRADE]"] = /datum/greyscale_config/shortalls/worn/digi
-	set_greyscale(colors = greyscale_colors)
 
 /obj/item/clothing/under/dress/skirt/medium
 	name = "medium skirt"

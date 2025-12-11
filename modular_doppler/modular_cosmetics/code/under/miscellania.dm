@@ -29,17 +29,14 @@
 	icon_state = "/obj/item/clothing/under/pants/moto_leggings"
 	post_init_icon_state = "moto_leggings"
 	greyscale_config = /datum/greyscale_config/moto_leggings
+	greyscale_config_worn_bodyshapes = list(
+		BODYSHAPE_HUMANOID_T = /datum/greyscale_config/moto_leggings/worn,
+		BODYSHAPE_DIGITIGRADE_T = /datum/greyscale_config/moto_leggings/worn/digi,
+	)
 	greyscale_colors = "#872c2c#780a0a"
 	flags_1 = IS_PLAYER_COLORABLE_1
 	body_parts_covered = GROIN|LEGS
 	can_adjust = FALSE
-
-/obj/item/clothing/under/pants/moto_leggings/Initialize(mapload)
-	. = ..()
-	greyscale_config_worn_bodyshapes = list()
-	greyscale_config_worn_bodyshapes["[BODYSHAPE_HUMANOID]"] = /datum/greyscale_config/moto_leggings/worn
-	greyscale_config_worn_bodyshapes["[BODYSHAPE_DIGITIGRADE]"] = /datum/greyscale_config/moto_leggings/digi
-	set_greyscale(colors = greyscale_colors)
 
 /obj/item/clothing/under/pants/big_pants
 	name = "\improper JUNCO megacargo pants"
