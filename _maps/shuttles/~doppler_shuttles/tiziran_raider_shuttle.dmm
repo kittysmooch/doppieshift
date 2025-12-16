@@ -96,7 +96,7 @@
 "kC" = (
 /obj/structure/minecart_rail,
 /turf/template_noop,
-/area/space)
+/area/template_noop)
 "lr" = (
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/plating,
@@ -497,7 +497,7 @@
 	pixel_y = -14
 	},
 /turf/template_noop,
-/area/space)
+/area/template_noop)
 "Fd" = (
 /obj/machinery/modular_computer/preset/engineering{
 	dir = 1
@@ -582,7 +582,7 @@
 /area/space)
 "MZ" = (
 /turf/template_noop,
-/area/space)
+/area/template_noop)
 "Nx" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,

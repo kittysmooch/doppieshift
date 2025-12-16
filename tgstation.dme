@@ -7695,6 +7695,7 @@
 #include "modular_doppler\ships_r_us\code\shuttle_lockers.dm"
 #include "modular_doppler\ships_r_us\code\shuttle_parts.dm"
 #include "modular_doppler\ships_r_us\code\wirefix.dm"
+#include "modular_doppler\ships_r_us\code\shuttle_templates\antag_ships.dm"
 #include "modular_doppler\ships_r_us\code\shuttle_templates\big_boy.dm"
 #include "modular_doppler\ships_r_us\code\shuttle_templates\ferries.dm"
 #include "modular_doppler\ships_r_us\code\shuttle_templates\incomplete.dm"

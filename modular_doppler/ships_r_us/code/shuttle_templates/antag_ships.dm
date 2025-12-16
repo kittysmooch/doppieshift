@@ -17,7 +17,7 @@
 
 /datum/map_template/shuttle/personal_buyable/antagonist/tiziran_interceptor
 	name = "ITF Zul'kath"
-	description = "A Tiziran warship built for high speed pursuits of lightly armed merchant farers."
+	description = "A Tiziran interceptor with a tandem cockpit that was originally developed for hyperspace interdiction."
 	credit_cost = CARGO_CRATE_VALUE * 8
 	suffix = "tiziran_interceptor"
 	width = 10
@@ -29,7 +29,9 @@
 // datum for the pirate shuttle
 
 /datum/map_template/shuttle/pirate/tiziran_corvette
-	prefix = "_maps/shuttles/~doppler_shuttles/
+	prefix = "_maps/shuttles/~doppler_shuttles/"
 	suffix = "tiziran_raider_shuttle"
 	name = "pirate ship (Tiziran Corvette)"
 
+/area/shuttle/pirate/tiziran_corvette
+	name = "Tiziran corvette"

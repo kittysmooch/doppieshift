@@ -1,134 +1,134 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "a" = (
 /turf/template_noop,
-/area/space)
+/area/template_noop)
 "c" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "d" = (
 /obj/machinery/atmospherics/components/unary/passive_vent/layer2{
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "e" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "g" = (
 /obj/structure/guncase,
 /obj/item/ammo_box/magazine/ammo_stack/bolt_slug/full,
 /obj/item/ammo_box/magazine/ammo_stack/bolt_slug/full,
 /obj/item/gun/ballistic/bolt_thrower,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "h" = (
 /obj/machinery/power/micro_reactor,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "i" = (
 /obj/machinery/portable_atmospherics/canister/air,
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer4{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "j" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "l" = (
 /obj/structure/minecart_rail{
 	dir = 4
 	},
 /turf/template_noop,
-/area/space)
+/area/template_noop)
 "n" = (
 /obj/structure/closet/crate/secure/plasma,
 /obj/item/stack/sheet/mineral/plasma/five,
 /obj/item/stack/sheet/mineral/plasma/five,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "o" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "r" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/pirate{
 	dir = 8
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "s" = (
 /obj/machinery/porta_turret/syndicate,
 /turf/closed/wall/mineral/plastitanium,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "u" = (
 /obj/machinery/computer/shuttle/pirate{
 	dir = 8
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "v" = (
 /obj/structure/minecart_rail{
 	dir = 4
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "z" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "A" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "B" = (
 /obj/structure/railing/eva_handhold/directional/west,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "H" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "I" = (
 /obj/machinery/suit_storage_unit/pirate{
 	helmet_type = /obj/item/clothing/head/helmet/space/pirate/tiziran_raider;
 	suit_type = /obj/item/clothing/suit/space/pirate/tiziran
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "K" = (
 /obj/machinery/power/shuttle_engine/propulsion{
 	dir = 8
 	},
 /turf/open/floor/plating/airless,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "L" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "M" = (
 /obj/machinery/power/port_gen/pacman/pre_loaded,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "O" = (
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "P" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
@@ -136,7 +136,7 @@
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "Q" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -147,13 +147,13 @@
 /obj/effect/mapping_helpers/apc/syndicate_access,
 /obj/effect/mapping_helpers/apc/cell_10k,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "R" = (
 /turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "S" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "T" = (
 /obj/structure/minecart_rail{
 	dir = 4
@@ -167,7 +167,7 @@
 	pixel_y = 5
 	},
 /turf/template_noop,
-/area/space)
+/area/template_noop)
 "U" = (
 /obj/machinery/computer/monitor{
 	dir = 8
@@ -182,7 +182,7 @@
 	pixel_x = -3
 	},
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 "V" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "piratebridge"
@@ -190,7 +190,7 @@
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/space)
+/area/shuttle/personally_bought/tiziran_interceptor)
 
 (1,1,1) = {"
 K
