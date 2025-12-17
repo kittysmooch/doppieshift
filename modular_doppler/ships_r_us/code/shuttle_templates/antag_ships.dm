@@ -14,6 +14,7 @@
 	personal_shuttle_size = PERSONAL_SHIP_LARGE
 
 /area/shuttle/personally_bought/tiziran_corvette
+	name = "ITS Kaz'akran"
 
 /datum/map_template/shuttle/personal_buyable/antagonist/tiziran_interceptor
 	name = "ITF Zul'kath"
@@ -25,6 +26,7 @@
 	personal_shuttle_size = PERSONAL_SHIP_SMALL
 
 /area/shuttle/personally_bought/tiziran_interceptor
+	name = "ITF Zul'kath"
 
 // datum for the pirate shuttle
 
@@ -34,4 +36,4 @@
 	name = "pirate ship (Tiziran Corvette)"
 
 /area/shuttle/pirate/tiziran_corvette
-	name = "Tiziran corvette"
+	name = "ITS Kaz'akran"
