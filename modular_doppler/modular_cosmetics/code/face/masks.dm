@@ -171,6 +171,7 @@
 	icon = 'modular_doppler/modular_cosmetics/GAGS/icons/obj/face.dmi'
 	worn_icon = 'modular_doppler/modular_cosmetics/GAGS/icons/mob/face.dmi'
 	icon_state = "faceplate"
+	worn_icon_state = "faceplate"
 	tint = 0
 	greyscale_colors = "#FFFFFF"
 	greyscale_config = /datum/greyscale_config/faceplate
@@ -195,6 +196,7 @@
 
 /obj/item/clothing/mask/gas/atmos/faceplate/why_so_eyes
 	icon_state = "faceplate_eyes"
+	worn_icon_state = "faceplate_eyes"
 	greyscale_colors = "#FFFFFF#333333"
 	greyscale_config = /datum/greyscale_config/faceplate_eyes
 	greyscale_config_worn = /datum/greyscale_config/faceplate_eyes/worn
