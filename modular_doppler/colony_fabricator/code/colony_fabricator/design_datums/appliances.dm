@@ -15,16 +15,12 @@
 	description = "Contains all of the colony fabricator's appliance machine designs."
 	design_ids = list(
 		"wall_multi_cell_rack",
-		"portable_lil_pump",
-		"portable_scrubbs",
 		"survival_knife", // I just don't want to make a whole new node for this one sorry
 		"water_synth",
 		"hydro_synth",
 		"frontier_sustenance_dispenser",
 		"co2_cracker",
-		"portable_recycler",
 		"foodricator",
-		"wall_heater",
 		"macrowave",
 		"frontier_range",
 		"tabletop_griddle",
@@ -49,57 +45,7 @@
 		RND_CATEGORY_INITIAL,
 		FABRICATOR_CATEGORY_APPLIANCES + FABRICATOR_SUBCATEGORY_POWER,
 	)
-	construction_time = 15 SECONDS
-
-// Portable scrubber and pumps for all your construction atmospherics needs
-
-/datum/design/portable_gas_pump
-	name = "Portable Air Pump"
-	id = "portable_lil_pump"
-	build_type = COLONY_FABRICATOR
-	materials = list(
-		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5,
-		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 3,
-	)
-	build_path = /obj/machinery/portable_atmospherics/pump
-	category = list(
-		RND_CATEGORY_INITIAL,
-		FABRICATOR_CATEGORY_APPLIANCES + FABRICATOR_SUBCATEGORY_ATMOS,
-	)
-	construction_time = 30 SECONDS
-
-/datum/design/portable_gas_scrubber
-	name = "Portable Air Scrubber"
-	id = "portable_scrubbs"
-	build_type = COLONY_FABRICATOR
-	materials = list(
-		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5,
-		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 3,
-	)
-	build_path = /obj/machinery/portable_atmospherics/scrubber
-	category = list(
-		RND_CATEGORY_INITIAL,
-		FABRICATOR_CATEGORY_APPLIANCES + FABRICATOR_SUBCATEGORY_ATMOS,
-	)
-	construction_time = 30 SECONDS
-
-/// Space heater, but it mounts on walls
-
-/datum/design/wall_mounted_space_heater
-	name = "Mounted Heater"
-	id = "wall_heater"
-	build_type = COLONY_FABRICATOR
-	materials = list(
-		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 4,
-		/datum/material/silver = SHEET_MATERIAL_AMOUNT * 1,
-		/datum/material/gold = SMALL_MATERIAL_AMOUNT,
-	)
-	build_path = /obj/item/wallframe/wall_heater
-	category = list(
-		RND_CATEGORY_INITIAL,
-		FABRICATOR_CATEGORY_APPLIANCES + FABRICATOR_SUBCATEGORY_ATMOS,
-	)
-	construction_time = 15 SECONDS
+	construction_time = 5 SECONDS
 
 // Plumbable chem machine that makes nothing but water
 
@@ -116,7 +62,7 @@
 		RND_CATEGORY_INITIAL,
 		FABRICATOR_CATEGORY_APPLIANCES + FABRICATOR_SUBCATEGORY_FLUIDS,
 	)
-	construction_time = 30 SECONDS
+	construction_time = 3 SECONDS
 
 // Plumbable chem machine that makes nothing but water
 
@@ -133,7 +79,7 @@
 		RND_CATEGORY_INITIAL,
 		FABRICATOR_CATEGORY_APPLIANCES + FABRICATOR_SUBCATEGORY_FLUIDS,
 	)
-	construction_time = 30 SECONDS
+	construction_time = 3 SECONDS
 
 // Chem dispenser that dispenses various flavored beverages and nutrislop, yum!
 
@@ -151,43 +97,19 @@
 		RND_CATEGORY_INITIAL,
 		FABRICATOR_CATEGORY_APPLIANCES + FABRICATOR_SUBCATEGORY_SUSTENANCE,
 	)
-	construction_time = 30 SECONDS
+	construction_time = 5 SECONDS
 
 // CO2 cracker, portable machines that takes CO2 and turns it into oxygen
 
-/datum/design/co2_cracker
+/datum/design/board/co2_cracker
 	name = "Portable Carbon Dioxide Cracker"
 	id = "co2_cracker"
 	build_type = COLONY_FABRICATOR
-	materials = list(
-		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5,
-		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 3,
-		/datum/material/plasma = HALF_SHEET_MATERIAL_AMOUNT, // We're gonna pretend plasma is the catalyst for co2 cracking
-	)
-	build_path = /obj/item/flatpacked_machine/co2_cracker
+	build_path = /obj/item/circuitboard/machine/co2_cracker
 	category = list(
 		RND_CATEGORY_INITIAL,
 		FABRICATOR_CATEGORY_APPLIANCES + FABRICATOR_SUBCATEGORY_ATMOS,
 	)
-	construction_time = 30 SECONDS
-
-// A portable recycling machine, use item with materials on it to recycle
-
-/datum/design/portable_recycler
-	name = "Portable Recycler"
-	id = "portable_recycler"
-	build_type = COLONY_FABRICATOR
-	materials = list(
-		/datum/material/iron = SHEET_MATERIAL_AMOUNT * 7.5,
-		/datum/material/glass = SHEET_MATERIAL_AMOUNT * 3,
-		/datum/material/titanium = HALF_SHEET_MATERIAL_AMOUNT, // Titan for the crushing element
-	)
-	build_path = /obj/item/flatpacked_machine/recycler
-	category = list(
-		RND_CATEGORY_INITIAL,
-		FABRICATOR_CATEGORY_APPLIANCES + FABRICATOR_SUBCATEGORY_MATERIALS,
-	)
-	construction_time = 30 SECONDS
 
 // Rations printer, turns biomass into seeds, some synthesized foods, ingredients, so on
 
@@ -206,7 +128,7 @@
 		RND_CATEGORY_INITIAL,
 		FABRICATOR_CATEGORY_APPLIANCES + FABRICATOR_SUBCATEGORY_SUSTENANCE,
 	)
-	construction_time = 30 SECONDS
+	construction_time = 5 SECONDS
 
 // Really, it's just a microwave
 
@@ -224,7 +146,7 @@
 		RND_CATEGORY_INITIAL,
 		FABRICATOR_CATEGORY_APPLIANCES + FABRICATOR_SUBCATEGORY_SUSTENANCE,
 	)
-	construction_time = 30 SECONDS
+	construction_time = 5 SECONDS
 
 // A range, but it looks cool af
 
@@ -242,7 +164,7 @@
 		RND_CATEGORY_INITIAL,
 		FABRICATOR_CATEGORY_APPLIANCES + FABRICATOR_SUBCATEGORY_SUSTENANCE,
 	)
-	construction_time = 1 MINUTES
+	construction_time = 5 SECONDS
 
 // Griddles that fit on top of any regular table
 
@@ -260,7 +182,7 @@
 		RND_CATEGORY_INITIAL,
 		FABRICATOR_CATEGORY_APPLIANCES + FABRICATOR_SUBCATEGORY_SUSTENANCE,
 	)
-	construction_time = 1 MINUTES
+	construction_time = 5 SECONDS
 
 #undef FABRICATOR_CATEGORY_APPLIANCES
 #undef FABRICATOR_SUBCATEGORY_POWER
