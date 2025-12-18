@@ -3,8 +3,13 @@
 /turf/template_noop,
 /area/template_noop)
 "c" = (
-/obj/structure/cable,
-/obj/machinery/light/small/red/directional/west,
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark/airless,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "d" = (
@@ -35,8 +40,13 @@
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "h" = (
-/obj/machinery/power/micro_reactor,
-/obj/structure/cable,
+/obj/machinery/suit_storage_unit/pirate{
+	helmet_type = /obj/item/clothing/head/helmet/space/pirate/tiziran_raider;
+	suit_type = /obj/item/clothing/suit/space/pirate/tiziran
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "i" = (
@@ -47,18 +57,19 @@
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "j" = (
-/obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/docking_port/mobile/personally_bought,
-/obj/structure/fans/tiny,
-/obj/effect/mapping_helpers/airlock/cutaiwire,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "k" = (
-/obj/structure/closet/firecloset/shuttle/tools,
-/obj/structure/window/reinforced/survival_pod/spawner/directional/west,
-/obj/machinery/light/small/red/directional/north,
-/turf/open/floor/plating,
+/obj/machinery/door/airlock/external,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/structure/fans/tiny,
+/obj/docking_port/mobile/personally_bought{
+	dir = 2;
+	port_direction = 8
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/catwalk_floor/iron_dark/airless,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "l" = (
 /obj/structure/minecart_rail{
@@ -66,12 +77,6 @@
 	},
 /turf/template_noop,
 /area/template_noop)
-"n" = (
-/obj/structure/closet/crate/secure/plasma,
-/obj/item/stack/sheet/mineral/plasma/five,
-/obj/item/stack/sheet/mineral/plasma/five,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
 "o" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/personally_bought/tiziran_interceptor)
@@ -84,10 +89,10 @@
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "r" = (
-/obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/pirate{
+/obj/structure/cable,
+/obj/machinery/computer/camera_advanced/shuttle_docker/personally_bought{
 	dir = 8
 	},
-/obj/structure/cable,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "s" = (
@@ -95,11 +100,11 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "u" = (
-/obj/machinery/computer/shuttle/pirate{
+/obj/structure/cable,
+/obj/machinery/computer/shuttle/personally_bought{
 	dir = 8
 	},
-/obj/structure/cable,
-/turf/open/floor/plating,
+/turf/open/floor/catwalk_floor/iron_dark/airless,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "v" = (
 /obj/structure/minecart_rail{
@@ -112,6 +117,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
 /obj/machinery/door/window/survival_pod/left/directional/west,
+/obj/machinery/light/small/red/directional/north,
 /turf/open/floor/catwalk_floor/iron_dark/airless,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "z" = (
@@ -122,7 +128,8 @@
 /turf/open/floor/catwalk_floor/iron_dark/airless,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "A" = (
-/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark/airless,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "B" = (
@@ -152,15 +159,15 @@
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "I" = (
-/obj/machinery/suit_storage_unit/pirate{
-	helmet_type = /obj/item/clothing/head/helmet/space/pirate/tiziran_raider;
-	suit_type = /obj/item/clothing/suit/space/pirate/tiziran
-	},
+/obj/machinery/power/micro_reactor,
+/obj/structure/cable,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "J" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/light/small/red/directional/west,
+/obj/machinery/door/window/survival_pod/left/directional/north,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "K" = (
@@ -176,11 +183,17 @@
 /turf/open/floor/catwalk_floor/iron_dark/airless,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "M" = (
-/obj/machinery/power/port_gen/pacman/pre_loaded,
-/obj/structure/cable,
+/obj/machinery/suit_storage_unit/pirate{
+	helmet_type = /obj/item/clothing/head/helmet/space/pirate/tiziran_raider;
+	suit_type = /obj/item/clothing/suit/space/pirate/tiziran
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "O" = (
+/obj/structure/closet/firecloset/shuttle/tools,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "P" = (
@@ -222,9 +235,6 @@
 /turf/template_noop,
 /area/template_noop)
 "U" = (
-/obj/machinery/computer/monitor{
-	dir = 8
-	},
 /obj/machinery/turretid{
 	pixel_y = -24
 	},
@@ -233,6 +243,9 @@
 	name = "Cockpit Shutters Control";
 	pixel_y = -34;
 	pixel_x = -3
+	},
+/obj/machinery/modular_computer/preset/engineering{
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
@@ -276,7 +289,7 @@ i
 o
 "}
 (4,1,1) = {"
-o
+k
 A
 c
 L
@@ -288,7 +301,7 @@ o
 (5,1,1) = {"
 G
 M
-n
+o
 L
 I
 O
@@ -298,7 +311,7 @@ G
 (6,1,1) = {"
 v
 o
-k
+o
 x
 P
 E
