@@ -35,6 +35,7 @@
 	prompt_name = "Tiziran raider"
 	outfit = /datum/outfit/pirate/tiziran
 	rank = "swabbie"
+	icon_state = "oldpod"
 
 /obj/effect/mob_spawn/ghost_role/human/pirate/tiziran/captain
 	name = "\improper Tiziran command sleeper"

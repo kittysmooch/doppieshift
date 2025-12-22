@@ -10,13 +10,12 @@
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "d" = (
-/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
-	dir = 4
-	},
-/turf/open/floor/catwalk_floor/iron_dark/airless,
+/obj/structure/railing/eva_handhold/directional/west,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "e" = (
 /obj/structure/chair/comfy/shuttle{
@@ -36,7 +35,9 @@
 /obj/item/ammo_box/magazine/ammo_stack/bolt_slug/full,
 /obj/item/ammo_box/magazine/ammo_stack/bolt_slug/full,
 /obj/item/gun/ballistic/bolt_thrower,
-/obj/machinery/wall_healer/free/directional/east,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "h" = (
@@ -69,14 +70,18 @@
 	port_direction = 8
 	},
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "l" = (
-/obj/structure/minecart_rail{
-	dir = 4
-	},
-/turf/template_noop,
-/area/template_noop)
+/obj/machinery/airalarm/directional/west,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/obj/structure/closet/firecloset/shuttle,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_interceptor)
+"n" = (
+/obj/structure/railing/eva_handhold/directional/north,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/personally_bought/tiziran_interceptor)
 "o" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/personally_bought/tiziran_interceptor)
@@ -86,6 +91,11 @@
 	},
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_interceptor)
+"q" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/wall_healer/free/directional/west,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "r" = (
@@ -99,18 +109,26 @@
 /obj/machinery/porta_turret/syndicate,
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/personally_bought/tiziran_interceptor)
+"t" = (
+/obj/machinery/power/shuttle_engine/heater{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/personally_bought/tiziran_interceptor)
 "u" = (
 /obj/structure/cable,
 /obj/machinery/computer/shuttle/personally_bought{
 	dir = 8
 	},
-/turf/open/floor/catwalk_floor/iron_dark/airless,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "v" = (
-/obj/structure/minecart_rail{
-	dir = 4
+/obj/item/tether_anchor{
+	anchored = 1
 	},
-/turf/closed/wall/mineral/plastitanium,
+/obj/structure/railing/eva_handhold/directional/north,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "x" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -118,34 +136,52 @@
 /obj/structure/cable,
 /obj/machinery/door/window/survival_pod/left/directional/west,
 /obj/machinery/light/small/red/directional/north,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_interceptor)
+"y" = (
+/obj/machinery/power/shuttle_engine/propulsion{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating/airless,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "z" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
 /obj/structure/cable,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "A" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "B" = (
 /obj/structure/railing/eva_handhold/directional/west,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/personally_bought/tiziran_interceptor)
+"C" = (
+/obj/structure/railing/eva_handhold/directional/south,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/personally_bought/tiziran_interceptor)
 "D" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/airalarm/directional/west,
-/obj/effect/mapping_helpers/airalarm/all_access,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "E" = (
-/obj/structure/closet/firecloset/shuttle,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/west,
 /obj/machinery/light/small/red/directional/south,
+/obj/structure/closet/crate/cardboard/tiziran,
+/obj/item/reagent_containers/cup/soda_cans/doppler/kortara,
+/obj/item/reagent_containers/cup/soda_cans/doppler/kortara,
+/obj/item/reagent_containers/cup/soda_cans/doppler/kortara,
+/obj/item/reagent_containers/cup/soda_cans/doppler/kortara,
+/obj/item/reagent_containers/cup/soda_cans/doppler/kortara,
+/obj/item/reagent_containers/cup/soda_cans/doppler/kortara,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "G" = (
@@ -156,6 +192,8 @@
 /area/shuttle/personally_bought/tiziran_interceptor)
 "H" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/sign/poster/contraband/dolphin/directional/south,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "I" = (
@@ -167,7 +205,7 @@
 "J" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/light/small/red/directional/west,
-/obj/machinery/door/window/survival_pod/left/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "K" = (
@@ -180,7 +218,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "M" = (
 /obj/machinery/suit_storage_unit/pirate{
@@ -194,6 +232,9 @@
 /area/shuttle/personally_bought/tiziran_interceptor)
 "O" = (
 /obj/structure/closet/firecloset/shuttle/tools,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "P" = (
@@ -212,28 +253,29 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/mapping_helpers/apc/syndicate_access,
 /obj/effect/mapping_helpers/apc/cell_10k,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "R" = (
-/turf/open/floor/catwalk_floor/iron_dark/airless,
+/obj/item/tether_anchor{
+	anchored = 1
+	},
+/obj/structure/railing/eva_handhold/directional/south,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "S" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "T" = (
-/obj/structure/minecart_rail{
-	dir = 4
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/structure/shelf,
+/obj/item/melee/tizirian_sword{
+	pixel_x = -3
 	},
-/obj/structure/marker_beacon/burgundy{
-	pixel_x = 16;
-	pixel_y = -7
+/obj/item/melee/tizirian_sword{
+	pixel_x = 5
 	},
-/obj/structure/marker_beacon/burgundy{
-	pixel_x = 16;
-	pixel_y = 5
-	},
-/turf/template_noop,
-/area/template_noop)
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_interceptor)
 "U" = (
 /obj/machinery/turretid{
 	pixel_y = -24
@@ -257,10 +299,17 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
+"W" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/structure/extinguisher_cabinet/directional/north,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_interceptor)
 
 (1,1,1) = {"
 K
-K
+y
 a
 a
 a
@@ -270,23 +319,23 @@ K
 "}
 (2,1,1) = {"
 f
-f
-B
+t
 d
-R
+j
+G
 B
 f
 f
 "}
 (3,1,1) = {"
-o
+n
 h
 o
-j
-G
-o
+q
+T
+l
 i
-o
+C
 "}
 (4,1,1) = {"
 k
@@ -299,17 +348,17 @@ H
 o
 "}
 (5,1,1) = {"
-G
+v
 M
 o
-L
+W
 I
 O
 g
-G
+R
 "}
 (6,1,1) = {"
-v
+S
 o
 o
 x
@@ -319,7 +368,7 @@ o
 S
 "}
 (7,1,1) = {"
-l
+a
 s
 o
 Q
@@ -329,7 +378,7 @@ s
 a
 "}
 (8,1,1) = {"
-T
+a
 a
 V
 z

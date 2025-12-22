@@ -24,10 +24,6 @@
 	. = ..()
 	use_energy(power_draw_per_shot)
 
-//we don't want it to spin like the parent turret can, so we override this behavior.
-/obj/machinery/deployable_turret/snub_particle_cannon/direction_track(mob/user, atom/targeted)
-	return
-
 /obj/projectile/energy/snub_particle_cannon_bolt
 	name = "energized particle bolt"
 	icon = 'modular_doppler/modular_weapons/icons/projectiles.dmi'
