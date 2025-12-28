@@ -39,6 +39,7 @@
 "ee" = (
 /obj/structure/sign/poster/ripped/directional/west,
 /obj/effect/mob_spawn/ghost_role/human/pirate/tiziran,
+/obj/machinery/light/red/directional/west,
 /turf/open/floor/iron/dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "eq" = (
@@ -54,6 +55,7 @@
 	id = "silverbridge";
 	name = "Window Shutters Control"
 	},
+/obj/structure/marker_beacon/burgundy,
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "eY" = (
@@ -63,9 +65,11 @@
 /turf/open/floor/iron/dark/smooth_half,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "fA" = (
+/obj/machinery/shuttle_scrambler,
+/obj/structure/cable,
 /obj/machinery/turretid{
 	ailock = 1;
-	desc = d"A specially designed set of turret controls. Looks to be covered in protective casing to prevent AI interfacing.";
+	desc = "A specially designed set of turret controls. Looks to be covered in protective casing to prevent AI interfacing.";
 	icon_state = "control_kill";
 	lethal = 1;
 	name = "Ship Turret Control";
@@ -73,18 +77,25 @@
 	pixel_y = 4;
 	req_access = list("syndicate")
 	},
-/obj/machinery/shuttle_scrambler,
-/obj/structure/cable,
+/obj/structure/marker_beacon/burgundy,
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "fF" = (
 /obj/machinery/modular_computer/preset/engineering{
 	dir = 8
 	},
+/obj/structure/marker_beacon/burgundy,
 /turf/open/floor/iron/dark/textured,
+/area/shuttle/personally_bought/tiziran_interceptor)
+"fI" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/red/directional/south,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "gG" = (
 /obj/machinery/vending/imported/tiziran,
+/obj/machinery/light/red/directional/west,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "jl" = (
@@ -93,6 +104,7 @@
 /area/shuttle/personally_bought/tiziran_interceptor)
 "kd" = (
 /obj/machinery/door/airlock/external,
+/obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark/airless,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "kf" = (
@@ -106,6 +118,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/red/full,
+/obj/structure/marker_beacon/burgundy,
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "lr" = (
@@ -123,6 +136,7 @@
 /obj/structure/chair/plastic{
 	dir = 4
 	},
+/obj/structure/sign/poster/contraband/dolphin/directional/west,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "lY" = (
@@ -168,6 +182,7 @@
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
+/obj/machinery/light/red/directional/west,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "nt" = (
@@ -192,7 +207,8 @@
 /area/shuttle/personally_bought/tiziran_interceptor)
 "oF" = (
 /obj/item/gun/ballistic/bolt_thrower,
-/obj/structure/guncase,
+/obj/structure/shelf,
+/obj/machinery/light/red/directional/east,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "pk" = (
@@ -247,6 +263,7 @@
 	pixel_x = -8;
 	pixel_y = 4
 	},
+/obj/machinery/light/red/directional/east,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "qL" = (
@@ -286,6 +303,7 @@
 /obj/machinery/deployable_turret/snub_particle_cannon{
 	pixel_y = -5
 	},
+/obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark/airless,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "vV" = (
@@ -320,6 +338,7 @@
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "yj" = (
+/obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark/airless,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "yW" = (
@@ -348,6 +367,17 @@
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
+"An" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/machinery/light/red/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_interceptor)
+"Av" = (
+/obj/machinery/light/red/directional/south,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_interceptor)
 "AC" = (
 /obj/machinery/modular_computer/preset/engineering{
 	dir = 1
@@ -368,13 +398,11 @@
 	color = "#36373a";
 	dir = 10
 	},
+/obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark/airless,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "Bf" = (
-/obj/machinery/suit_storage_unit/pirate{
-	helmet_type = /obj/item/clothing/head/helmet/space/pirate/tiziran_raider/yellow;
-	suit_type = /obj/item/clothing/suit/space/pirate/tiziran/yellow
-	},
+/obj/machinery/suit_storage_unit/tiziran_raiders/yellow,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "Bi" = (
@@ -430,11 +458,15 @@
 	},
 /turf/open/floor/iron/dark/smooth_half,
 /area/shuttle/personally_bought/tiziran_interceptor)
+"Ez" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/red/dim/directional/north,
+/turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_interceptor)
 "EI" = (
-/obj/machinery/suit_storage_unit/pirate{
-	helmet_type = /obj/item/clotshing/head/helmet/space/obj/item/clothing/head/helmet/space/pirate/tiziran_raider/red;
-	suit_type = /obj/item/clothing/suit/space/pirate/tiziran/red
-	},
+/obj/machinery/suit_storage_unit/tiziran_raiders/red,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "FQ" = (
@@ -467,6 +499,7 @@
 	pixel_x = 7;
 	pixel_y = 7
 	},
+/obj/machinery/light/red/directional/east,
 /turf/open/floor/iron/dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "In" = (
@@ -480,10 +513,7 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "IB" = (
-/obj/machinery/suit_storage_unit/pirate{
-	helmet_type = /obj/item/clothing/head/helmet/space/pirate/tiziran_raider;
-	suit_type = /obj/item/clothing/suit/space/pirate/tiziran
-	},
+/obj/machinery/suit_storage_unit/tiziran_raiders,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "IN" = (
@@ -513,6 +543,7 @@
 /area/shuttle/personally_bought/tiziran_interceptor)
 "Je" = (
 /obj/machinery/door/airlock/external,
+/obj/structure/cable,
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "JW" = (
@@ -550,7 +581,12 @@
 /area/shuttle/personally_bought/tiziran_interceptor)
 "NK" = (
 /obj/effect/mob_spawn/ghost_role/human/pirate/tiziran,
+/obj/structure/sign/poster/contraband/lizard/directional/south,
 /turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_interceptor)
+"PT" = (
+/obj/machinery/light/red/directional/west,
+/turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "QC" = (
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -565,11 +601,13 @@
 	dir = 1
 	},
 /obj/structure/cable,
+/obj/structure/marker_beacon/burgundy,
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "Rf" = (
 /obj/machinery/power/port_gen/pacman/pre_loaded,
 /obj/structure/cable,
+/obj/machinery/light/red/directional/east,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "RO" = (
@@ -591,6 +629,11 @@
 "SI" = (
 /obj/structure/railing/eva_handhold/directional/west,
 /turf/closed/wall/mineral/plastitanium,
+/area/shuttle/personally_bought/tiziran_interceptor)
+"SU" = (
+/obj/structure/cable,
+/obj/machinery/light/red/directional/west,
+/turf/open/floor/catwalk_floor/iron_dark/airless,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "Ti" = (
 /obj/machinery/door/airlock/external,
@@ -649,6 +692,11 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_interceptor)
+"Yl" = (
+/obj/item/gun/ballistic/bolt_thrower,
+/obj/structure/shelf,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "Yq" = (
@@ -745,13 +793,13 @@ MZ
 BS
 Ja
 JW
-In
+PT
 ZK
 ZK
 Dl
-In
+Av
 Ja
-XN
+An
 FQ
 In
 In
@@ -845,7 +893,7 @@ vV
 zv
 SG
 Ja
-yj
+SU
 yj
 kd
 Ba
@@ -965,7 +1013,7 @@ MZ
 (13,1,1) = {"
 MZ
 BS
-Nx
+Ez
 Nx
 VY
 Un
@@ -1191,7 +1239,7 @@ MZ
 MZ
 MZ
 MZ
-BS
+MZ
 BS
 Ja
 Yq
@@ -1202,7 +1250,7 @@ SG
 SG
 AT
 GE
-SG
+fI
 Ja
 FQ
 XN
@@ -1224,7 +1272,7 @@ xT
 lY
 In
 In
-oF
+Yl
 Ja
 pO
 DH
@@ -1248,7 +1296,7 @@ BS
 Ja
 qp
 lY
-oF
+Yl
 oF
 Ja
 Xw

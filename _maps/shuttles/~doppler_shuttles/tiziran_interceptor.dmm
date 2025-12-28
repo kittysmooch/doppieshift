@@ -31,23 +31,20 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "g" = (
-/obj/structure/guncase,
 /obj/item/ammo_box/magazine/ammo_stack/bolt_slug/full,
 /obj/item/ammo_box/magazine/ammo_stack/bolt_slug/full,
 /obj/item/gun/ballistic/bolt_thrower,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
+/obj/structure/shelf,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "h" = (
-/obj/machinery/suit_storage_unit/pirate{
-	helmet_type = /obj/item/clothing/head/helmet/space/pirate/tiziran_raider;
-	suit_type = /obj/item/clothing/suit/space/pirate/tiziran
-	},
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
+/obj/machinery/suit_storage_unit/tiziran_raiders/red,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "i" = (
@@ -55,6 +52,7 @@
 /obj/machinery/atmospherics/components/unary/portables_connector/visible/layer4{
 	dir = 4
 	},
+/obj/machinery/light/small/red/directional/west,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "j" = (
@@ -103,6 +101,7 @@
 /obj/machinery/computer/camera_advanced/shuttle_docker/personally_bought{
 	dir = 8
 	},
+/obj/structure/marker_beacon/burgundy,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "s" = (
@@ -202,12 +201,6 @@
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
-"J" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/light/small/red/directional/west,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
 "K" = (
 /obj/machinery/power/shuttle_engine/propulsion{
 	dir = 8
@@ -221,13 +214,11 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "M" = (
-/obj/machinery/suit_storage_unit/pirate{
-	helmet_type = /obj/item/clothing/head/helmet/space/pirate/tiziran_raider;
-	suit_type = /obj/item/clothing/suit/space/pirate/tiziran
-	},
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
+/obj/machinery/suit_storage_unit/tiziran_raiders,
+/obj/machinery/light/small/red/directional/east,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "O" = (
@@ -289,6 +280,7 @@
 /obj/machinery/modular_computer/preset/engineering{
 	dir = 8
 	},
+/obj/structure/marker_beacon/burgundy,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "V" = (
@@ -342,7 +334,7 @@ k
 A
 c
 L
-J
+D
 D
 H
 o
