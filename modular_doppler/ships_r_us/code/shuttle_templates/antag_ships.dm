@@ -27,15 +27,13 @@
 
 /area/shuttle/personally_bought/tiziran_interceptor
 	name = "ITF Zul'kath"
-	requires_power = TRUE
 
-// datum for the pirate shuttle
+// datum for the tiziran pirate shuttle
 
 /datum/map_template/shuttle/pirate/tiziran_corvette
 	prefix = "_maps/shuttles/~doppler_shuttles/"
-	suffix = "raider_shuttle"
+	suffix = "tiziran_raider_shuttle"
 	name = "pirate ship (Tiziran Corvette)"
 
 /area/shuttle/pirate/tiziran_corvette
 	name = "ITS Kaz'akran"
-	requires_power = TRUE

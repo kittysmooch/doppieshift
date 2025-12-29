@@ -29,7 +29,7 @@
 	desc = "A stack of machined slugs."
 	caliber = CALIBER_BOLT_THROWER
 	ammo_type = /obj/item/ammo_casing/bolt_slug
-	max_ammo = 4
+	max_ammo = 5
 	casing_w_spacing = 2
 	casing_z_padding = 6
 

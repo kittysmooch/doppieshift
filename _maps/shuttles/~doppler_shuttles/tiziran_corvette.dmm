@@ -30,6 +30,13 @@
 /obj/structure/marker_beacon/burgundy,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
+"ci" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/red/dim/directional/north,
+/turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_interceptor)
 "dr" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/reagent_containers/cup/glass/trophy{
@@ -143,15 +150,18 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/tiziran_interceptor)
+"hD" = (
+/obj/structure/cable,
+/obj/machinery/light/red/directional/west,
+/turf/open/floor/catwalk_floor/iron_dark/airless,
+/area/shuttle/personally_bought/tiziran_interceptor)
+"hM" = (
+/obj/machinery/light/red/directional/south,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_interceptor)
 "hQ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"ia" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/red/directional/south,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "ip" = (
@@ -159,10 +169,6 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"iY" = (
-/obj/machinery/light/red/directional/west,
-/turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "ju" = (
 /obj/machinery/computer/shuttle/pirate{
@@ -189,6 +195,12 @@
 /obj/effect/turf_decal/tile/red,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/tiziran_interceptor)
+"mb" = (
+/obj/item/gun/ballistic/bolt_thrower,
+/obj/structure/shelf,
+/obj/machinery/light/red/directional/east,
+/turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "mZ" = (
 /obj/structure/chair/comfy/shuttle,
@@ -260,11 +272,6 @@
 "ua" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/personally_bought/tiziran_interceptor)
-"ut" = (
-/obj/structure/cable,
-/obj/machinery/light/red/directional/west,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
 "uE" = (
 /obj/machinery/vending/imported/tiziran,
 /obj/machinery/light/red/directional/west,
@@ -290,10 +297,15 @@
 	},
 /turf/open/floor/iron/dark/smooth_large,
 /area/shuttle/personally_bought/tiziran_interceptor)
-"vJ" = (
-/obj/structure/bed/pod,
-/obj/structure/sign/poster/contraband/lizard/directional/south,
-/turf/open/floor/iron/dark,
+"vn" = (
+/obj/machinery/light/red/directional/west,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_interceptor)
+"vr" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/red/directional/south,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "vS" = (
 /obj/machinery/door/airlock/hatch,
@@ -354,6 +366,13 @@
 /obj/item/melee/tizirian_sword{
 	pixel_x = 5
 	},
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_interceptor)
+"xz" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/machinery/light/red/directional/north,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "xT" = (
@@ -423,13 +442,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
-"CB" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/red/dim/directional/north,
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
 "CL" = (
 /obj/structure/railing/eva_handhold/directional/west,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -495,9 +507,10 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
-"Ho" = (
-/obj/machinery/light/red/directional/south,
-/turf/open/floor/plating,
+"GK" = (
+/obj/structure/bed/pod,
+/obj/structure/sign/poster/contraband/lizard/directional/south,
+/turf/open/floor/iron/dark,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "Hp" = (
 /obj/structure/cable,
@@ -545,13 +558,6 @@
 /obj/machinery/light/red/directional/east,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
-"NP" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/obj/machinery/light/red/directional/north,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
 "Pk" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -566,12 +572,6 @@
 "PG" = (
 /obj/effect/turf_decal/tile/red/full,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"PP" = (
-/obj/item/gun/ballistic/bolt_thrower,
-/obj/structure/shelf,
-/obj/machinery/light/red/directional/east,
-/turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_interceptor)
 "Ql" = (
 /obj/machinery/computer/monitor{
@@ -760,13 +760,13 @@ xT
 nl
 ua
 CY
-iY
+vn
 rH
 rH
 zV
-Ho
+hM
 ua
-NP
+xz
 LH
 To
 To
@@ -825,7 +825,7 @@ ua
 ua
 ua
 ua
-nl
+xT
 "}
 (7,1,1) = {"
 xT
@@ -860,7 +860,7 @@ gp
 aN
 hQ
 ua
-ut
+hD
 jW
 sy
 ab
@@ -906,7 +906,7 @@ xT
 gi
 fc
 wP
-vJ
+GK
 ua
 QK
 Pk
@@ -980,7 +980,7 @@ xT
 (13,1,1) = {"
 xT
 nl
-CB
+ci
 Zt
 ya
 hC
@@ -1175,7 +1175,7 @@ ua
 ua
 ua
 ua
-nl
+xT
 "}
 (21,1,1) = {"
 xT
@@ -1217,7 +1217,7 @@ hQ
 hQ
 KJ
 hQ
-ia
+vr
 ua
 LH
 Ln
@@ -1264,7 +1264,7 @@ ua
 wt
 Gt
 er
-PP
+mb
 ua
 gz
 Fy

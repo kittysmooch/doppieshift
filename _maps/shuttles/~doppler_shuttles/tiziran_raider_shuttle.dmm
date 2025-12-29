@@ -4,11 +4,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "bn" = (
 /obj/structure/railing/eva_handhold/directional/west,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
+"bB" = (
+/obj/structure/cable,
+/obj/machinery/light/red/directional/west,
+/turf/open/floor/catwalk_floor/iron_dark/airless,
+/area/shuttle/pirate/tiziran_corvette)
 "cv" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
@@ -16,7 +21,7 @@
 /obj/machinery/airalarm/directional/west,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "cE" = (
 /obj/machinery/door/airlock/external,
 /obj/docking_port/mobile/pirate{
@@ -25,30 +30,30 @@
 	port_direction = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "do" = (
 /obj/machinery/porta_turret/syndicate{
 	dir = 1
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "dO" = (
 /obj/machinery/door/airlock/external,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "ee" = (
 /obj/structure/sign/poster/ripped/directional/west,
 /obj/effect/mob_spawn/ghost_role/human/pirate/tiziran,
 /obj/machinery/light/red/directional/west,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "eq" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/curtain/bounty/start_closed,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "ex" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/machinery/button/door{
@@ -57,13 +62,13 @@
 	},
 /obj/structure/marker_beacon/burgundy,
 /turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "eY" = (
 /obj/structure/chair/bronze,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/marker_beacon/burgundy,
 /turf/open/floor/iron/dark/smooth_half,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "fA" = (
 /obj/machinery/shuttle_scrambler,
 /obj/structure/cable,
@@ -79,40 +84,34 @@
 	},
 /obj/structure/marker_beacon/burgundy,
 /turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "fF" = (
 /obj/machinery/modular_computer/preset/engineering{
 	dir = 8
 	},
 /obj/structure/marker_beacon/burgundy,
 /turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"fI" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/red/directional/south,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "gG" = (
 /obj/machinery/vending/imported/tiziran,
 /obj/machinery/light/red/directional/west,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "jl" = (
 /obj/structure/marker_beacon/burgundy,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "kd" = (
 /obj/machinery/door/airlock/external,
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "kf" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "kC" = (
 /obj/machinery/computer/shuttle/pirate{
 	dir = 1
@@ -120,25 +119,29 @@
 /obj/effect/turf_decal/tile/red/full,
 /obj/structure/marker_beacon/burgundy,
 /turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
+"lm" = (
+/obj/machinery/light/red/directional/south,
+/turf/open/floor/plating,
+/area/shuttle/pirate/tiziran_corvette)
 "lr" = (
 /obj/machinery/door/airlock/hatch,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "lS" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "lW" = (
 /obj/structure/chair/plastic{
 	dir = 4
 	},
 /obj/structure/sign/poster/contraband/dolphin/directional/west,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "lY" = (
 /obj/structure/shelf,
 /obj/item/grenade/firecracker{
@@ -169,14 +172,14 @@
 	pixel_x = 6
 	},
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "mJ" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/turf_decal/tile/red/half{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "mN" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -184,18 +187,18 @@
 	},
 /obj/machinery/light/red/directional/west,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "nt" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "nD" = (
 /obj/structure/railing{
 	color = "#36373a"
 	},
 /turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "og" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -204,42 +207,41 @@
 /obj/effect/mapping_helpers/apc/syndicate_access,
 /obj/effect/mapping_helpers/apc/cell_10k,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "oF" = (
 /obj/item/gun/ballistic/bolt_thrower,
 /obj/structure/shelf,
-/obj/machinery/light/red/directional/east,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "pk" = (
 /obj/effect/turf_decal/tile/red/half{
 	dir = 8
 	},
 /obj/machinery/loot_locator,
 /turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "pF" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "pO" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "pW" = (
 /obj/effect/turf_decal/tile/red/half{
 	dir = 1
 	},
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "qc" = (
 /obj/machinery/power/shuttle_engine/heater{
 	dir = 1
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "qp" = (
 /obj/structure/shelf,
 /obj/item/ammo_box/magazine/ammo_stack/bolt_slug/full{
@@ -265,21 +267,21 @@
 	},
 /obj/machinery/light/red/directional/east,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "qL" = (
 /obj/effect/turf_decal/tile/red/full,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "rs" = (
 /obj/machinery/airalarm/directional/east,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "rA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "te" = (
 /obj/item/radio/intercom/syndicate/directional/north,
 /obj/structure/cable,
@@ -288,24 +290,24 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "tX" = (
 /obj/structure/fluff/sat_dish,
 /turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "uo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/power/micro_reactor,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "vw" = (
 /obj/machinery/deployable_turret/snub_particle_cannon{
 	pixel_y = -5
 	},
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "vV" = (
 /obj/item/rolling_table_dock,
 /obj/effect/spawner/random/vendor_meal_sides/tizira,
@@ -314,16 +316,23 @@
 	pixel_x = -9
 	},
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
+"wq" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/red/dim/directional/north,
+/turf/open/floor/iron/dark,
+/area/shuttle/pirate/tiziran_corvette)
 "wI" = (
 /obj/effect/mob_spawn/ghost_role/human/pirate/tiziran/captain,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "xv" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/turf_decal/tile/red/full,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "xT" = (
 /obj/structure/shelf,
 /obj/item/melee/tizirian_sword{
@@ -336,48 +345,43 @@
 	pixel_x = 5
 	},
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "yj" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "yW" = (
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "zh" = (
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "zv" = (
 /obj/structure/chair/plastic{
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "zR" = (
 /obj/machinery/computer/monitor{
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "zX" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/turf_decal/tile/red/half{
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"An" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/obj/machinery/light/red/directional/north,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Av" = (
+/area/shuttle/pirate/tiziran_corvette)
+"At" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/light/red/directional/south,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/pirate/tiziran_corvette)
 "AC" = (
 /obj/machinery/modular_computer/preset/engineering{
 	dir = 1
@@ -386,13 +390,20 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "AT" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
+"AW" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/machinery/light/red/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/pirate/tiziran_corvette)
 "Ba" = (
 /obj/structure/railing{
 	color = "#36373a";
@@ -400,11 +411,11 @@
 	},
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Bf" = (
 /obj/machinery/suit_storage_unit/tiziran_raiders/yellow,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Bi" = (
 /obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/pirate{
 	dir = 1;
@@ -413,33 +424,33 @@
 	view_range = 10
 	},
 /turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "BS" = (
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Dl" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Dp" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Dv" = (
 /obj/structure/closet/crate/secure/plasma,
 /obj/item/stack/sheet/mineral/plasma/five,
 /obj/item/stack/sheet/mineral/plasma/five,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "DH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Em" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/reagent_containers/cup/glass/trophy{
@@ -457,35 +468,28 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/smooth_half,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Ez" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/red/dim/directional/north,
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "EI" = (
 /obj/machinery/suit_storage_unit/tiziran_raiders/red,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "FQ" = (
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "GE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/airalarm/directional/west,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "GI" = (
 /obj/machinery/door/airlock/hatch,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Id" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
@@ -501,21 +505,27 @@
 	},
 /obj/machinery/light/red/directional/east,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
+"Il" = (
+/obj/item/gun/ballistic/bolt_thrower,
+/obj/structure/shelf,
+/obj/machinery/light/red/directional/east,
+/turf/open/floor/plating,
+/area/shuttle/pirate/tiziran_corvette)
 "In" = (
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Is" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
 /obj/structure/curtain/bounty/start_closed,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "IB" = (
 /obj/machinery/suit_storage_unit/tiziran_raiders,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "IN" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -523,16 +533,16 @@
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "IS" = (
 /obj/machinery/power/shuttle_engine/propulsion{
 	dir = 1
 	},
 /turf/open/floor/plating/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Ja" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Jc" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
@@ -540,36 +550,36 @@
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Je" = (
 /obj/machinery/door/airlock/external,
 /obj/structure/cable,
 /turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "JW" = (
 /obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "LG" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "LS" = (
 /obj/effect/turf_decal/tile/red/half{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/smooth_half,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Mp" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/airalarm/directional/west,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "MZ" = (
 /turf/template_noop,
 /area/template_noop)
@@ -578,16 +588,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "NK" = (
 /obj/effect/mob_spawn/ghost_role/human/pirate/tiziran,
 /obj/structure/sign/poster/contraband/lizard/directional/south,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"PT" = (
-/obj/machinery/light/red/directional/west,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "QC" = (
 /obj/machinery/door/poddoor/shutters/preopen{
 	id = "piratebridge"
@@ -595,7 +601,7 @@
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Ra" = (
 /obj/machinery/computer/monitor{
 	dir = 1
@@ -603,43 +609,42 @@
 /obj/structure/cable,
 /obj/structure/marker_beacon/burgundy,
 /turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Rf" = (
 /obj/machinery/power/port_gen/pacman/pre_loaded,
 /obj/structure/cable,
 /obj/machinery/light/red/directional/east,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
+"Rm" = (
+/obj/machinery/light/red/directional/west,
+/turf/open/floor/plating,
+/area/shuttle/pirate/tiziran_corvette)
 "RO" = (
 /obj/structure/barricade/wooden/crude,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "SA" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/airalarm/directional/north,
 /obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "SG" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "SI" = (
 /obj/structure/railing/eva_handhold/directional/west,
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"SU" = (
-/obj/structure/cable,
-/obj/machinery/light/red/directional/west,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Ti" = (
 /obj/machinery/door/airlock/external,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Tv" = (
 /obj/structure/cable,
 /obj/structure/sign/flag/tizira/directional/north,
@@ -647,68 +652,63 @@
 /obj/effect/turf_decal/tile/red,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "TK" = (
 /obj/machinery/porta_turret/syndicate,
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Un" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/turf_decal/tile/red/half,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Vi" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "VT" = (
 /obj/structure/cable,
 /obj/structure/marker_beacon/burgundy,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "VY" = (
 /obj/machinery/door/airlock/hatch,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Xj" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Xw" = (
 /obj/structure/railing/eva_handhold/directional/east,
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "XN" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Yl" = (
-/obj/item/gun/ballistic/bolt_thrower,
-/obj/structure/shelf,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "Yq" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 "ZK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/pirate/tiziran_corvette)
 
 (1,1,1) = {"
 MZ
@@ -793,13 +793,13 @@ MZ
 BS
 Ja
 JW
-PT
+Rm
 ZK
 ZK
 Dl
-Av
+lm
 Ja
-An
+AW
 FQ
 In
 In
@@ -858,7 +858,7 @@ Ja
 Ja
 Ja
 Ja
-BS
+MZ
 "}
 (7,1,1) = {"
 MZ
@@ -893,7 +893,7 @@ vV
 zv
 SG
 Ja
-SU
+bB
 yj
 kd
 Ba
@@ -1013,7 +1013,7 @@ MZ
 (13,1,1) = {"
 MZ
 BS
-Ez
+wq
 Nx
 VY
 Un
@@ -1208,7 +1208,7 @@ Ja
 Ja
 Ja
 Ja
-BS
+MZ
 "}
 (21,1,1) = {"
 MZ
@@ -1250,7 +1250,7 @@ SG
 SG
 AT
 GE
-fI
+At
 Ja
 FQ
 XN
@@ -1272,7 +1272,7 @@ xT
 lY
 In
 In
-Yl
+oF
 Ja
 pO
 DH
@@ -1296,8 +1296,8 @@ BS
 Ja
 qp
 lY
-Yl
 oF
+Il
 Ja
 Xw
 dO
