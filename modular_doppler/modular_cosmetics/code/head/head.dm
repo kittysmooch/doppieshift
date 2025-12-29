@@ -108,13 +108,13 @@
 	icon = 'modular_doppler/modular_cosmetics/icons/obj/head/helmet.dmi'
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/mob/head/helmet.dmi'
 	icon_state = "tiziran_raider"
-	//worn_icon_state = "tiziran_raider"
+	worn_icon_state = "tiziran_raider"
 	armor_type = /datum/armor/space_pirate
 
 /obj/item/clothing/head/helmet/space/pirate/tiziran_raider/red
 	icon_state = "tiziran_raider_red"
-	//worn_icon_state = "tiziran_raider_red"
+	worn_icon_state = "tiziran_raider_red"
 
 /obj/item/clothing/head/helmet/space/pirate/tiziran_raider/yellow
 	icon_state = "tiziran_raider_yellow"
-	//worn_icon_state = "tiziran_raider_yellow"
+	worn_icon_state = "tiziran_raider_yellow"
