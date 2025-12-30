@@ -24,6 +24,7 @@
 	fire_sound = 'modular_doppler/modular_sounds/sound/items/bolt_thrower.ogg'
 	weapon_weight = WEAPON_HEAVY
 	cartridge_wording = "slug"
+	display_internal_magazine = TRUE
 
 /obj/item/ammo_box/magazine/internal/bolt_thrower
 	name = "bolt thrower internal magazine"

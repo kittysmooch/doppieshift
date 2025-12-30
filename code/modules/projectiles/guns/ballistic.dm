@@ -142,7 +142,7 @@
 	var/selector_switch_icon = FALSE
 
 	//DOPPLER ADDITION - allows firearms to display an internal magazine. necessary to prevent other firearms with internal magazines from runtiming.
-	var/display_internal_magazine = TRUE
+	var/display_internal_magazine = FLASE
 	//END DOPPLER ADDITION
 
 /obj/item/gun/ballistic/Initialize(mapload)
