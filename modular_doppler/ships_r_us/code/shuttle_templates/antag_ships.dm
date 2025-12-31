@@ -9,8 +9,8 @@
 	description = "A Tiziran warship built for high speed pursuits of lightly armed merchant farers."
 	credit_cost = CARGO_CRATE_VALUE * 18
 	suffix = "corvette"
-	width = 29
-	height = 28
+	width = 25
+	height = 22
 	personal_shuttle_size = PERSONAL_SHIP_LARGE
 
 /area/shuttle/personally_bought/tiziran_corvette
