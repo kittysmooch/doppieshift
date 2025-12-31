@@ -12,6 +12,12 @@
 	response_received = "We have taken what is ours!"
 	response_too_late = "We wait no longer! Perish!"
 	response_not_enough = "This is an insult! Perish!"
+	response_rejected = "You will pay in flesh and blood!"
+
+/datum/pirate_gang/tiziran/New()
+	. = ..()
+	ship_name = pick(strings(DOPPLER_PIRATE_NAMES_FILE, ship_name_pool))
+
 
 /datum/outfit/pirate/tiziran
 	name = "Tiziran Raider"
@@ -36,6 +42,12 @@
 	outfit = /datum/outfit/pirate/tiziran
 	rank = "swabbie"
 	icon_state = "oldpod"
+	base_icon_state = "oldpod"
+
+/obj/effect/mob_spawn/ghost_role/human/pirate/tiziran/create(mob/mob_possessor, newname)
+	. = ..()
+	var/mob/living/spawned_mob = .
+	spawned_mob.faction = list(ROLE_SYNDICATE)
 
 /obj/effect/mob_spawn/ghost_role/human/pirate/tiziran/captain
 	name = "\improper Tiziran command sleeper"

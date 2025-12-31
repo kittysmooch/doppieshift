@@ -141,10 +141,6 @@
 	/// If it has an icon for a selector switch indicating current firemode.
 	var/selector_switch_icon = FALSE
 
-	//DOPPLER ADDITION - allows firearms to display an internal magazine. necessary to prevent other firearms with internal magazines from runtiming.
-	var/display_internal_magazine = FALSE
-	//END DOPPLER ADDITION
-
 /obj/item/gun/ballistic/Initialize(mapload)
 	. = ..()
 	if(!spawn_magazine_type)
@@ -245,7 +241,7 @@
 		return
 
 //DOPPLER ADDITION allows firearms to display an internal magazine
-	if(internal_magazine && !display_internal_magazine)
+	if(internal_magazine && !mag_display)
 		return
 //END DOPPLER ADDITION
 

@@ -1,319 +1,26 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ab" = (
-/obj/structure/railing{
-	color = "#36373a";
-	dir = 10
-	},
-/obj/structure/cable,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"af" = (
-/obj/machinery/deployable_turret/snub_particle_cannon{
-	pixel_y = -5
-	},
-/obj/structure/cable,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"aN" = (
-/obj/structure/chair/plastic{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"be" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"cb" = (
-/obj/structure/cable,
-/obj/structure/marker_beacon/burgundy,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"ci" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/red/dim/directional/north,
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"dr" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/reagent_containers/cup/glass/trophy{
-	pixel_y = 20;
-	pixel_x = -8
-	},
-/obj/effect/turf_decal/tile/red/half{
-	dir = 4
-	},
-/obj/item/clothing/head/helmet/skull{
-	pixel_x = 5;
-	pixel_y = -3
-	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/smooth_half,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"dC" = (
-/obj/structure/barricade/wooden/crude,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"er" = (
-/obj/item/gun/ballistic/bolt_thrower,
-/obj/structure/shelf,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"eI" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"fc" = (
-/obj/machinery/power/shuttle_engine/heater{
-	dir = 1
-	},
-/turf/closed/wall/mineral/plastitanium,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"fh" = (
-/obj/machinery/computer/monitor{
-	dir = 1
-	},
-/turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"fO" = (
-/obj/machinery/turretid{
-	ailock = 1;
-	desc = "A specially designed set of turret controls. Looks to be covered in protective casing to prevent AI interfacing.";
-	icon_state = "control_kill";
-	lethal = 1;
-	name = "Ship Turret Control";
-	pixel_x = 30;
-	pixel_y = 4;
+/obj/machinery/door/airlock/external{
+	id_tag = "pirateforeexternal";
 	req_access = list("syndicate")
 	},
 /obj/structure/cable,
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/structure/marker_beacon/burgundy,
-/turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"gi" = (
-/obj/machinery/power/shuttle_engine/propulsion{
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
-/turf/open/floor/plating/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"gj" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"gp" = (
-/obj/item/rolling_table_dock,
-/obj/effect/spawner/random/vendor_meal_sides/tizira,
-/obj/item/reagent_containers/condiment/pack/ketchup{
-	pixel_y = 7;
-	pixel_x = -9
-	},
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"gz" = (
-/obj/structure/railing/eva_handhold/directional/east,
-/turf/closed/wall/mineral/plastitanium,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"gE" = (
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"hi" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/reagent_containers/cup/glass/bottle/lizardwine{
-	pixel_x = -4;
-	pixel_y = 5
-	},
-/obj/item/reagent_containers/cup/glass/trophy{
-	pixel_x = 7;
-	pixel_y = 7
-	},
-/obj/machinery/light/red/directional/east,
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"hq" = (
-/obj/machinery/suit_storage_unit/tiziran_raiders/red,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"hC" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/turf_decal/tile/red/half,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"hD" = (
-/obj/structure/cable,
-/obj/machinery/light/red/directional/west,
 /turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"hM" = (
-/obj/machinery/light/red/directional/south,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"hQ" = (
+/area/shuttle/personally_bought/tiziran_corvette)
+"af" = (
+/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"ip" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"ju" = (
-/obj/machinery/computer/shuttle/pirate{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red/full,
-/obj/structure/marker_beacon/burgundy,
-/turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"jW" = (
-/obj/structure/cable,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"lg" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"lh" = (
-/obj/structure/cable,
-/obj/structure/sign/flag/tizira/directional/north,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/turf_decal/tile/red,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"mb" = (
-/obj/item/gun/ballistic/bolt_thrower,
-/obj/structure/shelf,
-/obj/machinery/light/red/directional/east,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"mZ" = (
-/obj/structure/chair/comfy/shuttle,
-/obj/effect/turf_decal/tile/red/half{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"nl" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"nw" = (
-/obj/structure/closet/crate/secure/plasma,
-/obj/item/stack/sheet/mineral/plasma/five,
-/obj/item/stack/sheet/mineral/plasma/five,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"oO" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+/obj/structure/chair/plastic{
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"pb" = (
-/obj/machinery/suit_storage_unit/tiziran_raiders,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"qv" = (
-/obj/machinery/door/airlock/external,
-/obj/docking_port/mobile/personally_bought{
-	dir = 4
-	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"rl" = (
-/obj/structure/railing/eva_handhold/directional/west,
-/turf/closed/wall/mineral/plastitanium,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"rn" = (
-/obj/effect/turf_decal/tile/red/half{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark/smooth_half,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"rF" = (
-/obj/structure/chair/bronze,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/marker_beacon/burgundy,
-/turf/open/floor/iron/dark/smooth_half,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"rH" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"rO" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/obj/machinery/light/red/directional/west,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"sy" = (
-/obj/machinery/door/airlock/external,
-/obj/structure/cable,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"ua" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"uE" = (
-/obj/machinery/vending/imported/tiziran,
-/obj/machinery/light/red/directional/west,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"uT" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 1
-	},
-/obj/structure/curtain/bounty/start_closed,
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"uV" = (
-/obj/structure/fluff/sat_dish,
-/turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"uW" = (
-/obj/item/radio/intercom/syndicate/directional/north,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/turf_decal/tile/red{
-	dir = 8
-	},
-/turf/open/floor/iron/dark/smooth_large,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"vn" = (
-/obj/machinery/light/red/directional/west,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"vr" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/light/red/directional/south,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"vS" = (
-/obj/machinery/door/airlock/hatch,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"wt" = (
+/area/shuttle/personally_bought/tiziran_corvette)
+"aN" = (
 /obj/structure/shelf,
 /obj/item/ammo_box/magazine/ammo_stack/bolt_slug/full{
 	pixel_x = 2;
@@ -336,134 +43,85 @@
 	pixel_x = -8;
 	pixel_y = 4
 	},
-/obj/machinery/light/red/directional/east,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"wu" = (
-/obj/machinery/door/airlock/external,
+/area/shuttle/personally_bought/tiziran_corvette)
+"be" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"wP" = (
-/obj/structure/sign/poster/ripped/directional/west,
-/obj/structure/bed/pod,
-/obj/machinery/light/red/directional/west,
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"xc" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"xm" = (
-/obj/structure/shelf,
-/obj/item/melee/tizirian_sword{
-	pixel_x = -10
-	},
-/obj/item/melee/tizirian_sword{
-	pixel_x = -3
-	},
-/obj/item/melee/tizirian_sword{
-	pixel_x = 5
-	},
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"xz" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/obj/machinery/light/red/directional/north,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"xT" = (
-/turf/template_noop,
-/area/template_noop)
-"ya" = (
-/obj/machinery/door/airlock/hatch,
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"yQ" = (
-/obj/structure/bed/pod,
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"zl" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
-	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"zV" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"AC" = (
-/obj/machinery/door/poddoor/shutters/preopen{
-	id = "piratebridge"
-	},
-/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /obj/structure/cable,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"AQ" = (
-/obj/structure/chair/comfy/shuttle,
-/obj/effect/turf_decal/tile/red/full,
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"AW" = (
+/area/shuttle/personally_bought/tiziran_corvette)
+"bD" = (
+/obj/machinery/door/airlock/hatch{
+	req_access = list("syndicate")
+	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Bj" = (
-/obj/structure/chair/plastic{
-	dir = 4
-	},
-/obj/structure/sign/poster/contraband/dolphin/directional/west,
+/area/shuttle/personally_bought/tiziran_corvette)
+"cb" = (
+/obj/structure/closet/crate/secure/plasma,
+/obj/item/stack/sheet/mineral/plasma/five,
+/obj/item/stack/sheet/mineral/plasma/five,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"BI" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+/area/shuttle/personally_bought/tiziran_corvette)
+"ci" = (
+/obj/machinery/door/airlock/external{
+	id_tag = "pirateportexternal";
+	req_access = list("syndicate")
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"cL" = (
+/obj/structure/railing{
+	color = "#36373a";
+	dir = 10
+	},
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_dark/airless,
+/area/shuttle/personally_bought/tiziran_corvette)
+"dr" = (
+/obj/structure/cable,
+/obj/structure/sign/flag/tizira/directional/north,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/red,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/tiziran_corvette)
+"dC" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"BV" = (
-/obj/machinery/suit_storage_unit/tiziran_raiders/yellow,
+/area/shuttle/personally_bought/tiziran_corvette)
+"er" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/chem_dispenser/frontier_appliance,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Ci" = (
-/obj/effect/turf_decal/tile/red/half{
+/area/shuttle/personally_bought/tiziran_corvette)
+"eI" = (
+/obj/machinery/door/airlock/external{
+	id_tag = "pirateportexternal";
+	req_access = list("syndicate")
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 1
 	},
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"CL" = (
-/obj/structure/railing/eva_handhold/directional/west,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"CY" = (
-/obj/structure/tank_dispenser/oxygen,
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"DA" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/curtain/bounty/start_closed,
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Ek" = (
-/obj/machinery/door/airlock/hatch,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"En" = (
+/area/shuttle/personally_bought/tiziran_corvette)
+"fc" = (
+/obj/machinery/power/shuttle_engine/propulsion{
+	dir = 1
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/personally_bought/tiziran_corvette)
+"fh" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/machinery/button/door{
 	id = "silverbridge";
@@ -471,12 +129,326 @@
 	},
 /obj/structure/marker_beacon/burgundy,
 /turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Fy" = (
-/obj/machinery/door/airlock/external,
+/area/shuttle/personally_bought/tiziran_corvette)
+"fO" = (
+/obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Gt" = (
+/area/shuttle/personally_bought/tiziran_corvette)
+"gi" = (
+/obj/machinery/power/port_gen/pacman/pre_loaded,
+/obj/structure/cable,
+/obj/machinery/light/red/directional/east,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"gj" = (
+/obj/machinery/light/red/directional/west,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"gp" = (
+/obj/machinery/modular_computer/preset/engineering{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red/half{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/textured,
+/area/shuttle/personally_bought/tiziran_corvette)
+"gz" = (
+/obj/structure/sign/poster/contraband/lizard/directional/south,
+/obj/structure/bed/pod,
+/turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"gE" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/effect/mapping_helpers/apc/cell_10k,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"hi" = (
+/obj/machinery/suit_storage_unit/tiziran_raiders/red,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"hq" = (
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"hC" = (
+/obj/machinery/door/airlock/hatch,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"hD" = (
+/obj/structure/sign/poster/contraband/dolphin/directional/east,
+/obj/machinery/vending/imported/tiziran,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"hM" = (
+/obj/machinery/door/airlock/external{
+	id_tag = "pirateportexternal";
+	req_access = list("syndicate")
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"hQ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"ip" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/curtain/bounty/start_closed,
+/turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"ju" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/effect/turf_decal/tile/red/full,
+/turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"jW" = (
+/obj/structure/cable,
+/obj/machinery/light/red/directional/west,
+/turf/open/floor/catwalk_floor/iron_dark/airless,
+/area/shuttle/personally_bought/tiziran_corvette)
+"le" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/machinery/light/red/directional/west,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"lg" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"lh" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/personally_bought/tiziran_corvette)
+"mb" = (
+/obj/machinery/oven/range_frontier,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"mZ" = (
+/obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/pirate{
+	dir = 1;
+	x_offset = 12;
+	y_offset = 5;
+	view_range = 10
+	},
+/turf/open/floor/iron/dark/textured,
+/area/shuttle/personally_bought/tiziran_corvette)
+"nl" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/personally_bought/tiziran_corvette)
+"nw" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/power/micro_reactor,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"oO" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/structure/chair/plastic{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"pb" = (
+/obj/structure/shelf,
+/obj/item/gun/ballistic/bolt_thrower{
+	pixel_x = 4;
+	pixel_y = -8
+	},
+/obj/item/gun/ballistic/bolt_thrower{
+	pixel_x = 2;
+	pixel_y = -4
+	},
+/obj/item/gun/ballistic/bolt_thrower,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"pG" = (
+/obj/effect/turf_decal/tile/red/half{
+	dir = 8
+	},
+/obj/machinery/loot_locator,
+/turf/open/floor/iron/dark/textured,
+/area/shuttle/personally_bought/tiziran_corvette)
+"qv" = (
+/obj/structure/railing/eva_handhold/directional/west,
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/personally_bought/tiziran_corvette)
+"rl" = (
+/obj/machinery/computer/monitor{
+	dir = 1
+	},
+/obj/structure/cable,
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/iron/dark/textured,
+/area/shuttle/personally_bought/tiziran_corvette)
+"rn" = (
+/obj/item/radio/intercom/syndicate/directional/north,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/tiziran_corvette)
+"rF" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/turf_decal/tile/red/half,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/personally_bought/tiziran_corvette)
+"rH" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"rO" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"sy" = (
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_dark/airless,
+/area/shuttle/personally_bought/tiziran_corvette)
+"ua" = (
+/obj/machinery/door/airlock/external{
+	id_tag = "piratestarboardexternal";
+	req_access = list("syndicate")
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"uE" = (
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"uT" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"uV" = (
+/obj/machinery/suit_storage_unit/tiziran_raiders/yellow,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"uW" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"vn" = (
+/obj/structure/tank_dispenser/oxygen,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"vr" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/airalarm/directional/west,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"vS" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"wt" = (
+/obj/machinery/deployable_turret/snub_particle_cannon{
+	pixel_y = -5
+	},
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_dark/airless,
+/area/shuttle/personally_bought/tiziran_corvette)
+"wu" = (
+/obj/machinery/light/red/directional/east,
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"wP" = (
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"xc" = (
+/obj/machinery/door/airlock/hatch,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"xm" = (
+/obj/structure/railing{
+	color = "#36373a"
+	},
+/turf/open/floor/catwalk_floor/iron_dark/airless,
+/area/shuttle/personally_bought/tiziran_corvette)
+"xz" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"xT" = (
+/turf/template_noop,
+/area/template_noop)
+"ya" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/red/directional/south,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"yQ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/reagent_containers/cup/glass/bottle/lizardwine{
+	pixel_x = -4;
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/cup/glass/trophy{
+	pixel_x = 7;
+	pixel_y = 7
+	},
+/obj/machinery/light/red/directional/east,
+/turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"zl" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"zV" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/all_access,
 /obj/structure/shelf,
 /obj/item/grenade/firecracker{
 	pixel_x = -6;
@@ -506,176 +478,319 @@
 	pixel_x = 6
 	},
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"GK" = (
-/obj/structure/bed/pod,
-/obj/structure/sign/poster/contraband/lizard/directional/south,
+/area/shuttle/personally_bought/tiziran_corvette)
+"AC" = (
+/obj/machinery/computer/monitor{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured,
+/area/shuttle/personally_bought/tiziran_corvette)
+"AQ" = (
+/obj/effect/turf_decal/tile/red/full,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Hp" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/area/shuttle/personally_bought/tiziran_corvette)
+"AW" = (
+/obj/machinery/light/red/directional/west,
+/obj/structure/shelf,
+/obj/item/melee/tizirian_sword{
+	pixel_x = -10
+	},
+/obj/item/melee/tizirian_sword{
+	pixel_x = -3
+	},
+/obj/item/melee/tizirian_sword{
+	pixel_x = 5
+	},
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"Bj" = (
+/obj/machinery/power/shuttle_engine/heater{
+	dir = 1
+	},
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/personally_bought/tiziran_corvette)
+"BI" = (
+/obj/machinery/light/red/directional/south,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"BV" = (
+/obj/structure/fluff/sat_dish,
+/turf/open/floor/catwalk_floor/iron_dark/airless,
+/area/shuttle/personally_bought/tiziran_corvette)
+"Ci" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/reagent_containers/cup/glass/trophy{
+	pixel_y = 20;
+	pixel_x = -8
+	},
+/obj/effect/turf_decal/tile/red/half{
+	dir = 4
+	},
+/obj/item/clothing/head/helmet/skull{
+	pixel_x = 5;
+	pixel_y = -3
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/dark/smooth_half,
+/area/shuttle/personally_bought/tiziran_corvette)
+"CL" = (
+/obj/machinery/door/airlock/external{
+	id_tag = "piratestarboardexternal";
+	req_access = list("syndicate")
+	},
+/obj/docking_port/mobile/pirate{
+	dir = 4;
+	preferred_direction = 4;
+	port_direction = 4
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"CY" = (
+/obj/effect/turf_decal/tile/red/half{
+	dir = 8
+	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock/hatch,
+/turf/open/floor/iron/dark/smooth_half,
+/area/shuttle/personally_bought/tiziran_corvette)
+"DA" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"Ek" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"En" = (
+/obj/effect/turf_decal/tile/red/half{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/personally_bought/tiziran_corvette)
+"Fy" = (
+/obj/structure/railing/eva_handhold/directional/east,
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/personally_bought/tiziran_corvette)
+"Gt" = (
+/obj/machinery/light/red/directional/east,
+/obj/structure/kitchenspike,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"GK" = (
+/obj/structure/sign/poster/ripped/directional/west,
+/obj/machinery/light/red/directional/west,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/structure/bed/pod,
+/turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"Hp" = (
+/obj/machinery/porta_turret/syndicate,
+/turf/closed/wall/mineral/plastitanium,
+/area/shuttle/personally_bought/tiziran_corvette)
 "HE" = (
+/obj/machinery/computer/shuttle/pirate{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/red/full,
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/iron/dark/textured,
+/area/shuttle/personally_bought/tiziran_corvette)
+"IA" = (
+/obj/machinery/shuttle_scrambler,
+/obj/structure/cable,
+/obj/machinery/turretid{
+	ailock = 1;
+	desc = "A specially designed set of turret controls. Looks to be covered in protective casing to prevent AI interfacing.";
+	icon_state = "control_kill";
+	lethal = 1;
+	name = "Ship Turret Control";
+	pixel_x = 30;
+	pixel_y = 4;
+	req_access = list("syndicate")
+	},
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/iron/dark/textured,
+/area/shuttle/personally_bought/tiziran_corvette)
+"KJ" = (
 /obj/machinery/porta_turret/syndicate{
 	dir = 1
 	},
 /turf/closed/wall/mineral/plastitanium,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"IA" = (
-/obj/machinery/door/airlock/external,
-/obj/structure/cable,
-/turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"KJ" = (
-/obj/machinery/door/airlock/external,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/personally_bought/tiziran_corvette)
 "Ln" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/item/rolling_table_dock,
+/obj/effect/spawner/random/vendor_meal_sides/tizira,
+/obj/item/reagent_containers/condiment/pack/ketchup{
+	pixel_y = 7;
+	pixel_x = -9
+	},
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"LH" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"LH" = (
-/obj/structure/girder/reinforced,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/personally_bought/tiziran_corvette)
 "MW" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/power/micro_reactor,
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/west,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_corvette)
 "Nk" = (
-/obj/machinery/power/port_gen/pacman/pre_loaded,
-/obj/structure/cable,
-/obj/machinery/light/red/directional/east,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/obj/structure/bed/pod,
+/turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_corvette)
 "Pk" = (
-/obj/structure/cable,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/obj/structure/railing/eva_handhold/directional/west,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/personally_bought/tiziran_corvette)
 "Pv" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/airlock/hatch,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"PG" = (
+/obj/structure/chair/bronze,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/iron/dark/smooth_half,
+/area/shuttle/personally_bought/tiziran_corvette)
+"Ql" = (
+/obj/structure/cable,
+/obj/structure/marker_beacon/burgundy,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"Qu" = (
 /obj/machinery/modular_computer/preset/engineering{
 	dir = 8
 	},
 /obj/structure/marker_beacon/burgundy,
 /turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"PG" = (
-/obj/effect/turf_decal/tile/red/full,
-/turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Ql" = (
-/obj/machinery/computer/monitor{
-	dir = 1
-	},
-/obj/structure/cable,
-/obj/structure/marker_beacon/burgundy,
-/turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Qu" = (
-/obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/pirate{
-	dir = 1;
-	x_offset = 12;
-	y_offset = 5;
-	view_range = 10
-	},
-/turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/personally_bought/tiziran_corvette)
 "QK" = (
-/obj/structure/cable,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/personally_bought/tiziran_corvette)
+"QV" = (
+/obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/machinery/door/window/survival_pod/left/directional/west{
+	req_access = list("syndicate")
+	},
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
 "Re" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/structure/cable,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/obj/structure/table/reinforced/plastitaniumglass,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
 "Rm" = (
-/obj/structure/marker_beacon/burgundy,
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Ry" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/power/apc/auto_name/directional/north,
-/obj/effect/mapping_helpers/apc/syndicate_access,
-/obj/effect/mapping_helpers/apc/cell_10k,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/personally_bought/tiziran_corvette)
+"Ry" = (
+/obj/machinery/door/airlock/hatch{
+	req_access = list("syndicate")
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
 "SH" = (
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"Ta" = (
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"Tc" = (
+/obj/machinery/door/poddoor/shutters/preopen{
+	id = "piratebridge"
+	},
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"To" = (
+/obj/structure/girder/reinforced,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"TS" = (
+/obj/machinery/suit_storage_unit/tiziran_raiders,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"UY" = (
+/obj/machinery/door/airlock/external{
+	id_tag = "pirateforeexternal";
+	req_access = list("syndicate")
+	},
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/iron/dark/textured,
+/area/shuttle/personally_bought/tiziran_corvette)
+"WH" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/airalarm/directional/west,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"WO" = (
+/obj/structure/chair/comfy/shuttle,
+/obj/effect/turf_decal/tile/red/half{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/shuttle/personally_bought/tiziran_corvette)
+"XB" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/obj/machinery/light/red/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"YT" = (
 /obj/structure/chair/comfy/shuttle,
 /obj/effect/turf_decal/tile/red/half{
 	dir = 4
 	},
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Ta" = (
-/obj/machinery/porta_turret/syndicate,
-/turf/closed/wall/mineral/plastitanium,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"Tc" = (
-/obj/structure/railing{
-	color = "#36373a"
-	},
-/turf/open/floor/catwalk_floor/iron_dark/airless,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"To" = (
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"TS" = (
-/obj/machinery/door/airlock/external,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"UY" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"WO" = (
-/obj/machinery/modular_computer/preset/engineering{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red/half{
-	dir = 8
-	},
-/turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"XB" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 8
-	},
-/turf/open/floor/catwalk_floor/iron_dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
-"YT" = (
-/obj/machinery/modular_computer/preset/engineering{
-	dir = 1
-	},
-/obj/effect/turf_decal/tile/red/half{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/textured,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/personally_bought/tiziran_corvette)
 "Zt" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/light/red/dim/directional/north,
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/all_access,
 /turf/open/floor/iron/dark,
-/area/shuttle/personally_bought/tiziran_interceptor)
+/area/shuttle/personally_bought/tiziran_corvette)
 
 (1,1,1) = {"
 xT
@@ -685,18 +800,17 @@ xT
 xT
 xT
 xT
-rl
 qv
 CL
-ua
-ua
+Pk
+lh
+lh
 nl
 xT
 xT
 nl
-ua
-Ta
-xT
+lh
+Hp
 xT
 xT
 xT
@@ -710,19 +824,18 @@ xT
 xT
 xT
 nl
-ua
-oO
-ua
-To
-To
-ua
+lh
+xz
+lh
+hq
+hq
+lh
 nl
 nl
-ua
-To
-ua
+lh
+hq
+lh
 nl
-xT
 xT
 xT
 xT
@@ -734,21 +847,20 @@ xT
 xT
 xT
 nl
+lh
+lh
 ua
-ua
-wu
-ua
-zV
-zV
+lh
+vS
 vS
 xc
 dC
+Ta
+hq
+hq
 To
-To
-LH
-ua
+lh
 nl
-xT
 xT
 xT
 "}
@@ -758,23 +870,22 @@ xT
 xT
 xT
 nl
-ua
-CY
+lh
 vn
+gj
 rH
 rH
-zV
-hM
-ua
-xz
-LH
+vS
+BI
+lh
+XB
 To
+hq
+hq
+hq
 To
-To
-LH
-ua
-Ta
-xT
+lh
+Hp
 xT
 "}
 (5,1,1) = {"
@@ -782,63 +893,60 @@ xT
 xT
 xT
 nl
-ua
-UY
+lh
 zV
+vS
 rH
 rH
-To
-ua
+uV
+lh
 nl
 nl
-ua
+lh
+uE
+hq
+hq
 To
-To
-To
-LH
-To
-To
-ua
+hq
+hq
+lh
 nl
-xT
 "}
 (6,1,1) = {"
 xT
 xT
-HE
-ua
-uE
+KJ
+lh
 AW
-QK
-To
-To
-ua
+DA
+Rm
+hi
+TS
+lh
 nl
 xT
 xT
 nl
-ua
-ua
-ua
-ua
-ua
-ua
-ua
-ua
-xT
+lh
+lh
+lh
+lh
+lh
+lh
+lh
+lh
 "}
 (7,1,1) = {"
 xT
-gi
 fc
 Bj
-To
-AW
-ua
-ua
-ua
-Ta
-xT
+pb
+hq
+DA
+lh
+lh
+lh
+Hp
 xT
 xT
 xT
@@ -854,17 +962,16 @@ xT
 "}
 (8,1,1) = {"
 xT
-gi
 fc
-gp
+Bj
 aN
+hq
 hQ
-ua
-hD
+lh
 jW
 sy
 ab
-xT
+cL
 xT
 xT
 xT
@@ -878,18 +985,17 @@ xT
 xT
 "}
 (9,1,1) = {"
-gi
 fc
-ua
-ua
-ua
-Ek
-ua
-IA
-ua
+Bj
+lh
+lh
+lh
+bD
+lh
+UY
+lh
 nl
-af
-xT
+wt
 xT
 xT
 xT
@@ -903,18 +1009,17 @@ xT
 xT
 "}
 (10,1,1) = {"
-gi
 fc
-wP
+Bj
 GK
-ua
-QK
-Pk
-cb
+gz
+lh
+Rm
+fO
 Ql
-AC
+rl
 Tc
-xT
+xm
 xT
 xT
 xT
@@ -928,18 +1033,17 @@ xT
 xT
 "}
 (11,1,1) = {"
-gi
 fc
-DA
+Bj
 uT
-ua
-Ry
+uW
+lh
 gE
 SH
 YT
-AC
-AC
-xT
+gp
+Tc
+Tc
 xT
 xT
 xT
@@ -955,16 +1059,15 @@ xT
 (12,1,1) = {"
 xT
 nl
-Zt
 ip
-ua
+lh
 lh
 dr
 Ci
 En
 fh
 AC
-xT
+Tc
 xT
 xT
 xT
@@ -980,16 +1083,15 @@ xT
 (13,1,1) = {"
 xT
 nl
-ci
 Zt
-ya
+uT
 hC
 rF
 PG
 AQ
 ju
-AC
-xT
+HE
+Tc
 xT
 xT
 xT
@@ -1005,16 +1107,15 @@ xT
 (14,1,1) = {"
 xT
 nl
-Hp
-ua
-ua
-uW
-rn
-Ci
 Pv
+lh
+lh
+rn
+CY
+En
 Qu
-AC
-xT
+mZ
+Tc
 xT
 xT
 xT
@@ -1028,18 +1129,17 @@ xT
 xT
 "}
 (15,1,1) = {"
-gi
 fc
-Zt
+Bj
+uT
+MW
+lh
 lg
-ua
-Re
-QK
-mZ
+Rm
 WO
-AC
-AC
-xT
+pG
+Tc
+Tc
 xT
 xT
 xT
@@ -1053,17 +1153,16 @@ xT
 xT
 "}
 (16,1,1) = {"
-gi
 fc
-hi
+Bj
 yQ
-ua
-XB
+Nk
+lh
 QK
-Pk
+Rm
 fO
-AC
-xT
+IA
+Tc
 xT
 xT
 xT
@@ -1078,17 +1177,16 @@ xT
 xT
 "}
 (17,1,1) = {"
-gi
 fc
-ua
-ua
-ua
-ua
-QK
+Bj
+lh
+lh
+lh
+lh
 Rm
-ua
+wP
+lh
 nl
-xT
 xT
 xT
 xT
@@ -1104,16 +1202,15 @@ xT
 "}
 (18,1,1) = {"
 xT
-gi
 fc
-MW
+Bj
 nw
-ua
-ya
-ua
+cb
+lh
+Ry
+lh
 nl
-uV
-xT
+BV
 xT
 xT
 xT
@@ -1129,16 +1226,15 @@ xT
 "}
 (19,1,1) = {"
 xT
-gi
 fc
+Bj
 be
 be
-be
-QK
-BV
-ua
-Ta
-xT
+WH
+Rm
+hq
+lh
+Hp
 xT
 xT
 xT
@@ -1155,52 +1251,50 @@ xT
 (20,1,1) = {"
 xT
 xT
-HE
-ua
-Nk
-To
-QK
-To
+KJ
+lh
+gi
 hq
-ua
+Rm
+hq
+hq
+lh
 nl
 xT
 xT
 nl
-ua
-ua
-ua
-ua
-ua
-ua
-ua
-ua
-xT
+lh
+lh
+lh
+lh
+lh
+lh
+lh
+lh
 "}
 (21,1,1) = {"
 xT
 xT
 xT
 nl
-ua
-To
-QK
+lh
+hD
+af
 hQ
 hQ
-pb
-ua
+hq
+lh
 nl
 nl
-ua
-eI
-TS
+lh
+rO
 eI
 rO
-To
-To
-ua
+le
+hq
+hq
+lh
 nl
-xT
 "}
 (22,1,1) = {"
 xT
@@ -1208,23 +1302,22 @@ xT
 xT
 xT
 nl
-ua
-BI
+lh
 Ln
+oO
 hQ
 hQ
 hQ
 hQ
-KJ
-hQ
+hM
 vr
-ua
+ya
+lh
+To
 LH
-Ln
-LH
-ua
-Ta
-xT
+To
+lh
+Hp
 xT
 "}
 (23,1,1) = {"
@@ -1234,21 +1327,20 @@ xT
 xT
 xT
 nl
-ua
-xm
-Gt
-To
-To
+lh
+lh
+Re
+hq
 er
-ua
-gj
+QV
+lh
 zl
-ua
-dC
-LH
-ua
+Ek
+lh
+Ta
+To
+lh
 nl
-xT
 xT
 xT
 "}
@@ -1260,19 +1352,18 @@ xT
 xT
 xT
 nl
-ua
-wt
+lh
 Gt
-er
+hq
 mb
-ua
-gz
+wu
+lh
 Fy
-ua
-To
-ua
+ci
+lh
+hq
+lh
 nl
-xT
 xT
 xT
 xT
@@ -1286,17 +1377,16 @@ xT
 xT
 xT
 nl
-ua
-ua
-ua
-ua
+lh
+lh
+lh
+lh
 nl
 xT
 xT
 nl
-ua
-Ta
-xT
+lh
+Hp
 xT
 xT
 xT
