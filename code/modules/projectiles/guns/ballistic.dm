@@ -236,14 +236,10 @@
 	if(gun_flags & TOY_FIREARM_OVERLAY)
 		. += "[icon_state]_toy"
 
-
-	if(!magazine || !mag_display)	//DOPPLER EDIT originally if(!magazine || internal_magazine || !mag_display) this allows guns with internal magazines to use the mag display function, c.f. below addition
+	//BEGIN DOPPLER EDIT - allows guns with internal magazines to display them visually
+	if(!magazine || internal_magazine && !mag_display)	//originally if(!magazine || internal_magazine && !mag_display)
+	//END DOPPLER EDIT
 		return
-
-//DOPPLER ADDITION allows firearms to display an internal magazine
-	if(internal_magazine && !mag_display)
-		return
-//END DOPPLER ADDITION
 
 	if(special_mags)
 		. += "[icon_state]_mag_[initial(magazine.icon_state)]"
