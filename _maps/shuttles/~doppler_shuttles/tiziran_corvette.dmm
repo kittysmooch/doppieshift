@@ -124,7 +124,7 @@
 "fh" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/machinery/button/door{
-	id = "silverbridge";
+	id = "piratebridge";
 	name = "Window Shutters Control"
 	},
 /obj/structure/marker_beacon/burgundy,
@@ -243,11 +243,8 @@
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_corvette)
 "mZ" = (
-/obj/machinery/computer/camera_advanced/shuttle_docker/syndicate/pirate{
-	dir = 1;
-	x_offset = 12;
-	y_offset = 5;
-	view_range = 10
+/obj/machinery/computer/camera_advanced/shuttle_docker/personally_bought{
+	dir = 1
 	},
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/personally_bought/tiziran_corvette)
@@ -286,7 +283,9 @@
 /obj/effect/turf_decal/tile/red/half{
 	dir = 8
 	},
-/obj/machinery/loot_locator,
+/obj/machinery/computer/monitor{
+	dir = 1
+	},
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/personally_bought/tiziran_corvette)
 "qv" = (
@@ -540,13 +539,11 @@
 	id_tag = "piratestarboardexternal";
 	req_access = list("syndicate")
 	},
-/obj/docking_port/mobile/pirate{
-	dir = 4;
-	preferred_direction = 4;
-	port_direction = 4
-	},
 /obj/effect/mapping_helpers/airlock/cutaiwire,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
+/obj/docking_port/mobile/personally_bought{
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -599,15 +596,14 @@
 /turf/closed/wall/mineral/plastitanium,
 /area/shuttle/personally_bought/tiziran_corvette)
 "HE" = (
-/obj/machinery/computer/shuttle/pirate{
-	dir = 1
-	},
 /obj/effect/turf_decal/tile/red/full,
 /obj/structure/marker_beacon/burgundy,
+/obj/machinery/computer/shuttle/personally_bought{
+	dir = 1
+	},
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/personally_bought/tiziran_corvette)
 "IA" = (
-/obj/machinery/shuttle_scrambler,
 /obj/structure/cable,
 /obj/machinery/turretid{
 	ailock = 1;
@@ -620,6 +616,9 @@
 	req_access = list("syndicate")
 	},
 /obj/structure/marker_beacon/burgundy,
+/obj/machinery/modular_computer/preset/engineering{
+	dir = 1
+	},
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/personally_bought/tiziran_corvette)
 "KJ" = (
@@ -682,10 +681,8 @@
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/personally_bought/tiziran_corvette)
 "Qu" = (
-/obj/machinery/modular_computer/preset/engineering{
-	dir = 8
-	},
 /obj/structure/marker_beacon/burgundy,
+/obj/structure/table/reinforced/plastitaniumglass,
 /turf/open/floor/iron/dark/textured,
 /area/shuttle/personally_bought/tiziran_corvette)
 "QK" = (

@@ -75,7 +75,7 @@
 "ex" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/machinery/button/door{
-	id = "silverbridge";
+	id = "piratebridge";
 	name = "Window Shutters Control"
 	},
 /obj/structure/marker_beacon/burgundy,
