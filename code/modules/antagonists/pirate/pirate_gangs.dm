@@ -59,7 +59,16 @@ GLOBAL_LIST_INIT(heavy_pirate_gangs, init_pirate_gangs(is_heavy = TRUE))
 ///whether this pirate gang can roll today. this is called when the global list initializes, so
 ///returning FALSE means it cannot show up at all for the entire round.
 /datum/pirate_gang/proc/can_roll()
-	return TRUE
+	/// DOPPLER EDIT - allows us to blacklist certain pirate gangs.
+	/* ORIGINALLY
+	* /datum/pirate_gang/proc/can_roll()
+	* 	return TRUE
+	*/
+	if(!enabled)
+		return FALSE
+	else
+		return TRUE
+	/// END DOPPLER EDIT
 
 ///returns a new comm_message datum from this pirate gang
 /datum/pirate_gang/proc/generate_message(payoff)
@@ -87,10 +96,6 @@ GLOBAL_LIST_INIT(heavy_pirate_gangs, init_pirate_gangs(is_heavy = TRUE))
 	response_too_late = "Payment or not, ignoring us was a matter of pride. Now it's time for us to teach some respect."
 	response_not_enough = "You thought we wouldn't notice if you underpaid? Funny. We'll be seeing you soon."
 
-
-
-//DOPPLER REMOVAL - disables a few sets of pirate gangs that might be considered lore breaking or otherwise undesirable.
-/*
 ///aristocrat lizards looking to hunt the serfs
 
 /datum/pirate_gang/silverscales
@@ -127,8 +132,6 @@ GLOBAL_LIST_INIT(heavy_pirate_gangs, init_pirate_gangs(is_heavy = TRUE))
 	response_rejected = "Blimey! All hands on deck, we're going to get their riches!"
 	response_too_late = "Too late to beg for mercy!"
 	response_not_enough = "Trying to cheat us? You'll regret this!"
-*/
-//END DOPPLER REMOVAL
 
 ///Expirienced formed employes of Interdyne Pharmaceutics now in a path of thievery and reckoning
 /datum/pirate_gang/interdyne
@@ -213,8 +216,6 @@ GLOBAL_LIST_INIT(heavy_pirate_gangs, init_pirate_gangs(is_heavy = TRUE))
 	response_not_enough = "You have insulted us, but there shall be no feud, only swift justice!"
 	announcement_color = "purple"
 
-//DOPPLER REMOVAL - disables a few sets of pirate gangs that might be considered lore breaking or otherwise undesirable.
-/*
 //medieval militia, from OUTER SPACE!
 /datum/pirate_gang/medieval
 	name = "Medieval Warmongers"
@@ -236,6 +237,3 @@ GLOBAL_LIST_INIT(heavy_pirate_gangs, init_pirate_gangs(is_heavy = TRUE))
 	response_rejected = "FOOLISH DECISION, I'LL MAKE AN EXAMPLE OUT OF YOUR CARCASS!! (does anyone remember how to pilot our ship?)"
 	response_too_late = "YOU ARE ALREADY UNDER SIEGE YOU BUFFON, ARE YOU BRAINSICK OR IGNORANT?!!"
 	response_not_enough = "DO THINK OF ME AS A JESTER? YOU ARE DEAD MEAT!! (i forgot how to fly the ship, tarnation.)"
-*/
-
-//END DOPPLER REMOVAL
