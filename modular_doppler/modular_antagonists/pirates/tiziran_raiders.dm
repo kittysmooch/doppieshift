@@ -43,7 +43,7 @@
 	rank = "swabbie"
 	icon_state = "oldpod"
 	base_icon_state = "oldpod"
-	fluff_spawn = /obj/structure/showcase/machinery/tiziran_pod
+	fluff_spawn = /obj/structure/showcase/machinery/empty_tiziran_pod
 
 /obj/effect/mob_spawn/ghost_role/human/pirate/tiziran/create(mob/mob_possessor, newname)
 	. = ..()
