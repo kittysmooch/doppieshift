@@ -43,6 +43,7 @@
 	rank = "swabbie"
 	icon_state = "oldpod"
 	base_icon_state = "oldpod"
+	fluff_spawn = /obj/structure/showcase/machinery/tiziran_pod
 
 /obj/effect/mob_spawn/ghost_role/human/pirate/tiziran/create(mob/mob_possessor, newname)
 	. = ..()
@@ -52,6 +53,12 @@
 /obj/effect/mob_spawn/ghost_role/human/pirate/tiziran/captain
 	name = "\improper Tiziran command sleeper"
 	rank = "captain"
+
+/obj/structure/showcase/machinery/empty_tiziran_pod
+	name = "empty sleeper pod"
+	desc = "Still cold, still humming. Whoever was in this is probably still nearby."
+	icon = 'icons/obj/machines/sleeper.dmi'
+	icon_state = "oldpod-open"
 
 /obj/machinery/suit_storage_unit/tiziran_raiders
 	suit_type = /obj/item/clothing/suit/space/pirate/tiziran

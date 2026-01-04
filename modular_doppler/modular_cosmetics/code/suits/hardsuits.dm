@@ -1,6 +1,6 @@
 
 /obj/item/clothing/suit/space/pirate/tiziran
-	name = "Tiziran EVA suit"
+	name = "\improper Tiziran EVA suit"
 	desc = "An EVA rated suit designed for Tiziran physiology. Its broad availability makes it a popular choice even beyond its issue to \
 	Imperial operators."
 	icon = 'modular_doppler/modular_cosmetics/icons/obj/suit/spacesuit.dmi'

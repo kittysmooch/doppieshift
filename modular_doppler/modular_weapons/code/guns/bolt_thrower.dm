@@ -4,7 +4,7 @@
 */
 
 /obj/item/gun/ballistic/bolt_thrower
-	name = "bolt thrower"
+	name = "\improper Tiziran bolt thrower"
 	desc = "Tiziran small arms often feature electromagnetic drivers in lieu of propellant in an effort to prevent \
 	errant sparks from igniting low lying puddles of subterranean gasses. This effort is often rendered fruitless \
 	when field operators overtune their coils for greater penetration until the projectile spall itself ignites."
