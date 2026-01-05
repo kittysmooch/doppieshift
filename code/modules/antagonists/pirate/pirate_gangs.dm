@@ -97,7 +97,6 @@ GLOBAL_LIST_INIT(heavy_pirate_gangs, init_pirate_gangs(is_heavy = TRUE))
 	response_not_enough = "You thought we wouldn't notice if you underpaid? Funny. We'll be seeing you soon."
 
 ///aristocrat lizards looking to hunt the serfs
-
 /datum/pirate_gang/silverscales
 	name = "Silverscales"
 
