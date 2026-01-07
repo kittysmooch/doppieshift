@@ -117,7 +117,7 @@
 	alt_covers_chest = TRUE
 
 /obj/item/clothing/under/nevada_uniform
-	name = "Nevada Beverage Co. uniform"
+	name = "\improper Nevada Beverage Co. uniform"
 	desc = "A comfortable paired set of a branded ThermoWick™ fabric henley and relaxed khaki joggers. For Nevada employees, \
 	and Nevada diehards."
 	icon = 'modular_doppler/modular_cosmetics/icons/obj/under/miscellania.dmi'

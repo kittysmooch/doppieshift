@@ -1,5 +1,5 @@
 /obj/item/clothing/shoes/nevada_kicks
-	name = "Nevada Beverage Co. kicks"
+	name = "\improper Nevada Beverage Co. kicks"
 	desc = "Kicks as fresh as their ingredients, at least according to the tags. The smell of leather is mysteriously \
 	absent."
 	icon = 'modular_doppler/modular_cosmetics/icons/obj/shoes/casual.dmi'

@@ -54,7 +54,7 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/head/nevada_cap
-	name = "Nevada Beverage Co. cap"
+	name = "\improper Nevada Beverage Co. cap"
 	desc = "A branded fitted cap, bearing the emblazoned logo of Nevada Beverage Co."
 	icon = 'modular_doppler/modular_cosmetics/icons/obj/head/hats.dmi'
 	icon_state = "nevada_hat"
