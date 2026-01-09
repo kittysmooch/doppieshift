@@ -96,7 +96,28 @@
 /area/shuttle/personally_bought/tiziran_corvette)
 "er" = (
 /obj/structure/table/reinforced/plastitaniumglass,
-/obj/machinery/chem_dispenser/frontier_appliance,
+/obj/item/plate/copper{
+	pixel_x = 9
+	},
+/obj/item/plate/copper{
+	pixel_x = 9;
+	pixel_y = 2
+	},
+/obj/item/plate/copper{
+	pixel_x = 9;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/cup/bowl/copper{
+	pixel_x = -6
+	},
+/obj/item/reagent_containers/cup/bowl/copper{
+	pixel_y = 2;
+	pixel_x = -6
+	},
+/obj/item/reagent_containers/cup/bowl/copper{
+	pixel_x = -6;
+	pixel_y = 4
+	},
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_corvette)
 "eI" = (
@@ -169,6 +190,10 @@
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_corvette)
 "hq" = (
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"ht" = (
+/obj/machinery/chem_dispenser/spice_machine,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_corvette)
 "hC" = (
@@ -248,7 +273,21 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/shuttle/personally_bought/tiziran_corvette)
 "mb" = (
-/obj/machinery/oven/range_frontier,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/burner_plate{
+	pixel_x = -4
+	},
+/obj/item/reagent_containers/cup/soup_pot/lizard{
+	pixel_y = 8;
+	pixel_x = -4
+	},
+/obj/item/kitchen/spoon/soup_ladle/copper{
+	pixel_x = 8
+	},
+/turf/open/floor/plating,
+/area/shuttle/personally_bought/tiziran_corvette)
+"mk" = (
+/obj/machinery/biogenerator/organic_printer,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_corvette)
 "mZ" = (
@@ -398,6 +437,7 @@
 "wu" = (
 /obj/machinery/light/red/directional/east,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/item/storage/box/monkeycubes/random,
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_corvette)
 "wP" = (
@@ -719,6 +759,13 @@
 /area/shuttle/personally_bought/tiziran_corvette)
 "Re" = (
 /obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/knife/lizard_kitchen{
+	pixel_x = -5
+	},
+/obj/item/kitchen/rollingpin/press{
+	pixel_x = 6;
+	pixel_y = 3
+	},
 /turf/open/floor/plating,
 /area/shuttle/personally_bought/tiziran_corvette)
 "Rm" = (
@@ -1269,7 +1316,7 @@ gi
 hq
 Rm
 hq
-hq
+ht
 lh
 nl
 xT
@@ -1294,7 +1341,7 @@ hD
 af
 hQ
 hQ
-hq
+mk
 lh
 nl
 nl

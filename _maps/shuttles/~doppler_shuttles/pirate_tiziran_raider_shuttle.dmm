@@ -169,6 +169,7 @@
 "lr" = (
 /obj/machinery/light/red/directional/east,
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
+/obj/item/storage/box/monkeycubes/random,
 /turf/open/floor/plating,
 /area/shuttle/pirate/tiziran_corvette)
 "lS" = (
@@ -232,7 +233,28 @@
 /area/shuttle/pirate/tiziran_corvette)
 "oF" = (
 /obj/structure/table/reinforced/plastitaniumglass,
-/obj/machinery/chem_dispenser/frontier_appliance,
+/obj/item/plate/copper{
+	pixel_x = 9
+	},
+/obj/item/plate/copper{
+	pixel_x = 9;
+	pixel_y = 2
+	},
+/obj/item/plate/copper{
+	pixel_x = 9;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/cup/bowl/copper{
+	pixel_x = -6
+	},
+/obj/item/reagent_containers/cup/bowl/copper{
+	pixel_y = 2;
+	pixel_x = -6
+	},
+/obj/item/reagent_containers/cup/bowl/copper{
+	pixel_x = -6;
+	pixel_y = 4
+	},
 /turf/open/floor/plating,
 /area/shuttle/pirate/tiziran_corvette)
 "pk" = (
@@ -514,6 +536,10 @@
 /obj/structure/girder/reinforced,
 /turf/open/floor/plating,
 /area/shuttle/pirate/tiziran_corvette)
+"Gn" = (
+/obj/machinery/biogenerator/organic_printer,
+/turf/open/floor/plating,
+/area/shuttle/pirate/tiziran_corvette)
 "GE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -547,7 +573,17 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/pirate/tiziran_corvette)
 "Il" = (
-/obj/machinery/oven/range_frontier,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/burner_plate{
+	pixel_x = -4
+	},
+/obj/item/reagent_containers/cup/soup_pot/lizard{
+	pixel_y = 8;
+	pixel_x = -4
+	},
+/obj/item/kitchen/spoon/soup_ladle/copper{
+	pixel_x = 8
+	},
 /turf/open/floor/plating,
 /area/shuttle/pirate/tiziran_corvette)
 "In" = (
@@ -628,6 +664,13 @@
 /area/shuttle/pirate/tiziran_corvette)
 "Je" = (
 /obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/knife/lizard_kitchen{
+	pixel_x = -5
+	},
+/obj/item/kitchen/rollingpin/press{
+	pixel_x = 6;
+	pixel_y = 3
+	},
 /turf/open/floor/plating,
 /area/shuttle/pirate/tiziran_corvette)
 "JW" = (
@@ -762,6 +805,10 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/pirate/tiziran_corvette)
+"Vl" = (
+/obj/machinery/chem_dispenser/spice_machine,
+/turf/open/floor/plating,
 /area/shuttle/pirate/tiziran_corvette)
 "VT" = (
 /obj/structure/cable,
@@ -1271,7 +1318,7 @@ Rf
 In
 Vi
 In
-In
+Vl
 Ja
 BS
 MZ
@@ -1296,7 +1343,7 @@ MV
 AT
 SG
 SG
-In
+Gn
 Ja
 BS
 BS
