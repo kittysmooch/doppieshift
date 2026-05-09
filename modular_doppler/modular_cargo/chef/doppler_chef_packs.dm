@@ -2,11 +2,11 @@
 //	for the purposes of encouraging chefs to do the otherwise somewhat difficult Marsian cuisine
 
 /datum/orderable_item/milk_eggs/marsian_produce
-	name = "Flavors of Mars Produce Pack"
+	name = "Marsian Produce Pack"
 	purchase_path = /obj/item/storage/box/marsian_produce
 	cost_per_order = 80
 
 /datum/orderable_item/milk_eggs/marsian_goods
-	name = "Flavors of Mars Produce Pack"
+	name = "Marsian Goods Pack"
 	purchase_path = /obj/item/storage/box/marsian_goods
 	cost_per_order = 80
