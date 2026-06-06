@@ -24,9 +24,9 @@
 
 /obj/projectile/beam/cybersun_laser/marksman
 	icon_state = "sniper"
-	damage = 50
+	damage = 40
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/yellow_laser
-	speed = 0.4
+	speed = 1.4
 	light_range = 2
 	light_color = COLOR_VERY_SOFT_YELLOW
 	wound_falloff_tile = 0.1
@@ -41,8 +41,8 @@
 
 /obj/projectile/beam/cybersun_laser/disable
 	icon_state = "disable_large"
-	damage = 0
-	stamina = 20
+	damage = 5
+	stamina = 15
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/blue_laser
 	light_color = COLOR_BRIGHT_BLUE
 	stamina_falloff_tile = 0.25
@@ -112,7 +112,7 @@
 
 /obj/projectile/beam/cybersun_laser/granata_shrapnel/shotgun_pellet
 	icon_state = "because_it_doesnt_miss"
-	damage = 10
+	damage = 8
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/purple_laser
 	speed = 0.8
 	light_color = COLOR_SCIENCE_PINK
@@ -129,7 +129,7 @@
 
 /obj/projectile/beam/cybersun_laser/hellfire
 	icon_state = "hellfire"
-	damage = 30
+	damage = 20
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/red_laser
 	speed = 0.6
 	wound_bonus = 0
@@ -145,8 +145,8 @@
 
 /obj/projectile/beam/cybersun_laser/disable_bounce
 	icon_state = "disable_bounce"
-	damage = 0
-	stamina = 30
+	damage = 5
+	stamina = 10
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/blue_laser
 	light_color = COLOR_BRIGHT_BLUE
 	ricochet_auto_aim_angle = 30
@@ -154,7 +154,7 @@
 	ricochets_max = 2
 	ricochet_incidence_leeway = 100
 	ricochet_chance = 130
-	ricochet_decay_damage = 0.8
+	ricochet_decay_damage = 1.3
 
 /obj/projectile/beam/cybersun_laser/disable_bounce/check_ricochet_flag(atom/reflecting_atom)
 	if((reflecting_atom.flags_ricochet & RICOCHET_HARD) || (reflecting_atom.flags_ricochet & RICOCHET_SHINY))
@@ -171,7 +171,7 @@
 /obj/projectile/beam/cybersun_laser/flare
 	name = "plasma flare"
 	icon_state = "flare"
-	damage = 30
+	damage = 25
 	speed = 2
 	range = 6
 	impact_effect_type = /obj/effect/temp_visual/impact_effect/green_laser

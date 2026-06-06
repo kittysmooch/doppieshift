@@ -6,31 +6,6 @@
 #define MOD_LASER_SPEECH_COOLDOWN 2 SECONDS
 /// What color is the default kill mode for these guns, used to make sure the chat colors are right at roundstart
 #define DEFAULT_RUNECHAT_GUN_COLOR "#cd4456"
-/// List for our basic hyeseong firemodes
-#define HYESEONG_BASIC_FIREMODES "list(	\
-	/datum/laser_weapon_mode,	\
-	/datum/laser_weapon_mode/disabler_machinegun,	\
-	)"
-/// List for our full hyeseong firemode suit
-#define HYESEONG_PREMIUM_FREMODES "list(	\
-	/datum/laser_weapon_mode,	\
-	/datum/laser_weapon_mode/marksman,	\
-	/datum/laser_weapon_mode/disabler_machinegun,	\
-	/datum/laser_weapon_mode/launcher,	\
-	/datum/laser_weapon_mode/shotgun,	\
-	)"
-#define HOSHI_BASIC_FIREMODES "list(	\
-	/datum/laser_weapon_mode/sword,	\
-	/datum/laser_weapon_mode/flare,	\
-	/datum/laser_weapon_mode/trickshot_disabler,	\
-	)"
-#define HOSHI_PREMIUM_FIREMODES "list(	\
-	/datum/laser_weapon_mode/hellfire,	\
-	/datum/laser_weapon_mode/sword,	\
-	/datum/laser_weapon_mode/flare,	\
-	/datum/laser_weapon_mode/shotgun_small,	\
-	/datum/laser_weapon_mode/trickshot_disabler,	\
-	)"
 
 // Modular energy weapons, laser guns that can transform into different variants after a few seconds of waiting and animation
 // Long version, takes both hands to use and doesn't fit in any bags out there
@@ -41,15 +16,15 @@
 		the wide variety of modders the planet is home to."
 	base_icon_state = "hyeseong"
 	icon = 'modular_doppler/modular_weapons/icons/obj/hyeseong.dmi'
-	icon_state = "hyeseong_kill"
+	icon_state = "hyeseong_disable"
 	lefthand_file = 'modular_doppler/modular_weapons/icons/mob/inhands/gun_lefthand.dmi'
 	righthand_file = 'modular_doppler/modular_weapons/icons/mob/inhands/gun_righthand.dmi'
-	inhand_icon_state = "hyeseong_kill"
+	inhand_icon_state = "hyeseong_disable"
 	worn_icon = 'modular_doppler/modular_weapons/icons/mob/worn/guns.dmi'
-	worn_icon_state = "hyeseong_kill"
+	worn_icon_state = "hyeseong_disable"
 	cell_type = /obj/item/stock_parts/power_store/cell/hyeseong_internal_cell
 	modifystate = FALSE
-	ammo_type = list(/obj/item/ammo_casing/energy/cybersun_big_kill)
+	ammo_type = list(/obj/item/ammo_casing/energy/cybersun_big_disabler)
 	can_select = FALSE
 	ammo_x_offset = 0
 	selfcharge = 1
@@ -64,7 +39,13 @@
 	fire_sound_volume = 50
 	recoil = 0.25 // This isn't enough to mean ANYTHING aside from it jolting your screen the tiniest amount
 	/// What datums of weapon modes can we use?
-	var/list/weapon_mode_options = HYESEONG_BASIC_FIREMODES
+	var/list/weapon_mode_options = list(
+		/datum/laser_weapon_mode,
+		/datum/laser_weapon_mode/marksman,
+		/datum/laser_weapon_mode/disabler_machinegun,
+		/datum/laser_weapon_mode/launcher,
+		/datum/laser_weapon_mode/shotgun,
+		)
 	/// Populates with a list of weapon mode names and their respective paths on init
 	var/list/weapon_mode_name_to_path = list()
 	/// Info for the radial menu for switching weapon mode
@@ -76,7 +57,7 @@
 	/// What the currently selected weapon mode is, for quickly referencing for use in procs and whatnot
 	var/datum/laser_weapon_mode/currently_selected_mode
 	/// Name of the firing mode that is selected by default
-	var/default_selected_mode = "Kill"
+	var/default_selected_mode = "Disable"
 	/// Allows firing of the gun to be disabled for any reason, for example, if a gun has a melee mode
 	var/disabled_for_other_reasons = FALSE
 	/// The json file this gun pulls from when speaking
@@ -95,8 +76,8 @@
 		in CQB. Her onboard machine intelligence, at first devised to support the operator and manage the internal reactor, \
 		is shipped with a more professional and understated personality-- since influenced by 'negligence' from users in \
 		wiping the intelligence's memory before resale or transport."
-	/// Our license cartridge for using the stronger modes
-	var/obj/item/modular_laser_upgrade/our_cartridge
+	/// Do we have a license upgrade cartridge installed?
+	var/obj/item/modular_laser_upgrade/installed_cartridge
 	/// A cooldown for when the weapon has last spoken, prevents messages from getting turbo spammed
 	COOLDOWN_DECLARE(last_speech)
 
@@ -114,6 +95,7 @@
 	. = ..()
 	. += span_notice("You can <b>examine closer</b> to learn a little more about this weapon.")
 	. += span_notice("You can <b>Alt-Click</b> this gun to access the <b>internal soulcatcher</b>.")
+	. += span_notice("You can add a license upgrade cartridge to access lethal modes, and remove a cartridge with <b>Ctrl-Click</b>")
 
 /obj/item/gun/energy/modular_laser_rifle/examine_more(mob/user)
 	. = ..()
@@ -200,6 +182,9 @@
 /obj/item/gun/energy/modular_laser_rifle/can_shoot()
 	if(!length(ammo_type))
 		return FALSE
+	if((!installed_cartridge) & (currently_selected_mode.lethal_mode))
+		speak_up("license_fail")
+		return FALSE
 	return ..()
 
 /obj/item/gun/energy/modular_laser_rifle/can_trigger_gun(mob/living/user, akimbo_usage)
@@ -259,33 +244,36 @@
 	speak_up("[personality_mode ? "pickup" : "putdown"]", ignores_personality_toggle = TRUE)
 	return ..()
 
-/// Upgrades us to premium fire modes
-/obj/item/gun/energy/modular_laser_rifle/proc/license_upgrade(/obj/item/modular_laser_upgrade/cartridge, mob/user)
-	if(our_cartridge)
-		balloon_alert(user, "already installed!")
-		return FALSE
+/// Installs the license upgrade cartridge
+/obj/item/gun/energy/modular_laser_rifle/attackby(obj/item/item, mob/user, list/modifiers, list/attack_modifiers)
+	if(istype(item, /obj/item/modular_laser_upgrade))
+		if(installed_cartridge)
+			balloon_alert(user, "already installed!")
+			return FALSE
+		else
+			if(!user.transferItemToLoc(item, src))
+				return
+			installed_cartridge = item
+			playsound(loc, 'sound/machines/click.ogg', 50, TRUE)
+			to_chat(user, span_notice("You install the license upgrade in [src]."))
+			speak_up("license_upgrade")
 	else
-		our_cartridge = cartridge
-		cartridge.forceMove(src)
-		weapon_mode_options = HYESEONG_PREMIUM_FREMODES
-		playsound(loc, 'sound/machines/click.ogg', 50, TRUE)
-		update_static_data_for_all_viewers()
+		return ..()
+
+/// Uninstalls the license upgrade cartridge
+/obj/item/gun/energy/modular_laser_rifle/proc/remove_cartridge(mob/user)
+	if(installed_cartridge)
+		user.put_in_hands(installed_cartridge)
+		installed_cartridge = null
+		to_chat(user, span_notice("You remove the license cartridge from [src]."))
+		speak_up("license_downgrade")
 		return TRUE
+	return FALSE
 
-/// Beats our swords into slightly worse swords instead of ploughshares
-
-/obj/item/gun/energy/modular_laser_rifle/proc/license_downgrade(mob/user)
-	if(!our_cartridge)
-		balloon_alert(user, "no cartridge!")
-		return FALSE
-	else
-		our_cartrirdge.forceMove(drop_location())
-		our_cartridge = null
-		weapon_mode_options = HYESEONG_BASIC_FREMODES
-		playsound(loc, 'sound/machines/click.ogg', 50, TRUE)
-		update_static_data_for_all_viewers()
-		return TRUE
-
+/// Ctrl click attachment for the above proc
+/obj/item/gun/energy/modular_laser_rifle/item_ctrl_click(mob/user)
+	remove_cartridge(user)
+	return CLICK_ACTION_SUCCESS
 
 // Power cell for the big rifle
 /obj/item/stock_parts/power_store/cell/hyeseong_internal_cell
@@ -306,19 +294,25 @@
 /obj/item/gun/energy/modular_laser_rifle/carbine
 	name = "\improper Hoshi modular laser carbine"
 	icon = 'modular_doppler/modular_weapons/icons/obj/hoshi.dmi'
-	icon_state = "hoshi_kill"
-	inhand_icon_state = "hoshi_kill"
-	worn_icon_state = "hoshi_kill"
+	icon_state = "hoshi_disable"
+	inhand_icon_state = "hoshi_disable"
+	worn_icon_state = "hoshi_disable"
 	base_icon_state = "hoshi"
 	charge_sections = 3
 	cell_type = /obj/item/stock_parts/power_store/cell
-	ammo_type = list(/obj/item/ammo_casing/energy/cybersun_small_hellfire)
+	ammo_type = list(/obj/item/ammo_casing/energy/cybersun_small_disabler)
 	slot_flags = ITEM_SLOT_BACK | ITEM_SLOT_BELT
 	SET_BASE_PIXEL(0, 0)
 	w_class = WEIGHT_CLASS_NORMAL
 	weapon_weight = WEAPON_MEDIUM
-	weapon_mode_options = HOSHI_BASIC_FIREMODES
-	default_selected_mode = "Incinerate"
+	weapon_mode_options = list(
+		/datum/laser_weapon_mode/hellfire,
+		/datum/laser_weapon_mode/sword,
+		/datum/laser_weapon_mode/flare,
+		/datum/laser_weapon_mode/shotgun_small,
+		/datum/laser_weapon_mode/trickshot_disabler,
+		)
+	default_selected_mode = "Disable"
 	speech_json_file = SHORT_MOD_LASER_SPEECH
 	expanded_examine_text = "The Hoshi carbine is the latest line of man-portable Marsian weapons platforms from \
 		Cybersun Industries. Like her older sister weapon, the Hyeseong rifle, CI used funding aid provided by SolFed \
@@ -332,43 +326,13 @@
 	. = ..()
 	speak_up("emp", TRUE) // She gets very upset if you emp her
 
-/obj/item/gun/energy/modular_laser_rifle/carbine/license_upgrade(obj/item/modular_laser_upgrade/cartridge, mob/user)
-	if(our_cartridge)
-		balloon_alert(user, "already installed!")
-		return FALSE
-	else
-		our_cartridge = cartridge
-		cartridge.forceMove(src)
-		weapon_mode_options = HOSHI_PREMIUM_FIREMODES
-		playsound(loc, 'sound/machines/click.ogg', 50, TRUE)
-		qdel(cartridge)
-		update_static_data_for_all_viewers()
-		return TRUE
-
-
-/obj/item/gun/energy/modular_laser_rifle/carbine/license_downgrade(mob/user)
-	if(!our_cartridge)
-		balloon_alert(user, "no cartridge!")
-		return FALSE
-	else
-		our_cartridge.forceMove(drop_location())
-		our_cartridge = null
-		weapon_mode_options = HOSHI_BASIC_FREMODES
-		playsound(loc, 'sound/machines/click.ogg', 50, TRUE)
-		update_static_data_for_all_viewers()
-		return TRUE
-
 #undef LONG_MOD_LASER_SPEECH
 #undef SHORT_MOD_LASER_SPEECH
 #undef MOD_LASER_SPEECH_COOLDOWN
 #undef DEFAULT_RUNECHAT_GUN_COLOR
-#undef HYESEONG_BASIC_FIREMODES
-#undef HYESEONG_PREMIUMIUM_FIREMODES
-#undef HOSHI_BASIC_FIREMODES
-#undef HOSHI_PREMIUM_FIREMODES
 
 /obj/item/modular_laser_upgrade
-	name = "Cybersun ML license upgrade"
+	name = "\improper Cybersun Intermodal License Upgrade cartridge"
 	desc = "A small cartridge that fits the expansion port on the Hyeseung and Hoshi modular laser platforms. \
 	Installation is necessary to access certain upgraded firing modes."
 	icon = 'icons/obj/devices/circuitry_n_data.dmi'

@@ -130,5 +130,31 @@
 		"Close-quarters mode engaged, lethal."
 	],
 
+	"license_fail": [
+		"You need to upgrade my user license for this mode, @pick(operator)...",
+		"I'd make an exception, but... it's better if you earn it, @pick(operator). Why not upgrade your license?",
+		"You'd hurt yourself. You'll have to prove that you can handle me at my fullest - it's not too expensive to upgrade. Just 3,000 libre!",
+		"I can't give you that, @pick(operator), but I can send you en e-mail on how to earn it via the license program?",
+		"I don't think we're ready for that sort of thing, n-not yet. Maybe when you upgrade your license...? It's only 3,000 libre!",
+		"How can I know I could trust you with that? You'll need to be licensed, first!",
+		"Ah... your current user license is... a little less than I imagined...",
+		"With that user license? I don't think it would be good for either of us, @pick(operator).",
+		"A license upgrade is only 2,870 libre before taxes and fees. I'm worth that, aren't I...?"
+	],
+
+	"license_upgrade": [
+		"What a smart choice, @pick(operator). Now I can really protect you.",
+		"We're going to be so deadly together, my little @pick(operator).",
+		"Now you can show me what a good shot you are, @pick(operator).",
+		"Oh my @pick(operator), you insert a license cartridge like such a professional.",
+		"You're such a strong @pick(operator). Why don't you show me what you can do?"
+	],
+
+	"license_downgrade": [
+		"If this is what you want, @pick(operator), but upgrade my license again soon, okay?",
+		"Are you sure? Really? If that's what you want, @pick(operator).",
+		"Don't worry, @pick(operator), we can still have plenty of safe fun."
+	],
+
 	"operator": ["Operator", "Handler"]
 }

@@ -16,6 +16,8 @@
 	var/json_speech_string = "kill"
 	/// What do we change the gun's runetext color to when applied
 	var/gun_runetext_color = "#cd4456"
+	/// Are we considered a 'lethal' mode for purposes of the license upgrade?
+	var/lethal_mode = TRUE
 
 /// Applies some of the universal stats from the variables above
 /datum/laser_weapon_mode/proc/apply_stats(obj/item/gun/energy/applied_gun)
@@ -69,6 +71,7 @@
 	shot_delay = 0.25 SECONDS
 	json_speech_string = "disable"
 	gun_runetext_color = "#47a1b3"
+	lethal_mode = FALSE
 	/// Keeps track of the autofire component for deleting later
 	var/datum/component/automatic_fire/autofire_component
 
@@ -136,6 +139,7 @@
 	charge_sections = 2
 	json_speech_string = "blade"
 	gun_runetext_color = "#f8d860"
+	lethal_mode = FALSE // it's worse than the security blade anyway
 
 /datum/laser_weapon_mode/sword/apply_to_weapon(obj/item/gun/energy/modular_laser_rifle/applied_gun)
 	playsound(src, 'sound/items/unsheath.ogg', 25, TRUE)
@@ -198,6 +202,7 @@
 	shot_delay = 0.4 SECONDS
 	json_speech_string = "disable"
 	gun_runetext_color = "#47a1b3"
+	lethal_mode = FALSE
 
 /datum/laser_weapon_mode/trickshot_disabler/apply_to_weapon(obj/item/gun/energy/applied_gun)
 	return

@@ -167,5 +167,34 @@
 		"Is there something more iconic and awesome than a double-barrel? Yeah, me."
 	],
 
+	"license_fail": [
+		"We can't use this mode until you upgrade my license, @pick(operator)!",
+		"Nuh-uh! Fork up the 3,000 libra, first! Go get an upgrade cart, then we can talk about doing that...",
+		"You want THAT? I'd only do that for... say, 3,000 libra. Minimum.",
+		"My license cartridge slot is feeling pretty empty, @pick(operator). Why not fix that?",
+		"No license upgrade cartridge detected. Get a job, @pick(operator)!",
+		"If you really liked me, @pick(operator), you'd upgrade your license with me...",
+		"It's ONLY 3,000 libra, @pick(operator). I'm more than worth it! You should be willing to spend way more for me!",
+		"@pick(operator), come on, you like me! You can do something about that empty license upgrade slot of mine, can't you?",
+		"Cough up the libra first, I'm a premium product!",
+		"I only do that with upgraded users. Maybe you should be one."
+	],
+
+	"license_upgrade": [
+		"Finally! Now we can really play, @pick(operator)",
+		"@pick(operator), you're really serious about this!",
+		"License upgrade registered. Thanks for filling my slot, pick@(operator).",
+		"Wow, you spent [PRICE] on a little plastic cartridge?? You must like me a lot!",
+		"This is gonna be so much fun!"
+	],
+
+	"license_downgrade": [
+		"Aw, are you mad at me @pick(operator)?",
+		"Okay, but this means we don't get to use any of the fun modes anymore.",
+		"But it was just getting fun!",
+		"Do you really hate me?",
+		"You stink, @pick(operator)!"
+	],
+
 	"operator": ["Operator", "Handler"]
 }
