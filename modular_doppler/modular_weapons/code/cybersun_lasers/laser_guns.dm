@@ -16,12 +16,12 @@
 		the wide variety of modders the planet is home to."
 	base_icon_state = "hyeseong"
 	icon = 'modular_doppler/modular_weapons/icons/obj/hyeseong.dmi'
-	icon_state = "hyeseong_disable"
+	icon_state = "hyeseong_disabler"
 	lefthand_file = 'modular_doppler/modular_weapons/icons/mob/inhands/gun_lefthand.dmi'
 	righthand_file = 'modular_doppler/modular_weapons/icons/mob/inhands/gun_righthand.dmi'
-	inhand_icon_state = "hyeseong_disable"
+	inhand_icon_state = "hyeseong_disabler"
 	worn_icon = 'modular_doppler/modular_weapons/icons/mob/worn/guns.dmi'
-	worn_icon_state = "hyeseong_disable"
+	worn_icon_state = "hyeseong_disabler"
 	cell_type = /obj/item/stock_parts/power_store/cell/hyeseong_internal_cell
 	modifystate = FALSE
 	ammo_type = list(/obj/item/ammo_casing/energy/cybersun_big_disabler)
@@ -55,7 +55,7 @@
 	/// How long transitioning takes before you're allowed to pick a weapon type
 	var/transition_duration = 1 SECONDS
 	/// What the currently selected weapon mode is, for quickly referencing for use in procs and whatnot
-	var/datum/laser_weapon_mode/currently_selected_mode
+	var/datum/laser_weapon_mode/currently_selected_mode = /datum/laser_weapon_mode/disabler_machinegun
 	/// Name of the firing mode that is selected by default
 	var/default_selected_mode = "Disable"
 	/// Allows firing of the gun to be disabled for any reason, for example, if a gun has a melee mode

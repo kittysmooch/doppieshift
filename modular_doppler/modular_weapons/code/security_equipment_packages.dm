@@ -13,6 +13,7 @@
 /datum/signature_equipment/security_equipment_package/hyeseong_kit
 	name = "Hyeseong Kit"
 	icon_item_type = /obj/item/gun/energy/modular_laser_rifle
+	icon_state = "hyeseong_disabler"
 	spawned_item_type = /obj/item/storage/toolbox/guncase/modular/security_hyeseong_package
 
 /datum/signature_equipment/security_equipment_package/jitte_belt
