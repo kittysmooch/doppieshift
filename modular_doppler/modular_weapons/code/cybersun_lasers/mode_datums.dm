@@ -20,7 +20,9 @@
 	var/lethal_mode = TRUE
 
 /// Applies some of the universal stats from the variables above
-/datum/laser_weapon_mode/proc/apply_stats(obj/item/gun/energy/applied_gun)
+/datum/laser_weapon_mode/proc/apply_stats(obj/item/gun/energy/modular_laser_rifle/applied_gun)
+	if(applied_gun.default_selected_mode == name)
+		return
 	if(length(applied_gun.ammo_type))
 		for(var/found_casing as anything in applied_gun.ammo_type)
 			applied_gun.ammo_type.Remove(found_casing)

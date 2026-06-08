@@ -312,6 +312,7 @@
 		/datum/laser_weapon_mode/shotgun_small,
 		/datum/laser_weapon_mode/trickshot_disabler,
 		)
+	currently_selected_mode = /datum/laser_weapon_mode/trickshot_disabler
 	default_selected_mode = "Disable"
 	speech_json_file = SHORT_MOD_LASER_SPEECH
 	expanded_examine_text = "The Hoshi carbine is the latest line of man-portable Marsian weapons platforms from \
