@@ -242,6 +242,10 @@
 	name = "Jean Shorts (Shortest)"
 	item_path = /obj/item/clothing/under/shorts/shorter/jeans/shortest
 
+/datum/loadout_item/undersuit/short/nautical_shorts
+	name = "Nautical Shorts"
+	item_path = /obj/item/clothing/under/nautical_shorts
+
 /**
  * SKIRTS
  */
@@ -408,6 +412,10 @@
 	name = "Tailored Dress (Hearthkin)"
 	item_path = /obj/item/clothing/under/dress/skirt/primitive_genemod_tailored_dress
 
+/datum/loadout_item/undersuit/dress/bias_cut_dress
+	name = "Bias-cut Designer Dress"
+	item_path = /obj/item/clothing/under/dress/doppler/bias_dress
+
 /**
  * FULLBODY
  */
@@ -474,6 +482,11 @@
 /datum/loadout_item/undersuit/fullbody/primitive_genemod_tunic
 	name = "Hearthkin Tunic"
 	item_path = /obj/item/clothing/under/dress/skirt/primitive_genemod_tunic
+
+/datum/loadout_item/undersuit/fullbody/nautical_shortset
+	name = "Nautical Shortset"
+	item_path = /obj/item/clothing/under/nautical_shortset
+
 /**
  * MISCELLANEOUS
  */
@@ -512,3 +525,7 @@
 /datum/loadout_item/undersuit/misc/primitive_genemod_body_wraps
 	name = "Hearthkin Body Wraps"
 	item_path = /obj/item/clothing/under/dress/skirt/primitive_genemod_body_wraps
+
+/datum/loadout_item/undersuit/misc/nautical_shirt
+	name = "Nautical Shirt"
+	item_path = /obj/item/clothing/under/nautical_shirt
