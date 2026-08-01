@@ -122,6 +122,9 @@
 	transform_gun(currently_selected_mode, FALSE, TRUE)
 
 /obj/item/gun/energy/modular_laser_rifle/attack_self(mob/living/user)
+	if(!installed_cartridge)
+		speak_up("license_fail")
+		return
 	if(!currently_switching_types)
 		change_to_switch_mode(user)
 	return ..()
@@ -181,9 +184,6 @@
 
 /obj/item/gun/energy/modular_laser_rifle/can_shoot()
 	if(!length(ammo_type))
-		return FALSE
-	if((!installed_cartridge) & (currently_selected_mode.lethal_mode))
-		speak_up("license_fail")
 		return FALSE
 	return ..()
 
@@ -262,7 +262,10 @@
 
 /// Uninstalls the license upgrade cartridge
 /obj/item/gun/energy/modular_laser_rifle/proc/remove_cartridge(mob/user)
-	if(installed_cartridge)
+	if(currently_selected_mode.lethal_mode)
+		balloon_alert(user, "switch to less lethal mode!")
+		return FALSE
+	else if(installed_cartridge)
 		user.put_in_hands(installed_cartridge)
 		installed_cartridge = null
 		to_chat(user, span_notice("You remove the license cartridge from [src]."))

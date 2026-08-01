@@ -21,8 +21,8 @@
 
 /// Applies some of the universal stats from the variables above
 /datum/laser_weapon_mode/proc/apply_stats(obj/item/gun/energy/modular_laser_rifle/applied_gun)
-	if(applied_gun.default_selected_mode == name)
-		return
+//	if(applied_gun.default_selected_mode == name)
+//		return
 	if(length(applied_gun.ammo_type))
 		for(var/found_casing as anything in applied_gun.ammo_type)
 			applied_gun.ammo_type.Remove(found_casing)
@@ -141,7 +141,6 @@
 	charge_sections = 2
 	json_speech_string = "blade"
 	gun_runetext_color = "#f8d860"
-	lethal_mode = FALSE // it's worse than the security blade anyway
 
 /datum/laser_weapon_mode/sword/apply_to_weapon(obj/item/gun/energy/modular_laser_rifle/applied_gun)
 	playsound(src, 'sound/items/unsheath.ogg', 25, TRUE)
