@@ -96,9 +96,15 @@
 	desc = "A Sportsco branded gun case with fitted inserts."
 	icon_state = "sportsco"
 
+/obj/item/storage/toolbox/guncase/modular/sportsco_large_case/PopulateContents()
+	return
+
 /obj/item/storage/toolbox/guncase/modular/sportsco_small_case
 	desc = "A Sportsco branded pistol-sized case with fitted inserts."
 	icon_state = "sportsco_s"
+
+/obj/item/storage/toolbox/guncase/modular/sportsco_small_case/PopulateContents()
+	return
 
 // Hoshi package for security loadouts
 
