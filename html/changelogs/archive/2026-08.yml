@@ -24,3 +24,10 @@
   - rscadd: Top hats, jamjar glasses, and judge robes now provide affinity for thaumaturges.
   desertmote:
   - bugfix: Adds back lost customizability to holo synths
+2026-08-02:
+  NewyearnewmeUwu:
+  - bugfix: Fixed the Wetwork reskins for the NVGs becoming invisible when toggled
+      on and off
+  TheOneAndOnlyCreeperJoe:
+  - balance: The special Erasure delamination now overrides other delamination (not
+      including Resonance Cascades)
