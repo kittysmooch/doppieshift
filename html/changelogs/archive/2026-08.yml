@@ -78,3 +78,7 @@
   - bugfix: Fixes a bug with Manipulate not nesting properly in the UI.
   - bugfix: Fixes a bug with Hidden Powers not HIDING THE POWERS WTF- (it didn't hide
       powers that came after the Power was added).
+2026-08-05:
+  TheOneAndOnlyCreeperJoe:
+  - bugfix: Fixes Manipulate not working on modular computers (e.g the identification
+      console).
