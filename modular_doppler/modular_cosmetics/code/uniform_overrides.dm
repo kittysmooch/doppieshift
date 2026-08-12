@@ -54,6 +54,6 @@
 		/obj/item/evidencebag = 1,
 	)
 
-/datum/job/detective
+/datum/outfit/job/detective
 	uniform = /obj/item/clothing/under/rank/security/doppler/detective
 
