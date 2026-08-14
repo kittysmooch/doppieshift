@@ -82,3 +82,6 @@
   TheOneAndOnlyCreeperJoe:
   - bugfix: Fixes Manipulate not working on modular computers (e.g the identification
       console).
+2026-08-14:
+  firebudgy:
+  - bugfix: Alternative dragon wings now available, again.
