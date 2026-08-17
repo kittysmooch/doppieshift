@@ -93,3 +93,6 @@
 2026-08-16:
   carda-sometimesknownas-paxilmaniac:
   - bugfix: salvage collector fields will no longer be disrupted on some station designs
+2026-08-17:
+  Virelai:
+  - rscadd: AutoDrobe in Pubbystation.
