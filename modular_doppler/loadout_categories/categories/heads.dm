@@ -55,11 +55,15 @@
 
 /datum/loadout_item/head/hats/sec_beret
 	name = "Beret (Security)"
-	item_path = /obj/item/clothing/head/beret/sec
+	item_path = /obj/item/clothing/head/hats/sec_beret_doppler
 
-/datum/loadout_item/head/hats/sec_beret_navy
-	name = "Beret (Security, Blue)"
-	item_path = /obj/item/clothing/head/beret/sec/navyofficer
+/datum/loadout_item/head/hats/warden_hat
+	name = "Armorykeeper's Havelock"
+	item_path = /obj/item/clothing/head/hats/warden/drill
+
+/datum/loadout_item/head/hats/
+	name = "Armorykeeper's Peaked Cap"
+	item_path = /obj/item/clothing/head/hats/warden/red
 
 /datum/loadout_item/head/hats/beret_badge
 	name = "Beret (Colorable, Badge)"

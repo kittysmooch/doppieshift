@@ -6,6 +6,11 @@
 	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
 	icon_state = "fingerless_sec"
+	clothing_traits = list(TRAIT_FINGERPRINT_PASSTHROUGH)	// i love contaminated crime scenes!!
+
+/obj/item/clothing/gloves/color/black/security/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/adjust_fishing_difficulty, -4)
 
 /obj/item/clothing/gloves/color/black/security/detective
 	name = "red nitrile gloves"

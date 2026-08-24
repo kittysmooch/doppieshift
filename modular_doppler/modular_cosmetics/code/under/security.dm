@@ -20,7 +20,7 @@
 	array of common and exotic textile fibres alike."
 	icon_state = "secwear1"
 
-/obj/item/clothing/under/rank/security/doppler/guard_alt // now in brown and black!
+/obj/item/clothing/under/rank/security/doppler/guard_alt
 	name = "\improper Port Safety colorblocked uniform"
 	desc = "	53.21% COTTON \
 		19.34% NYLON \
@@ -35,6 +35,13 @@
 	mobile and breezy fit."
 	icon_state = "secskirt"
 
+/obj/item/clothing/under/rank/security/doppler/skirt_alt
+	name = "\improper Port Safety colorblocked skirt"
+	desc = "These are printed locally within Crusoe's Rest out of available materials, and this particular \
+	pattern features a longer skirt that still feels protective on your legs, but offers more water drainage \
+	for cruising the surface of New Gibraltar."
+	icon_state = "secskirt2"
+
 
 // detective stuff
 
@@ -45,7 +52,7 @@
 	icon_state = "detwear"
 
 /obj/item/clothing/under/rank/security/doppler/detective/skirt
-	name = "\improper Port Safet investigative uniform skirt"
+	name = "\improper Port Safety investigative uniform skirt"
 	desc = "A seven month campaign to expand investigator uniform regulations resulted in hundreds of pages of \
 	meeting minutes and precisely zero of the predicted chemical spillage incidents, to date."
 	icon_state = "detskirt"

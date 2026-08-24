@@ -38,7 +38,7 @@
 	suit = /obj/item/clothing/suit/jacket/cargo_coat
 
 /datum/outfit/job/hos
-	head = /obj/item/clothing/head/hats/hos/beret/doppler
+	head = /obj/item/clothing/head/hats/hos/beret_doppler
 	backpack_contents = list(
 		/obj/item/melee/baton/doppler_security/loaded = 1,
 		)

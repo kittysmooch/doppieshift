@@ -122,11 +122,22 @@
 
 /obj/machinery/vending/wardrobe/sec_wardrobe
 	products_doppler = list(
-		/obj/item/clothing/under/misc/doppler_uniform/security = 5,
-		/obj/item/clothing/suit/jacket/doppler/departmental_jacket/sec = 3,
+		/obj/item/clothing/under/rank/security/doppler/guard = 5,
+		/obj/item/clothing/under/rank/security/doppler/guard_alt = 5,
+		/obj/item/clothing/under/rank/security/doppler/skirt = 5,
+		/obj/item/clothing/under/rank/security/doppler/skirt_alt = 5,
+		/obj/item/clothing/under/rank/security/doppler/detective = 5,
+		/obj/item/clothing/under/rank/security/doppler/detective/skirt = 5,
+		/obj/item/clothing/suit/jacket/officer/doppler/ps_a1 = 5,
+		/obj/item/clothing/suit/jacket/officer/doppler/ps_a4 = 5,
+		/obj/item/clothing/suit/jacket/officer/doppler/ps_b2 = 5,
+		/obj/item/clothing/suit/toggle/jacket/det_trench = 5,
 		/obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket = 5,
 		/obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket/badged = 5,
 		/obj/item/clothing/suit/toggle/labcoat/high_vis = 5,
+		/obj/item/clothing/gloves/color/black/security = 5,
+		/obj/item/clothing/gloves/color/black/security/detective = 5,
+		/obj/item/clothing/head/hats/sec_beret_doppler = 5,
 		/obj/item/clothing/head/cap_colonysec = 5,
 		/obj/item/clothing/head/flowing_headband = 3,
 		/obj/item/clothing/head/cowboy/doppler/wide = 5,
@@ -137,7 +148,14 @@
 		/obj/item/clothing/head/cowboy/doppler/cattleman/wide = 5,
 		/obj/item/riding_saddle/leather/blue = 3,
 		/obj/item/clothing/suit/wizrobe/secwiz = 3, // thaumaturge robes
-		/obj/item/clothing/head/wizard/secwiz = 3 // thaumaturge robes
+		/obj/item/clothing/head/wizard/secwiz = 3, // thaumaturge robes
+		/obj/item/clothing/shoes/utilishoes = 3,
+		/obj/item/clothing/shoes/port_safety_kicks = 3,
+		/obj/item/storage/backpack/security = 3,
+		/obj/item/storage/backpack/security/alt = 3,
+		/obj/item/storage/backpack/duffelbag/sec = 3,
+		/obj/item/storage/backpack/satchel/sec = 3,
+		/obj/item/storage/backpack/messenger/sec = 3,
 	)
 
 

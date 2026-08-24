@@ -45,7 +45,7 @@ GLOBAL_VAR_INIT(roaches_deployed, FALSE)
 	vend_reply = "Thank you for using the SecDrobe!"
 	products = list(
 		/obj/item/clothing/head/beret/sec = 3,
-		/obj/item/clothing/head/soft/sec = 3,
+		///obj/item/clothing/head/soft/sec = 3,	// DOPPLER EDIT REMOVAL - dummied out for the security resprite
 		/obj/item/clothing/head/costume/ushanka/sec = 3,
 		/obj/item/clothing/mask/bandana/striped/security = 3,
 		/obj/item/clothing/under/rank/security/officer = 3,
@@ -53,7 +53,7 @@ GLOBAL_VAR_INIT(roaches_deployed, FALSE)
 		/obj/item/clothing/under/rank/security/officer/grey = 3,
 		/obj/item/clothing/under/pants/slacks = 3,
 		/obj/item/clothing/under/rank/security/officer/blueshirt = 3,
-		/obj/item/clothing/gloves/color/black/security/blu = 3,
+		///obj/item/clothing/gloves/color/black/security/blu = 3,	// DOPPLER EDIT REMOVAL - dummied out for the security resprite
 		/obj/item/clothing/suit/armor/vest/secjacket = 3,
 		/obj/item/clothing/suit/hooded/wintercoat/security = 3,
 		/obj/item/clothing/suit/armor/vest = 3,
