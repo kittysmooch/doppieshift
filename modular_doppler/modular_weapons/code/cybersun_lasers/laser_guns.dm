@@ -55,7 +55,7 @@
 	/// How long transitioning takes before you're allowed to pick a weapon type
 	var/transition_duration = 1 SECONDS
 	/// What the currently selected weapon mode is, for quickly referencing for use in procs and whatnot
-	var/datum/laser_weapon_mode/currently_selected_mode = /datum/laser_weapon_mode/disabler_machinegun
+	var/datum/laser_weapon_mode/currently_selected_mode
 	/// Name of the firing mode that is selected by default
 	var/default_selected_mode = "Disable"
 	/// Allows firing of the gun to be disabled for any reason, for example, if a gun has a melee mode
