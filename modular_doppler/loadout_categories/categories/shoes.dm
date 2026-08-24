@@ -178,6 +178,17 @@
 	item_path = /obj/item/clothing/shoes/port_safety_kicks
 
 /**
+ * ENVIROSUIT BOOTS
+ */
+/datum/loadout_item/shoes/enviroboot
+	group = "Envirosuit Boots"
+	abstract_type = /datum/loadout_item/shoes/enviroboot
+
+/datum/loadout_item/shoes/enviroboot/rev2
+	name = "Modernized Phorid Envirosuit Boots (Green)"
+	item_path = /obj/item/clothing/shoes/jackboots/rev2
+
+/**
  * SHIN COVERS
  */
 /datum/loadout_item/shoes/shins
