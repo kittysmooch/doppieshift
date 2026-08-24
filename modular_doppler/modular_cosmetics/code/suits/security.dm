@@ -82,7 +82,7 @@
 
 // the furtive detective, so easily forgotten
 
-/obj/item/clothing/suit/toggle/jacket/det_trench
+/obj/item/clothing/suit/jacket/officer/doppler/det_trench
 	name = "vintage coat"
 	desc = "The single most signature item a Detective carries besides their clipboard and a tacky firearm, this is an oilskin trenchcoat \
 	meant as an outer shell to protect the wearer's nicest clothing from the environmental conditions of any planet they might find themselves \
@@ -90,3 +90,4 @@
 	through your door."
 	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
+	icon_state = "dets_coat"

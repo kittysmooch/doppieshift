@@ -38,15 +38,18 @@
 	suit = /obj/item/clothing/suit/jacket/cargo_coat
 
 /datum/outfit/job/hos
+	gloves = /obj/item/clothing/gloves/color/black/security/doppler
 	head = /obj/item/clothing/head/hats/hos/beret_doppler
 	backpack_contents = list(
 		/obj/item/melee/baton/doppler_security/loaded = 1,
 		)
 
 /datum/outfit/job/warden
+	gloves = /obj/item/clothing/gloves/color/black/security/doppler
 	uniform = /obj/item/clothing/under/rank/security/doppler/warden
 
 /datum/outfit/job/security
+	gloves = /obj/item/clothing/gloves/color/black/security/doppler
 	uniform = /obj/item/clothing/under/rank/security/doppler/guard
 	suit_store = null
 	backpack_contents = list(
@@ -56,4 +59,6 @@
 
 /datum/outfit/job/detective
 	uniform = /obj/item/clothing/under/rank/security/doppler/detective
+	suit = /obj/item/clothing/suit/jacket/officer/doppler/det_trench
+	gloves = /obj/item/clothing/gloves/color/black/security/detective
 

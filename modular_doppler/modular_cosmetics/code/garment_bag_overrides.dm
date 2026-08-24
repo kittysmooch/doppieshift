@@ -25,7 +25,7 @@
 
 /obj/item/storage/bag/garment/warden/PopulateContents()
 	. = ..()
-	new /obj/item/clothing/head/hats/warden/drill(src)
+	new /obj/item/clothing/head/hats/warden/red(src)
 	new /obj/item/clothing/suit/jacket/officer/doppler/ps_b1(src)
 	new /obj/item/clothing/suit/armor/vest/warden/alt(src)
 	new /obj/item/clothing/under/rank/security/doppler/warden(src)

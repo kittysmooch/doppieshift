@@ -81,8 +81,12 @@
 	item_path = /obj/item/clothing/suit/toggle/jacket/det_trench/noir
 
 /datum/loadout_item/suit/coat/detective_brown
-	name = "Vintage Coat (Security)"
+	name = "Trenchcoat"
 	item_path = /obj/item/clothing/suit/toggle/jacket/det_trench
+
+/datum/loadout_item/suit/coat/vintage_detective
+	name = "Vintage Coat (Security)"
+	item_path = /obj/item/clothing/suit/jacket/officer/doppler/det_trench
 
 /datum/loadout_item/suit/coat/frontier
 	name = "Trenchcoat (Frontier)"

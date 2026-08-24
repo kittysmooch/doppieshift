@@ -59,11 +59,11 @@
 
 /datum/loadout_item/head/hats/warden_hat
 	name = "Armorykeeper's Havelock"
-	item_path = /obj/item/clothing/head/hats/warden/drill
+	item_path = /obj/item/clothing/head/hats/warden/red
 
 /datum/loadout_item/head/hats/
 	name = "Armorykeeper's Peaked Cap"
-	item_path = /obj/item/clothing/head/hats/warden/red
+	item_path = /obj/item/clothing/head/hats/warden/drill
 
 /datum/loadout_item/head/hats/beret_badge
 	name = "Beret (Colorable, Badge)"

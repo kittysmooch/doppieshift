@@ -135,7 +135,7 @@
 		/obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket = 5,
 		/obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket/badged = 5,
 		/obj/item/clothing/suit/toggle/labcoat/high_vis = 5,
-		/obj/item/clothing/gloves/color/black/security = 5,
+		/obj/item/clothing/gloves/color/black/security/doppler = 5,
 		/obj/item/clothing/gloves/color/black/security/detective = 5,
 		/obj/item/clothing/head/hats/sec_beret_doppler = 5,
 		/obj/item/clothing/head/cap_colonysec = 5,

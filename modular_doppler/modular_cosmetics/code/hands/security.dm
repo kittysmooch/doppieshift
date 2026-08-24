@@ -1,4 +1,4 @@
-/obj/item/clothing/gloves/color/black/security
+/obj/item/clothing/gloves/color/black/security/doppler
 	name = "fingerless gloves"
 	desc = "Port Safety adopted these as standard issue as the direct result of a pet project of a group of \
 	point shooting PDW enthusiasts with pull on materiel acquisitions committees. This was in spite of the \
@@ -18,6 +18,10 @@
 	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
 	icon_state = "det_gloves"
+	siemens_coefficient = 0.3
+	armor_type = /datum/armor/latex_gloves
+	clothing_traits = list(TRAIT_QUICK_CARRY)
+	resistance_flags = NONE
 
 /obj/item/clothing/gloves/krav_maga/sec
 	name = "wrestling gloves"
