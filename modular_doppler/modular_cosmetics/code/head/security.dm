@@ -40,7 +40,7 @@
 	nemesis- the afternoon heat."
 	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
-	icon_state = "sunhat_warden"
+	icon_state = "cap_warden"
 
 /obj/item/clothing/head/hats/warden/red
 	name = "\improper armorykeeper's havelock"
@@ -48,4 +48,4 @@
 	well as the ability to pretend to be a deep space warlord, if only for one's own entertainment."
 	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
-	icon_state = "cap_warden"
+	icon_state = "sunhat_warden"

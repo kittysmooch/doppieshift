@@ -126,17 +126,13 @@
 		/obj/item/clothing/under/rank/security/doppler/guard_alt = 5,
 		/obj/item/clothing/under/rank/security/doppler/skirt = 5,
 		/obj/item/clothing/under/rank/security/doppler/skirt_alt = 5,
-		/obj/item/clothing/under/rank/security/doppler/detective = 5,
-		/obj/item/clothing/under/rank/security/doppler/detective/skirt = 5,
 		/obj/item/clothing/suit/jacket/officer/doppler/ps_a1 = 5,
 		/obj/item/clothing/suit/jacket/officer/doppler/ps_a4 = 5,
 		/obj/item/clothing/suit/jacket/officer/doppler/ps_b2 = 5,
-		/obj/item/clothing/suit/toggle/jacket/det_trench = 5,
 		/obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket = 5,
 		/obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket/badged = 5,
 		/obj/item/clothing/suit/toggle/labcoat/high_vis = 5,
 		/obj/item/clothing/gloves/color/black/security/doppler = 5,
-		/obj/item/clothing/gloves/color/black/security/detective = 5,
 		/obj/item/clothing/head/hats/sec_beret_doppler = 5,
 		/obj/item/clothing/head/cap_colonysec = 5,
 		/obj/item/clothing/head/flowing_headband = 3,
@@ -206,8 +202,12 @@
 	products_doppler = list(
 		/obj/item/clothing/head/fedora/beige = 2,
 		/obj/item/clothing/head/fedora/white = 2,
+		/obj/item/clothing/under/rank/security/doppler/detective = 5,
+		/obj/item/clothing/under/rank/security/doppler/detective/skirt = 5,
+		/obj/item/clothing/suit/toggle/jacket/det_trench = 5,
 		/obj/item/clothing/suit/jacket/doppler/runner_coat = 3,
 		/obj/item/clothing/suit/toggle/labcoat/high_vis = 3,
+		/obj/item/clothing/gloves/color/black/security/detective = 5,
 	)
 
 /obj/machinery/vending/wardrobe/law_wardrobe

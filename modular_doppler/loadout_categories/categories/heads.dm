@@ -61,7 +61,7 @@
 	name = "Armorykeeper's Havelock"
 	item_path = /obj/item/clothing/head/hats/warden/red
 
-/datum/loadout_item/head/hats/
+/datum/loadout_item/head/hats/warden_hat_alt
 	name = "Armorykeeper's Peaked Cap"
 	item_path = /obj/item/clothing/head/hats/warden/drill
 
