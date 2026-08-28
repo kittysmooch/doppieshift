@@ -35,8 +35,8 @@
 	mobile and breezy fit."
 	icon_state = "secskirt"
 	body_parts_covered = CHEST|GROIN|ARMS
-    dying_key = DYE_REGISTRY_JUMPSKIRT
-    female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
+	dying_key = DYE_REGISTRY_JUMPSKIRT
+	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
 /obj/item/clothing/under/rank/security/doppler/skirt_alt
 	name = "\improper Port Safety colorblocked skirt"
@@ -45,8 +45,8 @@
 	for cruising the surface of New Gibraltar."
 	icon_state = "secskirt2"
 	body_parts_covered = CHEST|GROIN|ARMS
-    dying_key = DYE_REGISTRY_JUMPSKIRT
-    female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
+	dying_key = DYE_REGISTRY_JUMPSKIRT
+	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
 
 // detective stuff
@@ -63,8 +63,8 @@
 	meeting minutes and precisely zero of the predicted chemical spillage incidents, to date."
 	icon_state = "detskirt"
 	body_parts_covered = CHEST|GROIN|ARMS
-    dying_key = DYE_REGISTRY_JUMPSKIRT
-    female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
+	dying_key = DYE_REGISTRY_JUMPSKIRT
+	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
 // armory keeper stuff
 
@@ -83,8 +83,8 @@
 	It's optimized for long days in a stool at the armory workbench."
 	icon_state = "wardenskirt"
 	body_parts_covered = CHEST|GROIN|ARMS
-    dying_key = DYE_REGISTRY_JUMPSKIRT
-    female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
+	dying_key = DYE_REGISTRY_JUMPSKIRT
+	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
 
 // head of safety stuff
@@ -98,7 +98,7 @@
 		2% ARAMID"
 	icon_state = "hoswear"
 	armor_type = /datum/armor/clothing_under/security_head_of_security
-    strip_delay = 6 SECONDS
+	strip_delay = 6 SECONDS
 
 /obj/item/clothing/under/rank/security/doppler/head_of_security/skirt
 	name = "\improper Port Safety chief guard's uniform skirt"
@@ -106,5 +106,5 @@
 	Much fuss was made in the requisition meetings about whether these studies had any bearing on real world statistical performance."
 	icon_state = "hosskirt"
 	body_parts_covered = CHEST|GROIN|ARMS
-    dying_key = DYE_REGISTRY_JUMPSKIRT
-    female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
+	dying_key = DYE_REGISTRY_JUMPSKIRT
+	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
