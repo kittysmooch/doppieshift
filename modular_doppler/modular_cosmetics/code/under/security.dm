@@ -34,6 +34,9 @@
 	desc = "Dense broadcloth and a pleated cut give this uniform a heavy presence in spite of the \
 	mobile and breezy fit."
 	icon_state = "secskirt"
+	body_parts_covered = CHEST|GROIN|ARMS
+    dying_key = DYE_REGISTRY_JUMPSKIRT
+    female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
 /obj/item/clothing/under/rank/security/doppler/skirt_alt
 	name = "\improper Port Safety colorblocked skirt"
@@ -41,6 +44,9 @@
 	pattern features a longer skirt that still feels protective on your legs, but offers more water drainage \
 	for cruising the surface of New Gibraltar."
 	icon_state = "secskirt2"
+	body_parts_covered = CHEST|GROIN|ARMS
+    dying_key = DYE_REGISTRY_JUMPSKIRT
+    female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
 
 // detective stuff
@@ -56,11 +62,14 @@
 	desc = "A seven month campaign to expand investigator uniform regulations resulted in hundreds of pages of \
 	meeting minutes and precisely zero of the predicted chemical spillage incidents, to date."
 	icon_state = "detskirt"
+	body_parts_covered = CHEST|GROIN|ARMS
+    dying_key = DYE_REGISTRY_JUMPSKIRT
+    female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
 // armory keeper stuff
 
 /obj/item/clothing/under/rank/security/doppler/warden
-	name = "\improper Port Safety armorykeeper's uniform"
+	name = "\improper Port Safety dispatch officer's uniform"
 	desc = "	57.21% COTTON \
 		18.34% NYLON \
 		15.58% RAYON \
@@ -69,25 +78,33 @@
 	icon_state = "wardenwear"
 
 /obj/item/clothing/under/rank/security/doppler/warden/skirt
-	name = "\improper Port Safety armorykeeper's uniform skirt"
+	name = "\improper Port Safety dispatch officer's uniform skirt"
 	desc = "An easy wearing uniform with generously buttoned cuffs that are easy to turn up and fasten back. \
 	It's optimized for long days in a stool at the armory workbench."
 	icon_state = "wardenskirt"
+	body_parts_covered = CHEST|GROIN|ARMS
+    dying_key = DYE_REGISTRY_JUMPSKIRT
+    female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
 
 // head of safety stuff
 
 /obj/item/clothing/under/rank/security/doppler/head_of_security
-	name = "\improper Head of Port Safety uniform"
+	name = "\improper Port Safety chief guard's uniform"
 	desc = "	63.43% COTTON \
 		14.14% NYLON \
 		13.30% RAYON \
 		7.13% CASEIN \
 		2% ARAMID"
 	icon_state = "hoswear"
+	armor_type = /datum/armor/clothing_under/security_head_of_security
+    strip_delay = 6 SECONDS
 
 /obj/item/clothing/under/rank/security/doppler/head_of_security/skirt
-	name = "\improper Head of Port Safety uniform skirt"
+	name = "\improper Port Safety chief guard's uniform skirt"
 	desc = "Boldly colorblocked panels were focus tested to improve visibility and civilian compliance by as much as 7%. \
 	Much fuss was made in the requisition meetings about whether these studies had any bearing on real world statistical performance."
 	icon_state = "hosskirt"
+	body_parts_covered = CHEST|GROIN|ARMS
+    dying_key = DYE_REGISTRY_JUMPSKIRT
+    female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY

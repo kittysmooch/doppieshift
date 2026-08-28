@@ -34,7 +34,7 @@
 	icon_state = "hos_beret"
 
 /obj/item/clothing/head/hats/warden/drill
-	name = "\improper armorykeeper's peaked cap"
+	name = "\improper dispatch officer's peaked cap"
 	desc = "A 'combat cap,' this piece of headwear features a detachable heavy cloth sunflap to maximize ventilation. This also saves the wearer \
 	from the horrific insectoids found outside of the enviroshields on New Gibraltar, even protecting against a Port Safety member's most powerful \
 	nemesis- the afternoon heat."
@@ -43,7 +43,7 @@
 	icon_state = "cap_warden"
 
 /obj/item/clothing/head/hats/warden/red
-	name = "\improper armorykeeper's havelock"
+	name = "\improper dispatch officer's havelock"
 	desc = "A tall red cap with a wide black brim, the distinctive peak serves as an aegis against the rain. The red color offering visibility as \
 	well as the ability to pretend to be a deep space warlord, if only for one's own entertainment."
 	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'

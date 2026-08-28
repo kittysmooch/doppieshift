@@ -58,11 +58,11 @@
 	item_path = /obj/item/clothing/head/hats/sec_beret_doppler
 
 /datum/loadout_item/head/hats/warden_hat
-	name = "Armorykeeper's Havelock"
+	name = "Dispatch Officer's Havelock (Security)"
 	item_path = /obj/item/clothing/head/hats/warden/red
 
 /datum/loadout_item/head/hats/warden_hat_alt
-	name = "Armorykeeper's Peaked Cap"
+	name = "Dispatch Officer Peaked Cap (Security)"
 	item_path = /obj/item/clothing/head/hats/warden/drill
 
 /datum/loadout_item/head/hats/beret_badge
