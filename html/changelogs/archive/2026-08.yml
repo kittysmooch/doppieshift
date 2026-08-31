@@ -113,3 +113,7 @@
 2026-08-30:
   firebudgy:
   - rscdel: Cargo lost the union negotiations, and no longer has union job titles.
+2026-08-31:
+  desertmote:
+  - rscadd: Added a protogen synth head
+  - image: added protogen cybernetic ears
