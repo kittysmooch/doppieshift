@@ -61,7 +61,7 @@
 	name = "\improper PS-D5 greatcoat"
 	desc = "An ankle length personal protective system with sizable internal pockets. The outer shell, made of 100% regenerated calfhide, \
 	bears a formidable appearance but a disarmingly charming tendency to squeak. This one has an advanced soft-insert to give it a level of \
-	protection that could even stop low-caliber firearms, providing one's opponent is kind enough to use subsonic ammunition to stop from \
+	protection that could even stop low-caliber firearms, provided one's opponent is kind enough to use subsonic ammunition to stop from \
 	piercing the hull of wherever you are right now."
 	icon_state = "hos_armored"
 	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'

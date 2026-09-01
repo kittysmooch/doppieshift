@@ -22,11 +22,7 @@
 
 /obj/item/clothing/under/rank/security/doppler/guard_alt
 	name = "\improper Port Safety colorblocked uniform"
-	desc = "	53.21% COTTON \
-		19.34% NYLON \
-		18.58% RAYON \
-		7.13% CASEIN \
-		1.74% ARAMID"
+	desc = "53.21% COTTON, 19.34% NYLON, 18.58% RAYON, 7.13% CASEIN, 1.74% ARAMID"
 	icon_state = "secwear2"
 
 /obj/item/clothing/under/rank/security/doppler/skirt
@@ -70,11 +66,7 @@
 
 /obj/item/clothing/under/rank/security/doppler/warden
 	name = "\improper Port Safety dispatch officer's uniform"
-	desc = "	57.21% COTTON \
-		18.34% NYLON \
-		15.58% RAYON \
-		7.13% CASEIN \
-		1.74% ARAMID"
+	desc = "57.21% COTTON 18.34% NYLON 15.58% RAYON 7.13% CASEIN 1.74% ARAMID"
 	icon_state = "wardenwear"
 
 /obj/item/clothing/under/rank/security/doppler/warden/skirt
@@ -91,11 +83,7 @@
 
 /obj/item/clothing/under/rank/security/doppler/head_of_security
 	name = "\improper Port Safety chief guard's uniform"
-	desc = "	63.43% COTTON \
-		14.14% NYLON \
-		13.30% RAYON \
-		7.13% CASEIN \
-		2% ARAMID"
+	desc = "63.43% COTTON 14.14% NYLON 13.30% RAYON 7.13% CASEIN 2% ARAMID"
 	icon_state = "hoswear"
 	armor_type = /datum/armor/clothing_under/security_head_of_security
 	strip_delay = 6 SECONDS

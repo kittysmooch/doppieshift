@@ -152,7 +152,7 @@
 	item_path = /obj/item/clothing/under/rank/security/doppler/guard
 
 /datum/loadout_item/undersuit/pants/ps_colorblock_uniform
-	name = "Port Safety colorblocked uniform (Security)"
+	name = "Port Safety Colorblocked Uniform (Security)"
 	item_path = /obj/item/clothing/under/rank/security/doppler/guard_alt
 
 /datum/loadout_item/undersuit/pants/ps_det_uniform

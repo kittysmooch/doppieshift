@@ -1,3 +1,4 @@
+// overrides tg backpacks
 /obj/item/storage/backpack/security
 	name = "\improper PS-C1 assault pack"
 	desc = "Bespoke storage pieces were a relatively recent addition to the Port Safety kit, with off-the-rack \
@@ -8,11 +9,14 @@
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
 	icon_state = "sec_backpack"
 
+// new doppler backpack
 /obj/item/storage/backpack/security/alt
 	name = "\improper PS-C2 field pack"
 	desc = "Broadly similar to its cousin-pack, but this one has some extra accoutrements for lashing camp gear to, \
 	in addition to superior waterproofing. The top closure is noted by some as being a little obnoxious to handle in gloves."
 	icon_state = "sec_backpack_alt"
+
+// more tg bag overrides
 
 /obj/item/storage/backpack/duffelbag/sec
 	name = "\improper PS-C5 personal duffel"
