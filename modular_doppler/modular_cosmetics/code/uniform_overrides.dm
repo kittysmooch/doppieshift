@@ -39,20 +39,20 @@
 
 /datum/outfit/job/hos
 	uniform = /obj/item/clothing/under/rank/security/doppler/head_of_security
-	gloves = /obj/item/clothing/gloves/color/black/security/doppler
+	gloves = /obj/item/clothing/gloves/fingerless/doppler_security
 	head = /obj/item/clothing/head/hats/hos/beret_doppler
 	backpack_contents = list(
 		/obj/item/melee/baton/doppler_security/loaded = 1,
 		)
 
 /datum/outfit/job/warden
-	gloves = /obj/item/clothing/gloves/color/black/security/doppler
+	gloves = /obj/item/clothing/gloves/fingerless/doppler_security
 	uniform = /obj/item/clothing/under/rank/security/doppler/warden
 	suit_store = null
 	head = /obj/item/clothing/head/hats/warden/red
 
 /datum/outfit/job/security
-	gloves = /obj/item/clothing/gloves/color/black/security/doppler
+	gloves = /obj/item/clothing/gloves/fingerless/doppler_security
 	uniform = /obj/item/clothing/under/rank/security/doppler/guard
 	suit_store = null
 	backpack_contents = list(
