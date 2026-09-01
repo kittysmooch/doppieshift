@@ -209,7 +209,7 @@
 		/obj/item/clothing/suit/toggle/jacket/det_trench = 5,
 		/obj/item/clothing/suit/jacket/doppler/runner_coat = 3,
 		/obj/item/clothing/suit/toggle/labcoat/high_vis = 3,
-		/obj/item/clothing/gloves/color/black/security/detective = 5,
+		/obj/item/clothing/gloves/latex/nitrile/detective = 5,
 	)
 
 /obj/machinery/vending/wardrobe/law_wardrobe

@@ -63,6 +63,6 @@
 /datum/outfit/job/detective
 	uniform = /obj/item/clothing/under/rank/security/doppler/detective
 	suit = /obj/item/clothing/suit/jacket/officer/doppler/det_trench
-	gloves = /obj/item/clothing/gloves/color/black/security/detective
+	gloves = /obj/item/clothing/gloves/latex/nitrile/detective
 	shoes = /obj/item/clothing/shoes/port_safety_kicks
 
