@@ -1,9 +1,11 @@
 // guard stuff
 
+// NEW ITEMS
 /obj/item/clothing/suit/jacket/officer/doppler
 	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
-	armor_type = /datum/armor/suit_armor
+	armor_type = /datum/armor/cosmetic_sec
+	abstract_type = /obj/item/clothing/suit/jacket/officer/doppler
 
 /obj/item/clothing/suit/jacket/officer/doppler/ps_a1
 	name = "\improper PS-A1 uniform jacket"
@@ -28,6 +30,7 @@
 	nature, but you've never seen anyone zip one of these for a reason."
 	icon_state = "sechoodie3"
 
+// security vest override
 /obj/item/clothing/suit/armor/vest/alt/sec
 	name = "\improper PS Type 98c body armor"
 	desc = "Ceramic plates suspended in pockets of newton rated nonwoven textiles, providing approximately adequate \
@@ -36,8 +39,9 @@
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
 	icon_state = "sec_armor"
 
-// armory keeper stuff
+// dispatch officer stuff
 
+// new casual jacket, less armor on purpose
 /obj/item/clothing/suit/jacket/officer/doppler/ps_b1
 	name = "\improper PS-B1 chore coat"
 	desc = "A single-breasted, armored coat with a high collar and optional buttons to guard against the elements. Most wearers of this \
@@ -45,6 +49,8 @@
 	flap back to keep the full pair from obstructing movements such as 'dropping to a knee to properly fire a gun,' whatever that does."
 	icon_state = "warden_coat"
 
+
+// warden vest override
 /obj/item/clothing/suit/armor/vest/warden/alt
 	name = "\improper PS-B1A personnel protective system"
 	desc = "This greatcoat, a model often associated with leaving the protective enviroshields of the capital of Low Heaven and other \
@@ -57,6 +63,7 @@
 
 // head of safety stuff
 
+// override of the armored trenchcoat
 /obj/item/clothing/suit/armor/hos/trenchcoat
 	name = "\improper PS-D5 greatcoat"
 	desc = "An ankle length personal protective system with sizable internal pockets. The outer shell, made of 100% regenerated calfhide, \
@@ -73,6 +80,8 @@
 	icon = 'icons/obj/clothing/suits/armor.dmi'
 	worn_icon = 'icons/mob/clothing/suits/armor.dmi'
 
+
+// new hos coat
 /obj/item/clothing/suit/jacket/officer/doppler/ps_d1
 	name = "\improper PS-D1 greatcoat"
 	desc = "Strongly resembling some cultures' ideas of a strong commander-type, this is a suitable wear for a Chief Guard. A heavy armored \
@@ -91,3 +100,37 @@
 	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
 	icon_state = "dets_coat"
+
+// some old stuff from prior to the security resprite
+
+/obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket
+	name = "peacekeeper jacket"
+	desc = "A slightly vintage canvas and aramid jacket; hi-vis checkers included. Armored and stylish? Implausible."
+	icon_state = "peacekeeper_jacket"
+	body_parts_covered = CHEST|GROIN|ARMS
+	cold_protection = CHEST|GROIN|ARMS
+	heat_protection = CHEST|GROIN|ARMS
+	armor_type = /datum/armor/cosmetic_sec
+	pocket_storage_type = /datum/storage/pockets/jacket/jumbo
+
+/obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket/Initialize(mapload)
+	. = ..()
+	AddComponent(/datum/component/toggle_icon, "zipper")
+	allowed = GLOB.security_vest_allowed
+
+/obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket/badged
+	name = "badged peacekeeper jacket"
+	desc = "A slightly vintage canvas and aramid jacket; hi-vis checkers and chevron badge included. Armored and stylish? Implausible."
+	icon_state = "peacekeeper_jacket_badge"
+
+/obj/item/clothing/suit/jacket/doppler/runner_coat
+	name = "runner coat"
+	desc = "A weighty coat of thick synthshearling still bears the patternmaking concessions to the limited size \
+	of pre-printed sheepskin. What was once a style of necessity has become a matter of authenticity."
+	icon_state = "runner_coat"
+	armor_type = /datum/armor/cosmetic_sec
+	pocket_storage_type = /datum/storage/pockets/jacket/jumbo
+
+/obj/item/clothing/suit/jacket/doppler/runner_coat/Initialize(mapload)
+	. = ..()
+	allowed = GLOB.security_vest_allowed

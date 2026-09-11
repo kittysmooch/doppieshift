@@ -52,6 +52,13 @@
 	desc = "Printed in New Gibraltar to catalogue specifications. The shell material boasts modest protection \
 	against caustic chemical solutions used in niche forensic applications."
 	icon_state = "detwear"
+	armor_type = /datum/armor/clothing_under/doppler_detective
+
+/datum/armor/clothing_under/doppler_detective
+	fire = 30
+	acid = 40
+	wound = 10
+	bio = 20
 
 /obj/item/clothing/under/rank/security/doppler/detective/skirt
 	name = "\improper Port Safety investigative uniform skirt"

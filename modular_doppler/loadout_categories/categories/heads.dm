@@ -62,7 +62,7 @@
 	item_path = /obj/item/clothing/head/hats/warden/red
 
 /datum/loadout_item/head/hats/warden_hat_alt
-	name = "Dispatch Officer Peaked Cap (Security)"
+	name = "Dispatch Officer's Peaked Cap (Security)"
 	item_path = /obj/item/clothing/head/hats/warden/drill
 
 /datum/loadout_item/head/hats/beret_badge
