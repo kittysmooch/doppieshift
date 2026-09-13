@@ -101,27 +101,7 @@
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
 	icon_state = "dets_coat"
 
-// some old stuff from prior to the security resprite
-
-/obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket
-	name = "peacekeeper jacket"
-	desc = "A slightly vintage canvas and aramid jacket; hi-vis checkers included. Armored and stylish? Implausible."
-	icon_state = "peacekeeper_jacket"
-	body_parts_covered = CHEST|GROIN|ARMS
-	cold_protection = CHEST|GROIN|ARMS
-	heat_protection = CHEST|GROIN|ARMS
-	armor_type = /datum/armor/cosmetic_sec
-	pocket_storage_type = /datum/storage/pockets/jacket/jumbo
-
-/obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket/Initialize(mapload)
-	. = ..()
-	AddComponent(/datum/component/toggle_icon, "zipper")
-	allowed = GLOB.security_vest_allowed
-
-/obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket/badged
-	name = "badged peacekeeper jacket"
-	desc = "A slightly vintage canvas and aramid jacket; hi-vis checkers and chevron badge included. Armored and stylish? Implausible."
-	icon_state = "peacekeeper_jacket_badge"
+// the only thing that survived from our old modular sec jackets
 
 /obj/item/clothing/suit/jacket/doppler/runner_coat
 	name = "runner coat"

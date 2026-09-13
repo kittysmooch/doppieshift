@@ -8,7 +8,7 @@
 	bodyshape_icon_files = list(
 		BODYSHAPE_HUMANOID_T = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi',
 		BODYSHAPE_DIGITIGRADE_T = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_digi.dmi',
-		BODYSHAPE_TESHARI_T = 'modular_doppler/modular_species/species_types/teshari/icons/clothing/uniform.dmi'
+		BODYSHAPE_TESHARI_T = 'modular_doppler/modular_species/species_types/teshari/icons/clothing/uniform.dmi'	// spooky didnt give me any tesh sprites sorry
 	)
 
 // security guard stuff
@@ -44,6 +44,15 @@
 	dying_key = DYE_REGISTRY_JUMPSKIRT
 	female_sprite_flags = FEMALE_UNIFORM_TOP_ONLY
 
+// super special cadet humiliation ritual uniform
+
+/obj/item/clothing/under/rank/security/doppler/speedsuit
+	name = "\improper Port Safety lopro speedsuit"
+	desc = "Sporty cut and sew knit wicks moisture while a brief cut gives superior glide and heat exchange. \
+	A healthy aftermarket exists for these amongst civilian racewalkers, leading to a remarkable level of uniform \
+	attrition to local auction listing sites."
+	icon_state = "cutesec"
+	body_parts_covered = CHEST|GROIN|ARMS
 
 // detective stuff
 

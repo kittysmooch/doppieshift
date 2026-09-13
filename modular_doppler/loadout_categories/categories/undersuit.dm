@@ -159,6 +159,10 @@
 	name = "Port Safety Investigative Uniform (Security)"
 	item_path = /obj/item/clothing/under/rank/security/doppler/detective
 
+/datum/loadout_item/undersuit/pants/ps_speedsuit
+	name = "Port Safety Lopro Speedsuit"
+	item_path = /obj/item/clothing/under/rank/security/doppler/speedsuit
+
 /datum/loadout_item/undersuit/pants/combat
 	name = "Combat Uniform"
 	item_path = /obj/item/clothing/under/syndicate/combat

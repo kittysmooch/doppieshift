@@ -326,14 +326,6 @@
 	name = "Department Jacket (Cargo)"
 	item_path = /obj/item/clothing/suit/jacket/doppler/departmental_jacket/supply
 
-/datum/loadout_item/suit/jacket/peacekeeper_jacket
-	name = "Peacekeeper Jacket (Security)"
-	item_path = /obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket
-
-/datum/loadout_item/suit/jacket/peacekeeper_jacket_badged
-	name = "Peacekeeper Jacket (Security, Badged)"
-	item_path = /obj/item/clothing/suit/jacket/doppler/peacekeeper_jacket/badged
-
 /datum/loadout_item/suit/jacket/ps_a1
 	name = "Port Safety A1 Uniform Jacket (Security)"
 	item_path = /obj/item/clothing/suit/jacket/officer/doppler/ps_a1
