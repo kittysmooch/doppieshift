@@ -26,3 +26,6 @@
 	item = /obj/item/modular_laser_upgrade
 	cost = 2
 	purchasable_from = ~(UPLINK_ALL_SYNDIE_OPS)
+
+/datum/uplink_item/device_tools/encryptionkey
+	cost = 6 // i'm sorry, little one
