@@ -265,7 +265,7 @@
 		BODYSHAPE_HUMANOID_T = /datum/greyscale_config/nautical_shortset/worn,
 		BODYSHAPE_DIGITIGRADE_T = /datum/greyscale_config/nautical_shortset/worn/digi,
 	)
-	greyscale_colors = "#dddddd#0066ff#0066ff#dddddd"
+	greyscale_colors = "#ebebeb#4a518d#942737#4a518d"
 	flags_1 = IS_PLAYER_COLORABLE_1
 
 /obj/item/clothing/under/nautical_shirt
@@ -277,7 +277,7 @@
 	post_init_icon_state = "nautical_shirt"
 	greyscale_config = /datum/greyscale_config/nautical_shirt
 	greyscale_config_worn = /datum/greyscale_config/nautical_shirt/worn
-	greyscale_colors = "#ebebeb#4a518d#942737#4a518d"
+	greyscale_colors = "#ebebeb#4a518d#942737"
 	flags_1 = IS_PLAYER_COLORABLE_1
 	slot_flags = ITEM_SLOT_ICLOTHING | ITEM_SLOT_OCLOTHING	// to pair with shirts, skirts, etc
 	body_parts_covered = CHEST|ARMS
