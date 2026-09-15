@@ -20,7 +20,7 @@
 	var/lethal_mode = TRUE
 
 /// Applies some of the universal stats from the variables above
-/datum/laser_weapon_mode/proc/apply_stats(obj/item/gun/energy/modular_laser_rifle/applied_gun)
+/datum/laser_weapon_mode/proc/apply_stats(obj/item/gun/energy/applied_gun)
 	if(length(applied_gun.ammo_type))
 		QDEL_LIST(applied_gun.ammo_type)
 	applied_gun.select = 1

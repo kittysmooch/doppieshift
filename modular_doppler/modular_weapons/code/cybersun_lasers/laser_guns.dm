@@ -23,6 +23,7 @@
 	worn_icon = 'modular_doppler/modular_weapons/icons/mob/worn/guns.dmi'
 	worn_icon_state = "hyeseong_disabler"
 	cell_type = /obj/item/stock_parts/power_store/cell/hyeseong_internal_cell
+	charge_sections = 2
 	modifystate = FALSE
 	ammo_type = list(/obj/item/ammo_casing/energy/cybersun_big_disabler)
 	can_select = FALSE
