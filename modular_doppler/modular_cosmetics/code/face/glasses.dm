@@ -84,11 +84,11 @@
 
 /obj/item/clothing/glasses/hud/security/sunglasses/eyepatch
 	icon = 'icons/obj/clothing/glasses.dmi'
-	worn_icon ='icons/mob/clothing/glasses.dmi'
+	worn_icon ='icons/mob/clothing/eyes.dmi'
 
 /obj/item/clothing/glasses/hud/security/sunglasses/gars
 	icon = 'icons/obj/clothing/glasses.dmi'
-	worn_icon ='icons/mob/clothing/glasses.dmi'
+	worn_icon ='icons/mob/clothing/eyes.dmi'
 
 /obj/item/clothing/glasses/night
 	uses_advanced_reskins = TRUE
