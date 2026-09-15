@@ -501,7 +501,10 @@
 	name = "Colorable latex bodysuit (Worn, Digi)"
 	icon_file = 'modular_doppler/modular_cosmetics/icons/mob/under/miscellania_digi.dmi'
 
-<<<<<<< HEAD
+/datum/greyscale_config/gags_latexsuit/worn/teshari
+	name = "Colorable latex bodysuit (Worn, Teshari)"
+	icon_file = 'modular_doppler/modular_species/species_types/teshari/icons/clothing/uniform.dmi'
+
 /datum/greyscale_config/nautical_shortset
 	name = "Nautical Shortset"
 	icon_file = 'modular_doppler/modular_cosmetics/icons/obj/under/miscellania.dmi'
@@ -536,8 +539,3 @@
 /datum/greyscale_config/nautical_shorts/worn/digi
 	name = "Nautical Shorts (Worn, Digi)"
 	icon_file = 'modular_doppler/modular_cosmetics/icons/mob/under/miscellania_digi.dmi'
-=======
-/datum/greyscale_config/gags_latexsuit/worn/teshari
-	name = "Colorable latex bodysuit (Worn, Teshari)"
-	icon_file = 'modular_doppler/modular_species/species_types/teshari/icons/clothing/uniform.dmi'
->>>>>>> upstream/master
