@@ -24,6 +24,7 @@
 		/obj/item/ammo_casing/alacran_dart/rootbeer = 3,
 		/obj/item/storage/box/alacran_dart = 3,
 		/obj/item/storage/box/alacran_dart/piercing = 3,
+		/obj/item/clothing/head/helmet/sec_visorless = 5,
 		/obj/item/storage/toolbox/guncase/modular/sportsco_large_case = 2,
 		/obj/item/storage/toolbox/guncase/modular/sportsco_small_case = 2,
 		/obj/item/book/granter/tactical_gun_tosser = 1,
