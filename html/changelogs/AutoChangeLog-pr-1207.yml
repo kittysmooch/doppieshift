@@ -1,0 +1,4 @@
+author: "444explorer"
+delete-after: True
+changes:
+  - qol: "Cantina-issued clothing has their sensors off by default now."
