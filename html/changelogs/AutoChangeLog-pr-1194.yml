@@ -1,0 +1,5 @@
+author: "TheOneAndOnlyCreeperJoe, Spookywastaken"
+delete-after: True
+changes:
+  - rscadd: "New Raking Claws power! Create two claws with a build-in dual wield mechanic that encourages going into a frenzy!"
+  - rscadd: "Two new upgrades for Raking Claws. Maiming, which makes you really good at wounding and dismembering targets; and Life-Leecing, which heals you on-hit whilst at maximum bloodlust and lets you gain health from butchering mobs. These require Bestial Body and Monstrous Body respectively."
