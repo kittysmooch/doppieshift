@@ -56,19 +56,22 @@
 	desc = "These are a relatively recent replacement to the much maligned 'Birth Control Goggles' that previously served as standard \
 	uniform issue. The material is sourced from a locally produced bioplastic with the unfortunate trade name 'Floramer' that is in theory an \
 	ecologically sustainable material. Sadly, exaggerated claims about biodegradeability lead to frequent littering of broken pairs."
+	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
+	icon_state = "glasses"
+	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
 	glass_colour_type = /datum/client_colour/glass_colour/red
 	uses_advanced_reskins = TRUE
 	unique_reskin = list(
 		"Regular" = list(
-			RESKIN_ICON = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
+			RESKIN_ICON = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi',
 			RESKIN_ICON_STATE = "glasses",
-			RESKIN_WORN_ICON = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
+			RESKIN_WORN_ICON = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi',
 			RESKIN_WORN_ICON_STATE = "glasses"
 		),
 		"Redular" = list(
-			RESKIN_ICON = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
+			RESKIN_ICON = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi',
 			RESKIN_ICON_STATE = "glasses_red",
-			RESKIN_WORN_ICON = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
+			RESKIN_WORN_ICON = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi',
 			RESKIN_WORN_ICON_STATE = "glasses_red"
 		),
 		"Viper" = list(
