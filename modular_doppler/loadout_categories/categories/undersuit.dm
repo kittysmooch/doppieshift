@@ -151,6 +151,10 @@
 	name = "Combat Uniform"
 	item_path = /obj/item/clothing/under/syndicate/combat
 
+/datum/loadout_item/undersuit/pants/eva
+	name = "Exoatmospheric Combat Uniform"
+	item_path = /obj/item/clothing/under/syndicate/combat/eva
+
 /datum/loadout_item/undersuit/pants/turtleneck
 	name = "Tactical Turtleneck"
 	item_path = /obj/item/clothing/under/syndicate
@@ -242,9 +246,9 @@
 	name = "Jean Shorts (Shortest)"
 	item_path = /obj/item/clothing/under/shorts/shorter/jeans/shortest
 
-/datum/loadout_item/undersuit/short/nautical_shorts
-	name = "Nautical Shorts"
-	item_path = /obj/item/clothing/under/nautical_shorts
+/datum/loadout_item/undersuit/short/portauth_intern
+	name = "Port Authority Work Uniform"
+	item_path = /obj/item/clothing/under/rank/centcom/portauthority/work
 
 /**
  * SKIRTS
@@ -483,9 +487,16 @@
 	name = "Hearthkin Tunic"
 	item_path = /obj/item/clothing/under/dress/skirt/primitive_genemod_tunic
 
-/datum/loadout_item/undersuit/fullbody/nautical_shortset
-	name = "Nautical Shortset"
-	item_path = /obj/item/clothing/under/nautical_shortset
+/**
+ * ENVIROSUITS
+ */
+/datum/loadout_item/undersuit/envirosuit
+	group = "Envirosuits"
+	abstract_type = /datum/loadout_item/undersuit/envirosuit
+
+/datum/loadout_item/undersuit/envirosuit/rev2
+	name = "Modernized Phorid Envirosuit (Green)"
+	item_path = /obj/item/clothing/under/plasmaman/rev2
 
 /**
  * MISCELLANEOUS
