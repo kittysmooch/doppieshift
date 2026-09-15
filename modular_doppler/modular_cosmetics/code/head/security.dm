@@ -1,13 +1,17 @@
-// new doppler hats
+// new doppler hats & helmets
 
 /obj/item/clothing/head/hats/sec_beret_doppler
 	name = "\improper Port Safety uniform beret"
 	desc = "A floppy bit of fabric, one of the greatest cultural exports humankind has ever brought to the rest of the galactic \
-	community. This one has a rather outdated soft-insert to give the wearer some level of protection, but most of the street-level guards of Port Safety tend to wear this most often out of all the headwear commonly given to them- much to the Commissioner's chagrin."
+	community. This one has a rather outdated soft-insert to give the wearer some level of protection, but most of the street-level \
+	guards of Port Safety tend to wear this most often out of all the headwear commonly given to them- much to the Commissioner's chagrin."
 	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
 	icon_state = "sec_beret"
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
 	armor_type = /datum/armor/cosmetic_sec
+
+/obj/item/clothing/head/hats/sec_beret_doppler/alt
+	icon_state = "sec_beret2"
 
 /obj/item/clothing/head/hats/hos/beret_doppler
 	name = "\improper chief guard's beret"
@@ -17,6 +21,34 @@
 	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
 	icon_state = "hos_beret"
+
+/obj/item/clothing/head/helmet/sec_visorless
+	name = "\improper PS Type 98b helmet"
+	desc = "Whatever fringe survivalist benefit was built into this helmet's metallic dome was spoiled by the unremovable suspension liner. This model \
+	lacks a visor."
+	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
+	icon_state = "sec_helmet_visorless"
+	base_icon_state = "sec_helmet"
+	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
+	equip_sound = 'sound/items/handling/helmet/helmet_equip1.ogg'
+	pickup_sound = 'sound/items/handling/helmet/helmet_pickup1.ogg'
+	drop_sound = 'sound/items/handling/helmet/helmet_drop1.ogg'
+	hair_mask = /datum/hair_mask/standard_hat_low
+
+/obj/item/clothing/head/hats/sec_cattleman
+	name = "\improper Port Safety uniform hat"
+	desc = "Stiffened synthetic felt made of plant-based protein strands that take shape with steam just like real beaver fur. Sadly, moths still like \
+	to try and eat these, and the ones around New Gibraltar are absolutely massive."
+	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
+	icon_state = "yeehaw"
+	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
+	armor_type = /datum/armor/cosmetic_sec
+
+/obj/item/clothing/head/hats/sec_cattleman/plain
+	name = "\improper Port Safety raw synthide hat"
+	desc = "Not actually made out of traditional (i.e., plastic) based leather replacements, but out of a congealed mat of oriented proteins chemically \
+	identical to steerhide, but from zero cow material. This has been the subject of many tedious workplace debates about whether these hats are technically vegan."
+	icon_state = "yeehaw2"
 
 // overrides some tg hats and helmets
 
@@ -44,6 +76,7 @@
 	protection for the brain and other organs, and the much-needed luxury of a genuine leather chinstrap."
 	icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security_obj.dmi'
 	icon_state = "sec_helmet"
+	base_icon_state = "sec_helmet"
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/security_resprite/doppler_security.dmi'
 
 /obj/item/clothing/head/hats/hos/cap

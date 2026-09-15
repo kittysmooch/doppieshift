@@ -135,14 +135,11 @@
 		/obj/item/clothing/suit/toggle/labcoat/high_vis = 5,
 		/obj/item/clothing/gloves/fingerless/doppler_security = 5,
 		/obj/item/clothing/head/hats/sec_beret_doppler = 5,
+		/obj/item/clothing/head/hats/sec_beret_doppler/alt = 5,
 		/obj/item/clothing/head/cap_colonysec = 5,
 		/obj/item/clothing/head/flowing_headband = 3,
-		/obj/item/clothing/head/cowboy/doppler/wide = 5,
-		/obj/item/clothing/head/cowboy/doppler/wide/feathered = 5,
-		/obj/item/clothing/head/cowboy/doppler/flat = 5,
-		/obj/item/clothing/head/cowboy/doppler/flat/cowl = 5,
-		/obj/item/clothing/head/cowboy/doppler/cattleman = 5,
-		/obj/item/clothing/head/cowboy/doppler/cattleman/wide = 5,
+		/obj/item/clothing/head/hats/sec_cattleman = 5,
+		/obj/item/clothing/head/hats/sec_cattleman/plain = 5,
 		/obj/item/riding_saddle/leather/blue = 3,
 		/obj/item/clothing/suit/wizrobe/secwiz = 3, // thaumaturge robes
 		/obj/item/clothing/head/wizard/secwiz = 3, // thaumaturge robes
