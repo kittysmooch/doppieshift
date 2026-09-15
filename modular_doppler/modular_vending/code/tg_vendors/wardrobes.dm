@@ -122,7 +122,7 @@
 
 /obj/machinery/vending/wardrobe/sec_wardrobe
 	name = "\improper Port Safety uniform vendor"
-	desc = "A steel and glass enclosure packed with uniforms for Port Safety employees. The "
+	desc = "A steel and glass enclosure packed with uniforms for Port Safety employees."
 	products_doppler = list(
 		/obj/item/clothing/under/rank/security/doppler/guard = 5,
 		/obj/item/clothing/under/rank/security/doppler/guard_alt = 5,
