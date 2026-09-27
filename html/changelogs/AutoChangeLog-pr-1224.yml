@@ -1,5 +1,0 @@
-author: "TheOneAndOnlyCreeperJoe"
-delete-after: True
-changes:
-  - bugfix: "Fixes Ethereal bitrunning avatars getting permanently stuck inside the bitrunning domain upon death."
-  - rscdel: "Ethereal bitrunning avatars no longer inherit Ethereal's ability to regenerate and revive."

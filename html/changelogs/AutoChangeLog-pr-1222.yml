@@ -1,4 +1,0 @@
-author: "TheOneAndOnlyCreeperJoe"
-delete-after: True
-changes:
-  - code_imp: "H.A.R.S should no longer cause pipeline failures because of Genemodded giving it to the dummy."
