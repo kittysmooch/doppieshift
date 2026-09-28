@@ -116,3 +116,6 @@
       and revive.
   - code_imp: H.A.R.S should no longer cause pipeline failures because of Genemodded
       giving it to the dummy.
+2026-09-28:
+  snailomi:
+  - rscadd: new "robotic horse" taur style
