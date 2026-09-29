@@ -119,3 +119,7 @@
 2026-09-28:
   snailomi:
   - rscadd: new "robotic horse" taur style
+2026-09-29:
+  NiklasNeighbor:
+  - refactor: refactored Lasertag equipment to use components, therefore making it
+      scalable. Please report any issues.
