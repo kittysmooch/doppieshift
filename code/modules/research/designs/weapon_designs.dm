@@ -351,9 +351,7 @@
 	name = "Telescopic Riot Shield"
 	desc = "An advanced riot shield made of lightweight materials that collapses for easy storage."
 	id = "tele_shield"
-	// DOPPLER EDIT CHANGE START - removes this design from any player accessible lathe in favor of a modularly added shield gauntlet
-	build_type = null // was: build_type = PROTOLATHE | AWAY_LATHE
-	// DOPPLER EDIT CHANGE END
+	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = SHEET_MATERIAL_AMOUNT * 2, /datum/material/glass = SHEET_MATERIAL_AMOUNT * 2, /datum/material/silver =SMALL_MATERIAL_AMOUNT * 3, /datum/material/titanium =SMALL_MATERIAL_AMOUNT * 2)
 	build_path = /obj/item/shield/riot/tele
 	category = list(
@@ -517,9 +515,7 @@
 		Able to be fired from conventional ballistic shotguns with minimal rifling degradation. Also leaves most targets covered \
 		in grotesque burns."
 	id = "lasershell"
-	// DOPPLER EDIT CHANGE START - removes this design from player accessibility
-	build_type = null //was: build_type = PROTOLATHE | AWAY_LATHE
-	// DOPPLER EDIT CHANGE END
+	build_type = PROTOLATHE | AWAY_LATHE
 	materials = list(/datum/material/iron = SMALL_MATERIAL_AMOUNT * 3, /datum/material/glass = SMALL_MATERIAL_AMOUNT * 2, /datum/material/gold = SMALL_MATERIAL_AMOUNT * 2)
 	build_path = /obj/item/ammo_casing/shotgun/scatterlaser
 	category = list(
