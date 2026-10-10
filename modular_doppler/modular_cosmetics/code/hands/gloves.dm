@@ -44,3 +44,6 @@
 	clothing_traits = list(TRAIT_QUICK_CARRY)
 
 
+/obj/item/clothing/gloves/phantom_gloves
+	name = "exquisite Phantom the Weasel gloves"
+	desc = ""
