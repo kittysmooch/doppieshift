@@ -19,3 +19,9 @@
 	icon = 'modular_doppler/modular_cosmetics/icons/obj/shoes/casual.dmi'
 	icon_state = "phantom_shoes"
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/mob/shoes/casual.dmi'
+	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION
+	supported_bodyshapes = list(BODYSHAPE_HUMANOID, BODYSHAPE_DIGITIGRADE)
+	bodyshape_icon_files = list(
+		BODYSHAPE_HUMANOID_T = 'modular_doppler/modular_cosmetics/icons/mob/shoes/casual.dmi',
+		BODYSHAPE_DIGITIGRADE_T = 'modular_doppler/modular_cosmetics/icons/mob/shoes/casual_digi.dmi',
+	)
