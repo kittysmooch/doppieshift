@@ -102,7 +102,7 @@
 		/obj/item/food/sticko/pineapple = 3,
 		/obj/item/food/shok_roks/random = 3,
 		/obj/item/food/cakeslice/mothmallow = 2,
-		/obj/item/food/pistachios = 2m
+		/obj/item/food/pistachios = 2,
 	)
 	bowl_item = /obj/item/candy_dish/engineering
 
