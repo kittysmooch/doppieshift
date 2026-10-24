@@ -46,4 +46,6 @@
 
 /obj/item/clothing/gloves/phantom_gloves
 	name = "exquisite Phantom the Weasel gloves"
-	desc = ""
+	icon = 'modular_doppler/modular_cosmetics/icons/obj/hands/gloves.dmi'
+	icon_state = "phantom_gloves"
+	worn_icon = 'modular_doppler/modular_cosmetics/icons/mob/hands/gloves.dmi'

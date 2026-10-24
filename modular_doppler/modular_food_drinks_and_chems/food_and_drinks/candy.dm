@@ -162,6 +162,7 @@
 		/datum/reagent/consumable/sugar = 5,
 	)
 	var/mutable_appearance/head
+	var/head_color = rgb(0, 0, 0)
 
 // we reproduce some lollipop icon cutting stuff because it doesn't like having children
 /obj/item/food/doppler_candy/rock_candy/Initialize(mapload)

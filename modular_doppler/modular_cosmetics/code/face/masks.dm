@@ -236,6 +236,6 @@
 	name = "dubious Phanic the Weasel mask"
 	desc = "A crude facisimile of the classic gaming character Phanic rendered in thin foam and costume spandex. The \
 	complete lack of structure causes it to distort across the wearer's head."
-	icon = 'modular_doppler/modular_cosmetics/icons/mob/head/costume.dmi'
+	icon = 'modular_doppler/modular_cosmetics/icons/obj/head/costume.dmi'
 	icon_state = "phanic_mask"
-	worn_icon = 'modular_doppler/modular_cosmetics/icons/obj/head/costume.dmi'
+	worn_icon = 'modular_doppler/modular_cosmetics/icons/mob/head/costume.dmi'
