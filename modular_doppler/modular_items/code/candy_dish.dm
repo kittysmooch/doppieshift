@@ -69,9 +69,9 @@
 	icon_state = "security"
 	// red and spicy things, donuts
 	candy_list = list(
-		/obj/item/food/doppler_candy/red_twigs = 5,
-		/obj/item/food/doppler_candy/tamarind = 3,
-		/obj/item/food/doppler_candy/spicy_reds = 5,
+		/obj/item/food/doppler_candy/red_twigs = 7,
+		/obj/item/food/doppler_candy/tamarind = 5,
+		/obj/item/food/doppler_candy/spicy_reds = 7,
 		/obj/item/food/candiedapple = 2,
 		/obj/item/food/donut/berry = 1,
 		/obj/item/food/candy_corn = 1,
@@ -79,6 +79,7 @@
 		/obj/item/food/donut = 4,
 		/obj/item/food/donut/jelly/berry = 1,
 		/obj/item/food/donut/choco = 1,
+		/obj/item/food/hot_shots = 2,
 	)
 	bowl_item = /obj/item/candy_dish/security
 
@@ -95,13 +96,13 @@
 	icon_state = "engineering"
 	// sour and yellow candy
 	candy_list = list(
-		/obj/item/food/doppler_candy/nuke_fuel = 5,
-		/obj/item/food/doppler_candy/lemon_drops = 5,
+		/obj/item/food/doppler_candy/nuke_fuel = 7,
+		/obj/item/food/doppler_candy/lemon_drops = 7,
 		/obj/item/food/doppler_candy/energizerz = 3,
 		/obj/item/food/sticko/pineapple = 3,
 		/obj/item/food/shok_roks/random = 3,
 		/obj/item/food/cakeslice/mothmallow = 2,
-
+		/obj/item/food/pistachios = 2m
 	)
 	bowl_item = /obj/item/candy_dish/engineering
 
@@ -147,6 +148,12 @@
 		/obj/item/food/doppler_candy/jawbreaker = 1,
 		/obj/item/food/doppler_candy/sour_brat_kits = 20,
 		/obj/item/food/doppler_candy/milk_balls = 10,
+		/obj/item/food/chococoin = 7,
+		/obj/item/food/fudgedice = 5,
+		/obj/item/food/cnds/random = 5,
+		/obj/item/food/spacetwinkie = 5,
+		/obj/item/food/peanuts/random = 5,
+		/obj/item/food/sticko/random = 3,
 	)
 	bowl_item = /obj/item/candy_dish/cargo
 
@@ -155,3 +162,40 @@
 	desc = ""
 	icon_state = "cargo"
 	bowl_structure = /obj/structure/candy_dish/cargo
+
+/obj/structure/candy_dish/service
+	name = ""
+	desc = ""
+	icon_state = "service"
+	// chocolates, fruity candy, tiny liquor bottles
+	candy_list = list(
+		/obj/item/reagent_containers/cup/glass/bottle/whiskey/tiny = 5,
+		/obj/item/reagent_containers/cup/glass/bottle/amaretto/tiny = 5,
+		/obj/item/food/doppler_candy/orange_leather = 5,
+		/obj/item/food/doppler_candy/sour_melon_leather = 5,
+		/obj/item/food/candiedapple = 3,
+		/obj/item/food/chocolatebar = 3,
+		/obj/item/food/chocoorange = 3,
+		/obj/item/food/bonbon/peanut_butter_cup = 2,
+	)
+	bowl_item = /obj/item/candy_dish/service
+
+/obj/item/candy_dish/service
+	name = ""
+	desc = ""
+	icon_state = "service"
+	bowl_structure = /obj/structure/candy_dish/service
+
+/obj/structure/candy_dish/science
+	name = ""
+	desc = ""
+	icon_state = "science"
+	candy_list = list(
+	)
+	bowl_item = /obj/item/candy_dish/science
+
+/obj/item/candy_dish/science
+	name = ""
+	desc = ""
+	icon_state = "science"
+	bowl_structure = /obj/structure/candy_dish/service

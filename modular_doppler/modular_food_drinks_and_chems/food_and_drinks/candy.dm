@@ -55,27 +55,6 @@
 	)
 	tastes = list("battery acid" = 2, "citric acid" = 1, "sugary sweetness" = 1)
 
-/datum/reagent/consumable/sour_sugar
-	name = "sour sugar"
-	description = "A mixture of sugar and citric acid."
-	color = COLOR_WHITE
-	taste_mult = 1.5
-	nutriment_factor = 2
-	metabolization_rate = 5 * REAGENTS_METABOLISM
-	taste_description = "sour sweetness"
-	default_container = /obj/item/reagent_containers/cup/bottle
-
-// burns ur tongue when u eat it
-/datum/reagent/consumable/sour_sugar/on_mob_life(mob/living/carbon/affected_mob, seconds_per_tick, times_fired)
-	. = ..()
-	var/need_mob_update
-	if(SPT_PROB(50, seconds_per_tick))
-		affected_mob.adjustOrganLoss(ORGAN_SLOT_TONGUE, 1, 50, affected_biotype)
-		need_mob_update = TRUE
-		to_chat(affected_mob, span_notice("Your tongue hurts."))
-	if(need_mob_update)
-		return UPDATE_MOB_HEALTH
-
 /obj/item/food/doppler_candy/lemon_drops
 	name = "\improper Citraheadz lemon drops"
 	desc = "A long time ago these would be made by rolling lemon juice and simple syrup together in a hot skillet. \
@@ -145,7 +124,7 @@
 	Cracking one apart reveals sedimentary candy layers."
 	icon_state = "jawbreaker"
 	worn_icon = 'modular_doppler/modular_food_drinks_and_chems/icons/food_mob_icons.dmi'
-	worn_icon_state = ""
+	worn_icon_state = "jawbreaker"
 	food_reagents = list(
 		/datum/reagent/consumable/sugar = 5,
 	)
@@ -176,23 +155,22 @@
 	colorful glassy transparency is too alluring to resist."
 	icon_state = "rock_candy_stick"
 	worn_icon = 'modular_doppler/modular_food_drinks_and_chems/icons/food_mob_icons.dmi'
-	food_reagents = list( // also like the lollipop but themed around miner's salve bcuz its rocks
+	food_reagents = list(
 		/datum/reagent/consumable/nutriment = 1,
 		/datum/reagent/consumable/nutriment/vitamin = 1,
-		/datum/reagent/medicine/mine_salve = 5,
+		/datum/reagent/medicine/mine_salve = 5, // it's rocks
 		/datum/reagent/consumable/sugar = 5,
-		/datum/reagent/medicine/omnizine = 2,
 	)
 	var/mutable_appearance/head
 
 // we reproduce some lollipop icon cutting stuff because it doesn't like having children
-/obj/item/food/rock_candy/Initialize(mapload)
+/obj/item/food/doppler_candy/rock_candy/Initialize(mapload)
 	. = ..()
 	head = mutable_appearance('modular_doppler/modular_food_drinks_and_chems/icons/candy.dmi', "rock_candy")
 	change_head_color(rgb(rand(0, 255), rand(0, 255), rand(0, 255)))
 	AddElement(/datum/element/chewable)
 
-/obj/item/food/rock_candy/proc/change_head_color(C)
+/obj/item/food/doppler_candy/rock_candy/proc/change_head_color(C)
 	head_color = C
 	cut_overlay(head)
 	head.color = C
@@ -224,3 +202,28 @@
 		/datum/reagent/consumable/sugar = 3,
 		/datum/reagent/consumable/coco = 2,
 	)
+
+// service candy, chocolate and fruit
+
+/obj/item/food/doppler_candy/orange_leather
+	name = "\improper Outrageous Orange fruit snack"
+	desc = ""
+	icon_state = "orange_leather"
+	food_reagents = list(
+		/datum/reagent/consumable/sugar = 3,
+		/datum/reagent/consumable/orangejuice = 2,
+	)
+
+/obj/item/food/doppler_candy/sour_melon_leather
+	name = "\improper Sour Melon fruit snack"
+	desc = ""
+	icon_state = "sour_melon_leather"
+	food_reagents = list(
+		/datum/reagent/consumable/sour_sugar = 3,
+		/datum/reagent/consumable/watermelonjuice = 2,
+	)
+
+/obj/item/food/doppler_candy/mizzie_mast
+	name = "\improper Mizzie Mast promotional chocolate bar"
+	desc = ""
+	icon_state = "mizzie_mast"

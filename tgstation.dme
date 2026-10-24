@@ -7410,6 +7410,7 @@
 #include "modular_doppler\modular_food_drinks_and_chems\food_and_drinks\drink_reagents.dm"
 #include "modular_doppler\modular_food_drinks_and_chems\food_and_drinks\drinks.dm"
 #include "modular_doppler\modular_food_drinks_and_chems\food_and_drinks\drinks_recipes.dm"
+#include "modular_doppler\modular_food_drinks_and_chems\food_and_drinks\food_reagents.dm"
 #include "modular_doppler\modular_food_drinks_and_chems\food_and_drinks\glass_styles.dm"
 #include "modular_doppler\modular_food_drinks_and_chems\food_and_drinks\hemophage_food.dm"
 #include "modular_doppler\modular_food_drinks_and_chems\food_and_drinks\datums\crafting\hemophage_recipes.dm"
