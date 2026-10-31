@@ -51,3 +51,25 @@
 	icon_state = "phantom_gloves"
 	worn_icon = 'modular_doppler/modular_cosmetics/icons/mob/hands/gloves.dmi'
 	clothing_traits = list(TRAIT_CHUNKYFINGERS)
+
+/obj/item/clothing/gloves/arm_warmers
+	name = "arm warmers"
+	icon = 'icons/map_icons/clothing/_clothing.dmi'
+	worn_icon = 'modular_doppler/modular_cosmetics/icons/mob/hands/gloves.dmi'
+	icon_state = "/obj/item/clothing/gloves/arm_warmers"
+	post_init_icon_state = "arm_warmers"
+	greyscale_config = /datum/greyscale_config/arm_warmers
+	greyscale_config_worn = /datum/greyscale_config/arm_warmers/worn
+	greyscale_colors = "#b0becc"
+	flags_1 = IS_PLAYER_COLORABLE_1
+
+/obj/item/clothing/gloves/suede_gloves
+	name = "suede gloves"
+	icon = 'icons/map_icons/clothing/_clothing.dmi'
+	worn_icon = 'modular_doppler/modular_cosmetics/icons/mob/hands/gloves.dmi'
+	icon_state = "/obj/item/clothing/gloves/suede_gloves"
+	post_init_icon_state = "suede_gloves"
+	greyscale_config = /datum/greyscale_config/suede_gloves
+	greyscale_config_worn = /datum/greyscale_config/suede_gloves/worn
+	greyscale_colors = "#b0becc"
+	flags_1 = IS_PLAYER_COLORABLE_1
